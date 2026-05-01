@@ -1,0 +1,162 @@
+{
+  "source_url": "https://www.d2core.com/d4/planner/sample-build",
+  "game_version": "2.2.0",
+  "season": "Season 7",
+  "class": "Rogue",
+  "build_name": "Rapid Fire Shadow Imbuement Endgame",
+  "build_type": ["endgame", "bossing"],
+  "core_skills": [
+    {
+      "name": "Rapid Fire",
+      "role": "main_damage",
+      "notes": "Primary single-target damage skill. Used after applying crowd control or Vulnerable."
+    },
+    {
+      "name": "Shadow Imbuement",
+      "role": "damage_enabler",
+      "notes": "Adds shadow explosion pressure and improves clearing when enemies are grouped."
+    },
+    {
+      "name": "Dash",
+      "role": "mobility",
+      "notes": "Used for repositioning, engaging, and escaping dangerous ground effects."
+    }
+  ],
+  "passive_skills": [
+    {
+      "name": "Exploit",
+      "priority": "high",
+      "notes": "Improves damage against Healthy and Injured enemies."
+    },
+    {
+      "name": "Malice",
+      "priority": "high",
+      "notes": "Increases damage against Vulnerable targets."
+    },
+    {
+      "name": "Weapon Mastery",
+      "priority": "medium",
+      "notes": "Provides weapon-dependent damage bonuses."
+    }
+  ],
+  "gear": [
+    {
+      "slot": "helm",
+      "item_type": "legendary",
+      "name": "Legendary Helm",
+      "required": false,
+      "recommended_affixes": ["Cooldown Reduction", "Maximum Life", "Armor"]
+    },
+    {
+      "slot": "chest",
+      "item_type": "legendary",
+      "name": "Defensive Chest Armor",
+      "required": false,
+      "recommended_affixes": ["Damage Reduction", "Maximum Life", "Armor"]
+    },
+    {
+      "slot": "amulet",
+      "item_type": "legendary",
+      "name": "Offensive Amulet",
+      "required": true,
+      "recommended_affixes": ["Ranks to Exploit", "Cooldown Reduction", "Movement Speed"]
+    },
+    {
+      "slot": "ranged_weapon",
+      "item_type": "legendary",
+      "name": "High DPS Bow",
+      "required": true,
+      "recommended_affixes": ["Critical Strike Damage", "Vulnerable Damage", "Dexterity"]
+    }
+  ],
+  "aspects": [
+    {
+      "name": "Aspect of Repeating",
+      "slot": "ranged_weapon",
+      "priority": "high",
+      "notes": "Supports Rapid Fire projectile behavior and improves main skill output."
+    },
+    {
+      "name": "Edgemaster's Aspect",
+      "slot": "ring",
+      "priority": "medium",
+      "notes": "Rewards spending resources while near full resource."
+    },
+    {
+      "name": "Aspect of Might",
+      "slot": "pants",
+      "priority": "medium",
+      "notes": "Provides a defensive layer after using a basic skill."
+    }
+  ],
+  "uniques": [
+    {
+      "name": "Condemnation",
+      "slot": "dagger",
+      "required": false,
+      "notes": "Optional damage upgrade if the build uses Combo Points."
+    }
+  ],
+  "affix_priorities": [
+    {
+      "category": "offense",
+      "priority_order": ["Critical Strike Chance", "Critical Strike Damage", "Vulnerable Damage", "Dexterity"],
+      "notes": "Prioritize consistent Rapid Fire scaling and Vulnerable target damage."
+    },
+    {
+      "category": "defense",
+      "priority_order": ["Maximum Life", "Damage Reduction", "Armor", "Resistance"],
+      "notes": "Needed to survive endgame boss mechanics and high-tier content."
+    },
+    {
+      "category": "utility",
+      "priority_order": ["Cooldown Reduction", "Movement Speed", "Resource Cost Reduction"],
+      "notes": "Improves Shadow Imbuement uptime, repositioning, and resource comfort."
+    }
+  ],
+  "paragon_boards": [
+    {
+      "name": "Starting Board",
+      "purpose": "Early damage and survivability foundation.",
+      "important_nodes": ["Rare Dexterity Node", "Rare Damage Node"]
+    },
+    {
+      "name": "Exploit Weakness",
+      "purpose": "Improves damage flow against Vulnerable enemies.",
+      "important_nodes": ["Vulnerable Damage Rare Node"]
+    }
+  ],
+  "glyphs": [
+    {
+      "name": "Exploit",
+      "board": "Starting Board",
+      "priority": "high",
+      "notes": "Helps establish Vulnerable-related scaling."
+    },
+    {
+      "name": "Combat",
+      "board": "Exploit Weakness",
+      "priority": "medium",
+      "notes": "Adds critical damage scaling for core skill output."
+    }
+  ],
+  "legendary_nodes": [
+    {
+      "name": "Exploit Weakness",
+      "board": "Exploit Weakness",
+      "priority": "high",
+      "notes": "Selected because the build already focuses on Vulnerable damage windows."
+    }
+  ],
+  "author_notes": [
+    "This sample build is manually structured for MVP testing and is not intended to be a real optimized d2core guide.",
+    "The build depends on keeping enemies Vulnerable and using Rapid Fire as the main damage button.",
+    "If survivability feels weak, prioritize defensive chest and pants affixes before chasing more damage."
+  ],
+  "ai_analysis_status": {
+    "status": "ready_for_analysis",
+    "missing_fields": [],
+    "last_analyzed_at": null,
+    "notes": "Sample data only. Use this to test prompt generation."
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "_notes": "Template for manually整理真实暗黑核 / d2core BD. Keep valid JSON. Replace TODO or empty arrays with extracted build data.",
+  "source_url": "TODO: paste the original d2core build URL here",
+  "game_version": "TODO: fill game version if shown on the page",
+  "season": "TODO: fill season if shown on the page",
+  "class": "TODO: fill class name, for example Barbarian, Rogue, Sorcerer, Druid, Necromancer, Spiritborn",
+  "build_name": "TODO: fill build title from the source page",
+  "build_type": [],
+  "core_skills": [
+    {
+      "_notes": "Add one object per active/core skill. role examples: main_damage, mobility, defense, generator, spender, damage_enabler.",
+      "name": "TODO: skill name",
+      "role": "TODO: skill role",
+      "notes": "TODO: explain why this skill is used in the build"
+    }
+  ],
+  "passive_skills": [
+    {
+      "_notes": "Add important passive skills only. Use priority to show importance.",
+      "name": "TODO: passive skill name",
+      "priority": "TODO: high / medium / low",
+      "notes": "TODO: explain what this passive contributes"
+    }
+  ],
+  "gear": [
+    {
+      "_notes": "Add one object per gear slot shown in the build. required=true means the build strongly depends on it.",
+      "slot": "TODO: helm / chest / gloves / pants / boots / amulet / ring_1 / ring_2 / weapon etc.",
+      "item_type": "TODO: legendary / unique / rare",
+      "name": "TODO: item name or generic slot description",
+      "required": false,
+      "recommended_affixes": []
+    }
+  ],
+  "aspects": [
+    {
+      "_notes": "Add legendary aspects/powers from the build.",
+      "name": "TODO: aspect name",
+      "slot": "TODO: recommended slot",
+      "priority": "TODO: high / medium / low",
+      "notes": "TODO: explain the aspect's function in this build"
+    }
+  ],
+  "uniques": [
+    {
+      "_notes": "Add unique items. Leave required=false for optional upgrades.",
+      "name": "TODO: unique item name",
+      "slot": "TODO: item slot",
+      "required": false,
+      "notes": "TODO: explain whether this unique is mandatory or optional"
+    }
+  ],
+  "affix_priorities": [
+    {
+      "_notes": "Group affixes by offense, defense, utility, resource, or other useful category.",
+      "category": "TODO: offense / defense / utility / resource",
+      "priority_order": [],
+      "notes": "TODO: explain why these affixes matter"
+    }
+  ],
+  "paragon_boards": [
+    {
+      "_notes": "Add paragon boards in recommended order if available.",
+      "name": "TODO: paragon board name",
+      "purpose": "TODO: explain why this board is selected",
+      "important_nodes": []
+    }
+  ],
+  "glyphs": [
+    {
+      "_notes": "Add glyphs and the board where each glyph is placed if known.",
+      "name": "TODO: glyph name",
+      "board": "TODO: board name",
+      "priority": "TODO: high / medium / low",
+      "notes": "TODO: explain why this glyph is used"
+    }
+  ],
+  "legendary_nodes": [
+    {
+      "_notes": "Add legendary paragon nodes if the build uses them.",
+      "name": "TODO: legendary node name",
+      "board": "TODO: board name",
+      "priority": "TODO: high / medium / low",
+      "notes": "TODO: explain why this legendary node matters"
+    }
+  ],
+  "author_notes": [
+    "TODO: paste or summarize important notes from the source page in your own structured summary"
+  ],
+  "ai_analysis_status": {
+    "_notes": "Use missing_fields to track fields that still need manual整理 before real analysis.",
+    "status": "draft",
+    "missing_fields": [
+      "source_url",
+      "class",
+      "build_name",
+      "build_type",
+      "core_skills",
+      "gear",
+      "aspects",
+      "uniques",
+      "affix_priorities",
+      "paragon_boards",
+      "glyphs",
+      "legendary_nodes",
+      "author_notes"
+    ],
+    "last_analyzed_at": null,
+    "notes": "TODO: update to ready_for_analysis after replacing TODO values with real build data."
+  }
+}

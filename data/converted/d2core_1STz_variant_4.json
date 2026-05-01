@@ -1,0 +1,1701 @@
+{
+  "source_url": "https://www.d2core.com/d4/planner/1STz",
+  "game_version": "",
+  "season": "Season 13",
+  "class": "Warlock",
+  "build_name": "【星落】S13 术士开荒阶梯级攻略（全新思路一板一眼） - 暗爪新思路（一板一眼 同步测试中）",
+  "build_type": [
+    "leveling"
+  ],
+  "core_skills": [
+    {
+      "name": "幽冥行走",
+      "key": "warlock_nether_step",
+      "rank": 7,
+      "role": "defense",
+      "description": [
+        "冷却时间: 12 秒",
+        "穿行于地狱阴影间并在目标位置现身，获得 4 层暗影形态，同时获得 50%[x] 移动速度加成，该效果在 {val1} 秒内逐渐衰减。"
+      ],
+      "damage_type": "",
+      "tags": [
+        "防御",
+        "秘术",
+        "深渊",
+        "机动",
+        "暗影形态",
+        "幽冥行走",
+        "冷却时间",
+        "移动"
+      ],
+      "selected_mods": [
+        {
+          "name": "伤害减免",
+          "eng_name": "Damage Reduction",
+          "key": "2218211_2686060761",
+          "description": [
+            "幽冥行走提供 60% 伤害减免，该效果会随其移动速度加成一同衰减。"
+          ]
+        },
+        {
+          "name": "移动速度",
+          "eng_name": "Movement Speed",
+          "key": "2218211_2686060764",
+          "description": [
+            "幽冥行走的移动速度加成延长 50%。"
+          ]
+        },
+        {
+          "name": "暗影召回",
+          "eng_name": "Shadow Recall",
+          "key": "2218211_2686060811",
+          "description": [
+            "幽冥行走会带着你所有的深渊召唤物一同穿行于暗影之中，并使其持续时间延长 3 秒。"
+          ]
+        }
+      ],
+      "notes": "rank=7; active_bar=true"
+    },
+    {
+      "name": "颠覆符印",
+      "key": "warlock_sigil_of_subversion",
+      "rank": 15,
+      "role": "main_damage_or_core",
+      "description": [
+        "冷却时间: 10 秒",
+        "幸运一击几率: 20%",
+        "创造一个持续 10 秒的亵渎仪式，对敌人施加妖术。",
+        "在仪式中消灭 8 名敌人或恶魔会为仪式充能，使其生成持续 {val1} 秒的暗影小径。当你身处小径中时，周期性获得 1 层暗影形态。",
+        "最多可同时存在 3 条暗影小径。"
+      ],
+      "damage_type": "",
+      "tags": [
+        "符印",
+        "秘术",
+        "深渊",
+        "妖术",
+        "暗影形态",
+        "颠覆符印",
+        "冷却时间"
+      ],
+      "selected_mods": [
+        {
+          "name": "移动速度",
+          "eng_name": "Movement Speed",
+          "key": "2218209_2686060761",
+          "description": [
+            "站在颠覆符印的小径上时，你的移动速度提高 20%[x]。"
+          ]
+        },
+        {
+          "name": "施放范围",
+          "eng_name": "Cast Range",
+          "key": "2218209_2686060764",
+          "description": [
+            "颠覆符印现在可以在远距离放置。"
+          ]
+        },
+        {
+          "name": "渗透轨迹",
+          "eng_name": "Infiltration Trails",
+          "key": "2218209_2686060809",
+          "description": [
+            "颠覆符印的小径持续时间延长 50%，并且接近小径的末端会使其继续延伸。你在小径中移动不会损失暗影形态层数。"
+          ]
+        }
+      ],
+      "notes": "rank=15; active_bar=true"
+    },
+    {
+      "name": "命令拉利什",
+      "key": "warlock_command_laalish",
+      "rank": 0,
+      "role": "summon_command",
+      "description": [
+        "冷却时间: 15 秒",
+        "幸运一击几率: 15 %",
+        "被动: 拉利什会寻找敌人并施加易伤、虚弱和 30% 减速，对近距敌人施加的减速效果会残留 4 秒。当你攻击敌人时，它会从深渊中现身并撕咬目标，造成 {val1}% 点伤害。",
+        "主动: 命令 拉利什创建一个持续 6 秒的恐怖领域，对其中的敌人施加易伤、虚弱和 60% 减速。 拉利什吞噬领域内的敌人，每 1 秒造成 {val2}% 点伤害。",
+        "处于恐怖领域时，每 0.25 秒获得 1 层暗影形态。"
+      ],
+      "damage_type": "暗影伤害",
+      "tags": [
+        "灵魂碎片",
+        "恶魔学",
+        "召唤",
+        "深渊",
+        "高阶恶魔",
+        "易伤",
+        "暗影形态",
+        "战术大师恶魔",
+        "灵魂碎片命令"
+      ],
+      "selected_mods": [],
+      "notes": "rank=0; active_bar=true"
+    },
+    {
+      "name": "变形",
+      "key": "warlock_metamorphosis",
+      "rank": 15,
+      "role": "ultimate",
+      "description": [
+        "冷却时间: 15 秒",
+        "化身恶魔并获得:",
+        "{icon:bullet} 恶魔形态",
+        "{icon:bullet}所有高等恶魔的恶魔形态技能变种",
+        "{icon:bullet}一个终极高等恶魔的基础攻击，造成 {val1}% 点伤害并产生 2 点支配力。",
+        "该技能激活期间再次施放可取消。"
+      ],
+      "damage_type": "火焰伤害",
+      "tags": [
+        "终极技能",
+        "恶魔学",
+        "恶魔形态",
+        "高等恶魔",
+        "地狱火",
+        "变形",
+        "冷却时间",
+        "伤害",
+        "火焰",
+        "支配力",
+        "终极技能"
+      ],
+      "selected_mods": [
+        {
+          "name": "生命上限",
+          "eng_name": "Maximum Life",
+          "key": "2215096_2686060762",
+          "description": [
+            "变形使你的生命上限提高 20%。"
+          ]
+        },
+        {
+          "name": "踉跄条",
+          "eng_name": "Stagger Bar",
+          "key": "2215096_2686060764",
+          "description": [
+            "变形使你获得不可阻挡，但每当你被控制效果命中时，都会积累 10 点踉跄。当踉跄值达到 100 时，你会被击昏 5 秒。"
+          ]
+        },
+        {
+          "name": "恐惧恶魔",
+          "eng_name": "Terror Demon",
+          "key": "2215096_2686060811",
+          "description": [
+            "变形现在是深渊技能，不会替换任何技能，持续 15.00 秒。变形期间每秒获得 4 层暗影形态，且深渊技能不会打破其潜行状态。"
+          ]
+        }
+      ],
+      "notes": "rank=15; active_bar=true"
+    },
+    {
+      "name": "横冲直撞",
+      "key": "warlock_rampage",
+      "rank": 15,
+      "role": "main_damage_or_core",
+      "description": [
+        "支配力消耗: 15",
+        "幸运一击几率: 30%",
+        "召唤一个横冲直撞的蛮魔，持续 10 秒，它会疯狂展开猛击，造成 {val1}% 点伤害，每次命中有 5% 几率剔骨敌人并造成 {val2}% 点伤害。"
+      ],
+      "damage_type": "物理伤害",
+      "tags": [
+        "高等恶魔",
+        "恶魔学",
+        "召唤",
+        "高阶恶魔",
+        "剔骨",
+        "横冲直撞",
+        "流血",
+        "支配力",
+        "伤害",
+        "物理"
+      ],
+      "selected_mods": [
+        {
+          "name": "连杀伤害",
+          "eng_name": "Killstreak Damage",
+          "key": "2221282_2686060761",
+          "description": [
+            "使用横冲直撞消灭敌人或恶魔，会使其造成的伤害提高 20%[x]，持续 3 秒，最多延长 20 秒。"
+          ]
+        },
+        {
+          "name": "精英命中几率",
+          "eng_name": "Elite Hit Chance",
+          "key": "2221282_2686060763",
+          "description": [
+            "横冲直撞在攻击未受影响的精英敌人时，有 100% 几率触发其剔骨、易爆或击倒命中效果。"
+          ]
+        },
+        {
+          "name": "深渊泰坦",
+          "eng_name": "Abyssal Titan",
+          "key": "2221282_289912834",
+          "description": [
+            "横冲直撞现在是深渊重施技能，会召唤一只体型更大的恶魔，造成的伤害提高 50%[x]。再次施放可指挥该恶魔在战场上跃击敌人，造成 192% 点伤害，每次命中有 15% 几率将敌人击倒，持续 3 秒。"
+          ]
+        }
+      ],
+      "notes": "rank=15; active_bar=true"
+    },
+    {
+      "name": "魔指利爪",
+      "key": "warlock_dread_claws",
+      "rank": 15,
+      "role": "main_damage_or_core",
+      "description": [
+        "愤怒消耗: 30",
+        "幸运一击几率: 15%",
+        "向前方释放 4 道暗影利爪，每道造成 {val1}% 伤害。"
+      ],
+      "damage_type": "暗影伤害",
+      "tags": [
+        "核心",
+        "深渊",
+        "恶魔学",
+        "魔指利爪",
+        "核心",
+        "伤害",
+        "暗影",
+        "愤怒"
+      ],
+      "selected_mods": [
+        {
+          "name": "伏击",
+          "eng_name": "Ambush",
+          "key": "2385787_2686060763",
+          "description": [
+            "魔指利爪对每个敌人的第一次爪击会造成 50%[x] 额外伤害。潜行状态下进行攻击会使所有爪击都获得此加成。"
+          ]
+        },
+        {
+          "name": "伤害",
+          "eng_name": "Damage",
+          "key": "2385787_2686060761",
+          "description": [
+            "你的下一次魔指利爪的伤害每秒提高 20%[x]，最多提高 100%[x]。"
+          ]
+        },
+        {
+          "name": "连锁恐惧",
+          "eng_name": "Cascading Dread",
+          "key": "2385787_2686060809",
+          "description": [
+            "魔指利爪额外施放 4 组爪击，每一组造成的伤害都比前一组提高 30%[x]。"
+          ]
+        }
+      ],
+      "notes": "rank=15; active_bar=true"
+    },
+    {
+      "name": "暗黑监牢",
+      "key": "warlock_dark_prison",
+      "rank": 1,
+      "role": "defense",
+      "description": [
+        "冷却时间: 20 秒",
+        "幸运一击几率: 20%",
+        "生成一个持续 {val1} 秒的暗影图腾，用锁链束缚敌人，将他们困在区域内并防止其逃脱。"
+      ],
+      "damage_type": "",
+      "tags": [
+        "防御",
+        "秘术",
+        "深渊",
+        "暗黑监牢",
+        "冷却时间",
+        "控制"
+      ],
+      "selected_mods": [],
+      "notes": "id=2418214; rank=1; active_bar=false"
+    }
+  ],
+  "passive_skills": [],
+  "gear": [
+    {
+      "slot": "Helm",
+      "item_type": "unique",
+      "name": "堕狱传承",
+      "required": true,
+      "recommended_affixes": [
+        "+12.0% 暴击几率",
+        "+20.0% 幸运一击几率",
+        "+20% 移动速度",
+        "+2 至核心技能",
+        "+[1,000 - 1,500] 生命上限"
+      ],
+      "affix_details": [
+        {
+          "key": "UBERUNIQUE_CritChance_HeirOfPerdition",
+          "description": "+12.0% 暴击几率",
+          "template": "+[{VALUE}*100|1%|] 暴击几率",
+          "is_tempered": false
+        },
+        {
+          "key": "UBERUNIQUE_Luck_HeirOfPerdition",
+          "description": "+20.0% 幸运一击几率",
+          "template": "+[{VALUE}*100|1%|] 幸运一击几率",
+          "is_tempered": false
+        },
+        {
+          "key": "UBERUNIQUE_Movement_Speed_HeirOfPerdition",
+          "description": "+20% 移动速度",
+          "template": "+[{VALUE}*100|%|] 移动速度",
+          "is_tempered": false
+        },
+        {
+          "key": "UBERUNIQUE_SkillRankBonus_Generic_Category_Core_HeirOfPerdition",
+          "description": "+2 至核心技能",
+          "template": "+[{VALUE2}|0|] 至核心技能",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_Generic_LifeMax_Tier3",
+          "description": "+[1,000 - 1,500] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": true
+        }
+      ],
+      "sockets": [
+        {
+          "type": "gem",
+          "key": "Item_Gem_Diamond_08",
+          "name": "Item_Gem_Diamond_08",
+          "description": []
+        },
+        {
+          "type": "gem",
+          "key": "Item_Gem_Diamond_08",
+          "name": "Item_Gem_Diamond_08",
+          "description": []
+        }
+      ]
+    },
+    {
+      "slot": "ChestArmor",
+      "item_type": "legendary",
+      "name": "剥削者的威能",
+      "required": true,
+      "recommended_affixes": [
+        "+[2,452 - 2,900] 生命上限",
+        "+[100 - 121] 点意力",
+        "+[1,963 - 2,450] 护甲值",
+        "+[327 - 392] 点全元素抗性",
+        "+[1,000 - 1,500] 生命上限"
+      ],
+      "affix_details": [
+        {
+          "key": "S04_Life",
+          "description": "+[2,452 - 2,900] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_CoreStat_Willpower",
+          "description": "+[100 - 121] 点意力",
+          "template": "[{VALUE}|~|] 点意力",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Armor_Greater",
+          "description": "+[1,963 - 2,450] 护甲值",
+          "template": "+[{VALUE}] 护甲值",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_Resistance_All",
+          "description": "+[327 - 392] 点全元素抗性",
+          "template": "+[{VALUE}] 点全元素抗性",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_Generic_LifeMax_Tier3",
+          "description": "+[1,000 - 1,500] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": true
+        }
+      ],
+      "sockets": [
+        {
+          "type": "rune",
+          "key": "Rune_Condition_CastRepeatSkill",
+          "name": "策尔",
+          "description": [
+            "获得： 300 份供品",
+            "施放 5 个技能后会陷入 3 秒的疲惫状态。"
+          ],
+          "value": 300,
+          "quality": "Magic"
+        },
+        {
+          "type": "rune",
+          "key": "Rune_Effect_Druid_EarthenBulwark",
+          "name": "奎",
+          "description": [
+            "需要： 300 份供品",
+            "冷却时间： 1 秒",
+            "施放德鲁伊的大地壁垒技能，持续 {s1} 秒，使你获得一层屏障。 （溢出：增加持续时间）"
+          ],
+          "value": 300,
+          "quality": "Rare"
+        }
+      ]
+    },
+    {
+      "slot": "Gloves",
+      "item_type": "legendary",
+      "name": "加速威能",
+      "required": true,
+      "recommended_affixes": [
+        "+[2 - 3] 至魔指利爪",
+        "x[26 - 50]% 暴击伤害增倍",
+        "+[8.0 - 10.0]% 攻击速度",
+        "+[1,831 - 2,200] 生命上限",
+        "+[30 - 50]% 暴击伤害"
+      ],
+      "affix_details": [
+        {
+          "key": "X2_SkillRankBonus_Warlock_Core_DreadClaws",
+          "description": "+[2 - 3] 至魔指利爪",
+          "template": "+{VALUE2} 至魔指利爪",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_CritDamage_Greater",
+          "description": "x[26 - 50]% 暴击伤害增倍",
+          "template": "x[{VALUE}*100|%|] 暴击伤害增倍",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_AttackSpeed",
+          "description": "+[8.0 - 10.0]% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Life_Greater",
+          "description": "+[1,831 - 2,200] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_CritDamage_Generic_All_Tier3",
+          "description": "+[30 - 50]% 暴击伤害",
+          "template": "+[{VALUE}*100|%|] 暴击伤害",
+          "is_tempered": true
+        }
+      ],
+      "sockets": []
+    },
+    {
+      "slot": "Legs",
+      "item_type": "legendary",
+      "name": "致残黑暗之威能",
+      "required": true,
+      "recommended_affixes": [
+        "+[100 - 121] 点意力",
+        "+[2,452 - 2,900] 生命上限",
+        "+[327 - 392] 点全元素抗性",
+        "+[1,963 - 2,450] 护甲值",
+        "+[1,000 - 1,500] 生命上限"
+      ],
+      "affix_details": [
+        {
+          "key": "S04_CoreStat_Willpower",
+          "description": "+[100 - 121] 点意力",
+          "template": "[{VALUE}|~|] 点意力",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_Life",
+          "description": "+[2,452 - 2,900] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_Resistance_All",
+          "description": "+[327 - 392] 点全元素抗性",
+          "template": "+[{VALUE}] 点全元素抗性",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Armor_Greater",
+          "description": "+[1,963 - 2,450] 护甲值",
+          "template": "+[{VALUE}] 护甲值",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_Generic_LifeMax_Tier3",
+          "description": "+[1,000 - 1,500] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": true
+        }
+      ],
+      "sockets": [
+        {
+          "type": "rune",
+          "key": "Rune_Condition_Bomb",
+          "name": "伊格尼",
+          "description": [
+            "获得： 25 份供品",
+            "每 0.3 秒储存一份供品，施放非基础技能可以获得所存的供品（至多 500 份供品）。"
+          ],
+          "value": 25,
+          "quality": "Legendary"
+        },
+        {
+          "type": "rune",
+          "key": "Rune_Effect_Warlock_ChainPrison",
+          "name": "普瑞德",
+          "description": [
+            "需要： 250 份供品",
+            "冷却时间： 3 秒",
+            "施放术士的暗黑监牢技能，将敌人束缚在区域内 3 秒。 （溢出：延长暗黑监牢持续时间）"
+          ],
+          "value": 250,
+          "quality": "Magic"
+        }
+      ]
+    },
+    {
+      "slot": "Boots",
+      "item_type": "legendary",
+      "name": "深邃暗影之威能",
+      "required": true,
+      "recommended_affixes": [
+        "+[20 - 24]% 移动速度",
+        "+[100 - 121] 点意力",
+        "+[327 - 392] 点全元素抗性",
+        "+[2,452 - 2,900] 生命上限",
+        "+[15 - 25]% 移动速度"
+      ],
+      "affix_details": [
+        {
+          "key": "S04_Movement_Speed",
+          "description": "+[20 - 24]% 移动速度",
+          "template": "+[{VALUE}*100|%|] 移动速度",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_CoreStat_Willpower",
+          "description": "+[100 - 121] 点意力",
+          "template": "[{VALUE}|~|] 点意力",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_Resistance_All",
+          "description": "+[327 - 392] 点全元素抗性",
+          "template": "+[{VALUE}] 点全元素抗性",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_Life",
+          "description": "+[2,452 - 2,900] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_MovementSpeed_Generic_Tier3",
+          "description": "+[15 - 25]% 移动速度",
+          "template": "+[{VALUE}*100|%|] 移动速度",
+          "is_tempered": true
+        }
+      ],
+      "sockets": []
+    },
+    {
+      "slot": "Dagger",
+      "item_type": "unique",
+      "name": "黑岩祷文",
+      "required": true,
+      "recommended_affixes": [
+        "+[86 - 143] 武器伤害",
+        "x[13 - 25]% 暴击伤害增倍",
+        "+[3.5 - 5.0]% 意力",
+        "+[8.0 - 10.0]% 攻击速度",
+        "+[5.0 - 8.0]% 攻击速度"
+      ],
+      "affix_details": [
+        {
+          "key": "X2_VeryFast_Weapon_Damage_1HDagger",
+          "description": "+[86 - 143] 武器伤害",
+          "template": "+[{VALUE}] 武器伤害",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_CritDamage",
+          "description": "x[13 - 25]% 暴击伤害增倍",
+          "template": "x[{VALUE}*100|%|] 暴击伤害增倍",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Transfiguration_CoreStat_WillpowerPercent",
+          "description": "+[3.5 - 5.0]% 意力",
+          "template": "+[{vALUE2}*100|1%|] 意力",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Transfiguration_AttackSpeed",
+          "description": "+[8.0 - 10.0]% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_Generic_AttackSpeed_Tier3",
+          "description": "+[5.0 - 8.0]% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": true
+        }
+      ],
+      "sockets": [
+        {
+          "type": "gem",
+          "key": "Item_Gem_Amethyst_08",
+          "name": "Item_Gem_Amethyst_08",
+          "description": []
+        }
+      ]
+    },
+    {
+      "slot": "Amulet",
+      "item_type": "legendary",
+      "name": "残忍威能",
+      "required": true,
+      "recommended_affixes": [
+        "x[26 - 50]% 暴击伤害增倍",
+        "+[150 - 180] 点意力",
+        "+[8.0 - 10.0]% 攻击速度",
+        "+[1,831 - 2,200] 生命上限",
+        "+[1,000 - 1,500] 生命上限"
+      ],
+      "affix_details": [
+        {
+          "key": "X2_CritDamage_Greater",
+          "description": "x[26 - 50]% 暴击伤害增倍",
+          "template": "x[{VALUE}*100|%|] 暴击伤害增倍",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_CoreStat_Willpower_Greater",
+          "description": "+[150 - 180] 点意力",
+          "template": "[{VALUE}|~|] 点意力",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_AttackSpeed",
+          "description": "+[8.0 - 10.0]% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Life_Greater",
+          "description": "+[1,831 - 2,200] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_Generic_LifeMax_Tier3",
+          "description": "+[1,000 - 1,500] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": true
+        }
+      ],
+      "sockets": [
+        {
+          "type": "gem",
+          "key": "Item_Gem_Diamond_08",
+          "name": "Item_Gem_Diamond_08",
+          "description": []
+        }
+      ]
+    },
+    {
+      "slot": "Ring",
+      "item_type": "unique",
+      "name": "无星夜空之戒",
+      "required": true,
+      "recommended_affixes": [
+        "+15.0% 攻击速度",
+        "+12.0% 暴击几率",
+        "+12.5% 幸运一击几率",
+        "+2 至核心技能",
+        "幸运一击: 最多有 15% 几率恢复 +[5 - 12] 主要资源"
+      ],
+      "affix_details": [
+        {
+          "key": "UBERUNIQUE_AttackSpeed_RingofStarlessSkies",
+          "description": "+15.0% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": false
+        },
+        {
+          "key": "UBERUNIQUE_CritChance_RingofStarlessSkies",
+          "description": "+12.0% 暴击几率",
+          "template": "+[{VALUE}*100|1%|] 暴击几率",
+          "is_tempered": false
+        },
+        {
+          "key": "UBERUNIQUE_Luck_RingofStarlessSkies",
+          "description": "+12.5% 幸运一击几率",
+          "template": "+[{VALUE}*100|1%|] 幸运一击几率",
+          "is_tempered": false
+        },
+        {
+          "key": "UBERUNIQUE_SkillRankBonus_Generic_Category_Core_RingofStarlessSkies",
+          "description": "+2 至核心技能",
+          "template": "+[{VALUE2}|0|] 至核心技能",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_Generic_LuckyHit_Resource_Tier3",
+          "description": "幸运一击: 最多有 15% 几率恢复 +[5 - 12] 主要资源",
+          "template": "幸运一击: 最多有 15% 几率恢复 +[{VALUE}] 主要资源",
+          "is_tempered": true
+        }
+      ],
+      "sockets": [
+        {
+          "type": "gem",
+          "key": "Item_Gem_Diamond_08",
+          "name": "Item_Gem_Diamond_08",
+          "description": []
+        }
+      ]
+    },
+    {
+      "slot": "Ring",
+      "item_type": "legendary",
+      "name": "灾祸之威能",
+      "required": true,
+      "recommended_affixes": [
+        "x[13 - 25]% 暴击伤害增倍",
+        "+[100 - 121] 点意力",
+        "+[8.0 - 10.0]% 攻击速度",
+        "+[2,452 - 2,900] 生命上限",
+        "+[30 - 50]% 暴击伤害"
+      ],
+      "affix_details": [
+        {
+          "key": "S04_CritDamage",
+          "description": "x[13 - 25]% 暴击伤害增倍",
+          "template": "x[{VALUE}*100|%|] 暴击伤害增倍",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_CoreStat_Willpower",
+          "description": "+[100 - 121] 点意力",
+          "template": "[{VALUE}|~|] 点意力",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_AttackSpeed",
+          "description": "+[8.0 - 10.0]% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_Life",
+          "description": "+[2,452 - 2,900] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_CritDamage_Generic_All_Tier3",
+          "description": "+[30 - 50]% 暴击伤害",
+          "template": "+[{VALUE}*100|%|] 暴击伤害",
+          "is_tempered": true
+        }
+      ],
+      "sockets": [
+        {
+          "type": "gem",
+          "key": "Item_Gem_Diamond_08",
+          "name": "Item_Gem_Diamond_08",
+          "description": []
+        }
+      ]
+    },
+    {
+      "slot": "Focus",
+      "item_type": "legendary",
+      "name": "决斗家的威能",
+      "required": true,
+      "recommended_affixes": [
+        "+[94 - 157] 武器伤害",
+        "x[13 - 25]% 暴击伤害增倍",
+        "+[150 - 180] 点意力",
+        "+[1,831 - 2,200] 生命上限",
+        "+[5.0 - 8.0]% 攻击速度"
+      ],
+      "affix_details": [
+        {
+          "key": "X2_Fast_Weapon_Damage_1HAxe",
+          "description": "+[94 - 157] 武器伤害",
+          "template": "+[{VALUE}] 武器伤害",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_CritDamage",
+          "description": "x[13 - 25]% 暴击伤害增倍",
+          "template": "x[{VALUE}*100|%|] 暴击伤害增倍",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Transfiguration_CoreStat_Willpower_Lesser",
+          "description": "+[150 - 180] 点意力",
+          "template": "[{VALUE}|~|] 点意力",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Life_Greater",
+          "description": "+[1,831 - 2,200] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_Generic_AttackSpeed_Tier3",
+          "description": "+[5.0 - 8.0]% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": true
+        }
+      ],
+      "sockets": [
+        {
+          "type": "gem",
+          "key": "Item_Gem_Amethyst_08",
+          "name": "Item_Gem_Amethyst_08",
+          "description": []
+        }
+      ]
+    }
+  ],
+  "aspects": [
+    {
+      "name": "剥削者的威能",
+      "key": "Affix_Legendary_Generic_111",
+      "slot": "ChestArmor",
+      "priority": "high",
+      "description": "你的控制持续时间延长 50%[+]。对不可阻挡的敌人造成的伤害提高 [30 - 50]%[x]。",
+      "aspect_type": "Utility",
+      "filters": [
+        "FILTER_Legendary_Utility",
+        "HoradricCube_Legendary_Utility_Mobility",
+        "Keyword_Unstoppable",
+        "FILTER_Build_All_Generic",
+        "Search_CrowdControl"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "加速威能",
+      "key": "Affix_Legendary_Generic_110",
+      "slot": "Gloves",
+      "priority": "high",
+      "description": "使用核心技能造成暴击会使你的攻击速度提高 [30.0 - 50.0]%[+]，持续 5 秒。",
+      "aspect_type": "Offensive",
+      "filters": [
+        "FILTER_Legendary_Offensive",
+        "FILTER_Build_All_Generic",
+        "Search_AttackSpeed",
+        "Search_Critical",
+        "Skill_Primary_Core",
+        "Search_Copy_Core",
+        "Raid_Legendaries"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "致残黑暗之威能",
+      "key": "Affix_legendary_necro_105",
+      "slot": "Legs",
+      "priority": "high",
+      "description": "幸运一击: 暗影伤害最多有 15% 几率使造成的伤害提高 [20 - 30]%[x]，并使敌人恐惧及定身，持续 1 秒。",
+      "aspect_type": "Utility",
+      "filters": [
+        "HoradricCube_Legendary_Utility_Mobility",
+        "FILTER_Legendary_Utility",
+        "Search_Shadow",
+        "Search_CrowdControl",
+        "Search_Damage",
+        "Archetype_Rogue_Alchemist_Support",
+        "Archetype_Necromancer_Shadow_Support"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "深邃暗影之威能",
+      "key": "Affix_legendary_warlock_019_x2",
+      "slot": "Boots",
+      "priority": "high",
+      "description": "暗影形态的层数上限增加 [2 - 6]。",
+      "aspect_type": "Utility",
+      "filters": [
+        "FILTER_Legendary_Utility",
+        "HoradricCube_Legendary_Utility_Mobility",
+        "Keyword_Shadowform",
+        "Archetype_Warlock_Mastermind_Support"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "残忍威能",
+      "key": "Affix_legendary_warlock_001_x2",
+      "slot": "Amulet",
+      "priority": "high",
+      "description": "你获得攻击速度 [165 - 185]% 的伤害加成，但不再提高攻击速度。 当前加成: 0.00%",
+      "aspect_type": "Offensive",
+      "filters": [
+        "FILTER_Legendary_Offensive",
+        "Search_Damage",
+        "Search_AttackSpeed"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "灾祸之威能",
+      "key": "Affix_legendary_warlock_004_x2",
+      "slot": "Ring",
+      "priority": "high",
+      "description": "每层妖术使你对敌人造成的暴击几率提高 [10.0 - 20.0]%[+]。",
+      "aspect_type": "Offensive",
+      "filters": [
+        "FILTER_Legendary_Offensive",
+        "Keyword_Hex",
+        "Search_Critical",
+        "Archetype_Warlock_Ritualist_Signature"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "决斗家的威能",
+      "key": "Affix_legendary_barb_005_x2",
+      "slot": "Focus",
+      "priority": "high",
+      "description": "使用单手武器时，你的攻击速度提高 [30 - 50]%[+]。",
+      "aspect_type": "Offensive",
+      "filters": [
+        "FILTER_Legendary_Offensive",
+        "Search_Damage",
+        "Search_AttackSpeed",
+        "Archetype_Rogue_Cutthroat_Signature",
+        "Archetype_Paladin_Juggernaut_Signature"
+      ],
+      "notes": "source=variant gear"
+    }
+  ],
+  "uniques": [
+    {
+      "name": "堕狱传承",
+      "key": "Helm_Unique_Generic_004",
+      "slot": "Helm",
+      "required": true,
+      "description": [
+        "+12.0% 暴击几率",
+        "+20.0% 幸运一击几率",
+        "+20% 移动速度",
+        "+2 至核心技能",
+        "屈服于憎恨并获得圣母的宠爱，从而使你造成的伤害提高 80%[x]。消灭敌人可以从附近盟友身上短暂窃取圣母的宠爱效果。"
+      ],
+      "flavor": "虚假的先知会披上绵羊的伪装，但恶狼的臭气还留在他们身上。你们务必小心提防，审视其言行便知其真实模样。要知道，好树从来结不出恶果，从荆棘上也尝不出甜香。",
+      "damage_details": [],
+      "is_mythic": true,
+      "notes": "item_power=900; source=variant gear"
+    },
+    {
+      "name": "黑岩祷文",
+      "key": "1HDagger_Unique_Warlock_001",
+      "slot": "Dagger",
+      "required": true,
+      "description": [
+        "魔指利爪造成的伤害提高 [100 - 120]%[x]，且当你获得一层暗影形态时会发射额外的利爪。"
+      ],
+      "flavor": "“艾迪亚将真身隐于暗影，在凡人之间游荡。深渊的挽歌从她那千万张巨口中涌出。当她前来大快朵颐时，那魔音足以让所有心智陷入迷惘。”——《哈达尔编年史》",
+      "damage_details": [
+        "每次命中伤害[724 - 1,086]",
+        "每秒攻击次数(非常快):1.20"
+      ],
+      "is_mythic": false,
+      "notes": "item_power=900; source=variant gear"
+    },
+    {
+      "name": "无星夜空之戒",
+      "key": "Ring_Unique_Generic_101",
+      "slot": "Ring",
+      "required": true,
+      "description": [
+        "+15.0% 攻击速度",
+        "+12.0% 暴击几率",
+        "+12.5% 幸运一击几率",
+        "+2 至核心技能",
+        "消耗你的主要资源会降低技能的资源消耗，并使你的伤害提高 10%[x]，持续 3 秒，最多提高 50%[x]。"
+      ],
+      "flavor": "“你拥有从天上摘取星辰的力量，犹如孩童摘取枝条上的果子一样轻松。” - 无名",
+      "damage_details": [],
+      "is_mythic": true,
+      "notes": "item_power=900; source=variant gear"
+    }
+  ],
+  "affix_priorities": [
+    {
+      "category": "offense",
+      "priority_order": [
+        "+12.0% 暴击几率",
+        "+2 至核心技能",
+        "+[2 - 3] 至魔指利爪",
+        "x[26 - 50]% 暴击伤害增倍",
+        "+[8.0 - 10.0]% 攻击速度",
+        "+[30 - 50]% 暴击伤害",
+        "+[86 - 143] 武器伤害",
+        "x[13 - 25]% 暴击伤害增倍",
+        "+[5.0 - 8.0]% 攻击速度",
+        "+15.0% 攻击速度",
+        "+[94 - 157] 武器伤害"
+      ],
+      "affix_details": [
+        {
+          "key": "UBERUNIQUE_CritChance_HeirOfPerdition",
+          "description": "+12.0% 暴击几率",
+          "template": "+[{VALUE}*100|1%|] 暴击几率",
+          "is_tempered": false
+        },
+        {
+          "key": "UBERUNIQUE_SkillRankBonus_Generic_Category_Core_HeirOfPerdition",
+          "description": "+2 至核心技能",
+          "template": "+[{VALUE2}|0|] 至核心技能",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_SkillRankBonus_Warlock_Core_DreadClaws",
+          "description": "+[2 - 3] 至魔指利爪",
+          "template": "+{VALUE2} 至魔指利爪",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_CritDamage_Greater",
+          "description": "x[26 - 50]% 暴击伤害增倍",
+          "template": "x[{VALUE}*100|%|] 暴击伤害增倍",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_AttackSpeed",
+          "description": "+[8.0 - 10.0]% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_CritDamage_Generic_All_Tier3",
+          "description": "+[30 - 50]% 暴击伤害",
+          "template": "+[{VALUE}*100|%|] 暴击伤害",
+          "is_tempered": true
+        },
+        {
+          "key": "X2_VeryFast_Weapon_Damage_1HDagger",
+          "description": "+[86 - 143] 武器伤害",
+          "template": "+[{VALUE}] 武器伤害",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_CritDamage",
+          "description": "x[13 - 25]% 暴击伤害增倍",
+          "template": "x[{VALUE}*100|%|] 暴击伤害增倍",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_Generic_AttackSpeed_Tier3",
+          "description": "+[5.0 - 8.0]% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": true
+        },
+        {
+          "key": "UBERUNIQUE_AttackSpeed_RingofStarlessSkies",
+          "description": "+15.0% 攻击速度",
+          "template": "+[{VALUE} * 100|1%|] 攻击速度",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Fast_Weapon_Damage_1HAxe",
+          "description": "+[94 - 157] 武器伤害",
+          "template": "+[{VALUE}] 武器伤害",
+          "is_tempered": false
+        }
+      ],
+      "notes": "Auto-collected from equipped gear affixes. Order reflects first appearance, not a verified priority ranking."
+    },
+    {
+      "category": "defense",
+      "priority_order": [
+        "+[1,000 - 1,500] 生命上限",
+        "+[2,452 - 2,900] 生命上限",
+        "+[1,963 - 2,450] 护甲值",
+        "+[327 - 392] 点全元素抗性",
+        "+[1,831 - 2,200] 生命上限"
+      ],
+      "affix_details": [
+        {
+          "key": "Tempered_Generic_LifeMax_Tier3",
+          "description": "+[1,000 - 1,500] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": true
+        },
+        {
+          "key": "S04_Life",
+          "description": "+[2,452 - 2,900] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Armor_Greater",
+          "description": "+[1,963 - 2,450] 护甲值",
+          "template": "+[{VALUE}] 护甲值",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_Resistance_All",
+          "description": "+[327 - 392] 点全元素抗性",
+          "template": "+[{VALUE}] 点全元素抗性",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_Life_Greater",
+          "description": "+[1,831 - 2,200] 生命上限",
+          "template": "+[{VALUE}] 生命上限",
+          "is_tempered": false
+        }
+      ],
+      "notes": "Auto-collected from equipped gear affixes. Order reflects first appearance, not a verified priority ranking."
+    },
+    {
+      "category": "utility",
+      "priority_order": [
+        "+20.0% 幸运一击几率",
+        "+20% 移动速度",
+        "+[100 - 121] 点意力",
+        "+[20 - 24]% 移动速度",
+        "+[15 - 25]% 移动速度",
+        "+[3.5 - 5.0]% 意力",
+        "+[150 - 180] 点意力",
+        "+12.5% 幸运一击几率",
+        "幸运一击: 最多有 15% 几率恢复 +[5 - 12] 主要资源"
+      ],
+      "affix_details": [
+        {
+          "key": "UBERUNIQUE_Luck_HeirOfPerdition",
+          "description": "+20.0% 幸运一击几率",
+          "template": "+[{VALUE}*100|1%|] 幸运一击几率",
+          "is_tempered": false
+        },
+        {
+          "key": "UBERUNIQUE_Movement_Speed_HeirOfPerdition",
+          "description": "+20% 移动速度",
+          "template": "+[{VALUE}*100|%|] 移动速度",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_CoreStat_Willpower",
+          "description": "+[100 - 121] 点意力",
+          "template": "[{VALUE}|~|] 点意力",
+          "is_tempered": false
+        },
+        {
+          "key": "S04_Movement_Speed",
+          "description": "+[20 - 24]% 移动速度",
+          "template": "+[{VALUE}*100|%|] 移动速度",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_MovementSpeed_Generic_Tier3",
+          "description": "+[15 - 25]% 移动速度",
+          "template": "+[{VALUE}*100|%|] 移动速度",
+          "is_tempered": true
+        },
+        {
+          "key": "X2_Transfiguration_CoreStat_WillpowerPercent",
+          "description": "+[3.5 - 5.0]% 意力",
+          "template": "+[{vALUE2}*100|1%|] 意力",
+          "is_tempered": false
+        },
+        {
+          "key": "X2_CoreStat_Willpower_Greater",
+          "description": "+[150 - 180] 点意力",
+          "template": "[{VALUE}|~|] 点意力",
+          "is_tempered": false
+        },
+        {
+          "key": "UBERUNIQUE_Luck_RingofStarlessSkies",
+          "description": "+12.5% 幸运一击几率",
+          "template": "+[{VALUE}*100|1%|] 幸运一击几率",
+          "is_tempered": false
+        },
+        {
+          "key": "Tempered_Generic_LuckyHit_Resource_Tier3",
+          "description": "幸运一击: 最多有 15% 几率恢复 +[5 - 12] 主要资源",
+          "template": "幸运一击: 最多有 15% 几率恢复 +[{VALUE}] 主要资源",
+          "is_tempered": true
+        }
+      ],
+      "notes": "Auto-collected from equipped gear affixes. Order reflects first appearance, not a verified priority ranking."
+    }
+  ],
+  "paragon_boards": [
+    {
+      "name": "开始",
+      "key": "Paragon_Warlock_00",
+      "purpose": "Auto-converted from board key Paragon_Warlock_00.",
+      "important_nodes": [
+        "韧性",
+        "至尊",
+        "扭曲",
+        "支配"
+      ],
+      "important_node_details": [
+        {
+          "name": "韧性",
+          "key": "Generic_Rare_001",
+          "description": "+3.0% 全元素抗性 4.0% 生命上限",
+          "tags": [
+            "Search_Resistance",
+            "Search_Life",
+            "Search_NonPhysical"
+          ]
+        },
+        {
+          "name": "至尊",
+          "key": "Generic_Rare_075",
+          "description": "+10% 伤害 4.0% 生命上限",
+          "tags": [
+            "Search_Damage",
+            "Search_Life"
+          ]
+        },
+        {
+          "name": "扭曲",
+          "key": "Warlock_Rare_003",
+          "description": "+10% 伤害 +10 点意力",
+          "tags": [
+            "Search_Damage",
+            "Search_Willpower"
+          ]
+        },
+        {
+          "name": "支配",
+          "key": "Warlock_Rare_004",
+          "description": "+15.0% 对精英的伤害 +10 点意力",
+          "tags": [
+            "Search_Elite",
+            "Search_Damage",
+            "Search_Willpower"
+          ]
+        }
+      ],
+      "selected_node_count": 32
+    },
+    {
+      "name": "恶魔尖刺",
+      "key": "Paragon_Warlock_02",
+      "purpose": "Auto-converted from board key Paragon_Warlock_02.",
+      "important_nodes": [
+        "地狱恢复",
+        "恶魔之墙",
+        "恶魔尖刺",
+        "优势",
+        "脊刺",
+        "鲜血防护"
+      ],
+      "important_node_details": [
+        {
+          "name": "地狱恢复",
+          "key": "Warlock_Rare_016",
+          "description": "4.0% 生命上限 +6.0% 受到的治疗",
+          "tags": [
+            "Search_Life",
+            "Search_Healing"
+          ]
+        },
+        {
+          "name": "恶魔之墙",
+          "key": "Warlock_Rare_015",
+          "description": "+1.0% 暴击几率 4.0% 生命上限",
+          "tags": [
+            "Search_Critical",
+            "Search_Life"
+          ]
+        },
+        {
+          "name": "恶魔尖刺",
+          "key": "Warlock_Legendary_002",
+          "description": "使用恶魔学技能伤害敌人会撕碎其灵魂，使你对其造成的所有伤害永久提高 40%[x]，每次命中获得 2%[+]，最高提高至 120%[x]。 术士",
+          "tags": [
+            "Skill_Demonology",
+            "Search_Damage"
+          ]
+        },
+        {
+          "name": "优势",
+          "key": "Warlock_Rare_014",
+          "description": "+4 愤怒上限 +10 点意力",
+          "tags": [
+            "Keyword_Healthy",
+            "Search_Willpower"
+          ]
+        },
+        {
+          "name": "脊刺",
+          "key": "Warlock_Rare_013",
+          "description": "+10% 伤害 +10 点意力",
+          "tags": [
+            "Search_Damage",
+            "Search_Willpower"
+          ]
+        },
+        {
+          "name": "鲜血防护",
+          "key": "Warlock_Rare_012",
+          "description": "4.0% 生命上限 +3.0% 全元素抗性",
+          "tags": [
+            "Search_Life",
+            "Search_Resistance"
+          ]
+        }
+      ],
+      "selected_node_count": 52
+    },
+    {
+      "name": "强力妖术",
+      "key": "Paragon_Warlock_06",
+      "purpose": "Auto-converted from board key Paragon_Warlock_06.",
+      "important_nodes": [
+        "抵抗",
+        "强力妖术",
+        "妖术守卫",
+        "禁忌触碰",
+        "治愈守护",
+        "绝命深渊"
+      ],
+      "important_node_details": [
+        {
+          "name": "抵抗",
+          "key": "Warlock_Rare_039",
+          "description": "+17.5% 妖术伤害加成 +3.0% 全元素抗性",
+          "tags": [
+            "Keyword_Hex",
+            "Search_Resistance"
+          ]
+        },
+        {
+          "name": "强力妖术",
+          "key": "Warlock_Legendary_006",
+          "description": "对敌人施加妖术、易伤或虚弱会永久降低其对你造成的伤害 25%，且其受到来自你的伤害提高 75%[x]。 术士",
+          "tags": [
+            "Search_Damage",
+            "Skill_Abyss",
+            "Keyword_Hex",
+            "Keyword_Weaken"
+          ]
+        },
+        {
+          "name": "妖术守卫",
+          "key": "Warlock_Rare_037",
+          "description": "4.0% 生命上限 +2.0% 总护甲",
+          "tags": [
+            "Search_Life",
+            "Search_Armor"
+          ]
+        },
+        {
+          "name": "禁忌触碰",
+          "key": "Warlock_Rare_036",
+          "description": "+10.0% 深渊伤害 +10 点意力",
+          "tags": [
+            "Skill_Abyss",
+            "Search_Willpower",
+            "Search_Damage"
+          ]
+        },
+        {
+          "name": "治愈守护",
+          "key": "Warlock_Rare_038",
+          "description": "4.0% 生命上限 +6.0% 受到的治疗",
+          "tags": [
+            "Search_Life",
+            "Search_Healing"
+          ]
+        },
+        {
+          "name": "绝命深渊",
+          "key": "Warlock_Rare_035",
+          "description": "+10% 伤害 +10 点意力",
+          "tags": [
+            "Search_Damage",
+            "Search_Willpower"
+          ]
+        }
+      ],
+      "selected_node_count": 67
+    },
+    {
+      "name": "仪祭",
+      "key": "Paragon_Warlock_07",
+      "purpose": "Auto-converted from board key Paragon_Warlock_07.",
+      "important_nodes": [
+        "黑暗印记",
+        "堕落",
+        "仪祭",
+        "蒙难之地"
+      ],
+      "important_node_details": [
+        {
+          "name": "黑暗印记",
+          "key": "Warlock_Rare_044",
+          "description": "4.0% 生命上限 +3.0% 总护甲",
+          "tags": [
+            "Search_Life",
+            "Search_Armor"
+          ]
+        },
+        {
+          "name": "堕落",
+          "key": "Warlock_Rare_046",
+          "description": "+10% 伤害 4.0% 生命上限",
+          "tags": [
+            "Search_Life",
+            "Search_Damage"
+          ]
+        },
+        {
+          "name": "仪祭",
+          "key": "Warlock_Legendary_007",
+          "description": "施放符印技能后，你造成的伤害提高 90%[x]，持续 15 秒。在符印范围内死亡的高阶恶魔现在计作 10 次击杀。 术士",
+          "tags": []
+        },
+        {
+          "name": "蒙难之地",
+          "key": "Warlock_Rare_043",
+          "description": "+3.0% 总护甲 +3.0% 全元素抗性",
+          "tags": [
+            "Search_Armor",
+            "Search_Resistance"
+          ]
+        }
+      ],
+      "selected_node_count": 67
+    },
+    {
+      "name": "统治",
+      "key": "Paragon_Warlock_10",
+      "purpose": "Auto-converted from board key Paragon_Warlock_10.",
+      "important_nodes": [
+        "锯齿利爪",
+        "符文充能",
+        "统治",
+        "副生肉体",
+        "凡人枷锁"
+      ],
+      "important_node_details": [
+        {
+          "name": "锯齿利爪",
+          "key": "Warlock_Rare_058",
+          "description": "+13% 易伤伤害 +10 点意力",
+          "tags": [
+            "Search_Willpower",
+            "Keyword_Vulnerable",
+            "Search_Damage"
+          ]
+        },
+        {
+          "name": "符文充能",
+          "key": "Warlock_Rare_057",
+          "description": "+17.5% 重铸伤害 +10 点意力",
+          "tags": [
+            "Search_Damage",
+            "Search_Willpower"
+          ]
+        },
+        {
+          "name": "统治",
+          "key": "Warlock_Legendary_010",
+          "description": "消耗支配力来召唤恶魔会使你恶魔学技能的愤怒消耗降低 50%，并使你造成的所有伤害提高 80%[x]，持续 12 秒。 术士",
+          "tags": [
+            "Search_ResourceDominance",
+            "Skill_Demonology",
+            "Search_Damage",
+            "Search_ResourceWrath"
+          ]
+        },
+        {
+          "name": "副生肉体",
+          "key": "Warlock_Rare_055",
+          "description": "4.0% 生命上限 +3.0% 全元素抗性",
+          "tags": [
+            "Search_Life",
+            "Search_Resistance"
+          ]
+        },
+        {
+          "name": "凡人枷锁",
+          "key": "Warlock_Rare_056",
+          "description": "+3.0% 总护甲 +3.0% 全元素抗性",
+          "tags": [
+            "Search_Armor",
+            "Search_Resistance"
+          ]
+        }
+      ],
+      "selected_node_count": 44
+    }
+  ],
+  "glyphs": [
+    {
+      "name": "战术大师",
+      "key": "ParagonGlyph_123",
+      "board": "开始",
+      "priority": "high",
+      "description": "每购买辐射范围内 5 点意力，你的深渊技能造成的伤害提高 +{val1}%。",
+      "bonus": "你在处于暗影形态时造成的伤害提高 x18%。",
+      "legendary_bonus": "深渊技能造成的伤害提高 15.4%。",
+      "threshold_requirements": [
+        {
+          "value": 40,
+          "name": "Willpower"
+        }
+      ],
+      "notes": "socket=6_10_Generic_Socket; rank=100"
+    },
+    {
+      "name": "恶魔学家",
+      "key": "ParagonGlyph_128",
+      "board": "恶魔尖刺",
+      "priority": "high",
+      "description": "每购买辐射范围内 5 点意力，你的恶魔学技能造成的伤害提高 +{val1}%。",
+      "bonus": "当你召唤了高阶恶魔时，造成的伤害提高 x17%。",
+      "legendary_bonus": "恶魔学技能造成的伤害提高 15.4%。",
+      "threshold_requirements": [
+        {
+          "value": 40,
+          "name": "Willpower"
+        }
+      ],
+      "notes": "socket=12_12_Generic_Socket; rank=100"
+    },
+    {
+      "name": "邪视",
+      "key": "ParagonGlyph_120",
+      "board": "强力妖术",
+      "priority": "high",
+      "description": "每购买辐射范围内 5 点意力，你对易伤目标造成的伤害提高 +{val1}%。",
+      "bonus": "对易伤目标造成伤害会使你造成的伤害提高 x3%，持续 20 秒，最高叠加至 x18%。",
+      "legendary_bonus": "对易伤目标造成的伤害提高 15.4%。",
+      "threshold_requirements": [
+        {
+          "value": 40,
+          "name": "Willpower"
+        }
+      ],
+      "notes": "socket=12_10_Generic_Socket; rank=100"
+    },
+    {
+      "name": "猎头者",
+      "key": "Rare_Will_Generic",
+      "board": "仪祭",
+      "priority": "high",
+      "description": "给予辐射范围内所有普通节点 +{val1}% 加成。",
+      "bonus": "你对精英怪造成的伤害提高 x10。",
+      "legendary_bonus": "伤害提高 15.4%。",
+      "threshold_requirements": [
+        {
+          "value": 40,
+          "name": "Willpower"
+        }
+      ],
+      "notes": "socket=15_5_Generic_Socket; rank=100"
+    },
+    {
+      "name": "深渊",
+      "key": "ParagonGlyph_117",
+      "board": "统治",
+      "priority": "high",
+      "description": "每购买辐射范围内 5 点意力，你的深渊技能造成的伤害提高 +{val1}%。",
+      "bonus": "对易伤目标造成的伤害提高 x15%。",
+      "legendary_bonus": "深渊技能造成的伤害提高 15.4%。",
+      "threshold_requirements": [
+        {
+          "value": 40,
+          "name": "Willpower"
+        }
+      ],
+      "notes": "socket=6_10_Generic_Socket; rank=100"
+    }
+  ],
+  "legendary_nodes": [
+    {
+      "name": "恶魔尖刺",
+      "key": "Warlock_Legendary_002",
+      "board": "恶魔尖刺",
+      "priority": "high",
+      "description": "使用恶魔学技能伤害敌人会撕碎其灵魂，使你对其造成的所有伤害永久提高 40%[x]，每次命中获得 2%[+]，最高提高至 120%[x]。 术士",
+      "tags": [
+        "Skill_Demonology",
+        "Search_Damage"
+      ],
+      "notes": "selected on board Paragon_Warlock_02"
+    },
+    {
+      "name": "强力妖术",
+      "key": "Warlock_Legendary_006",
+      "board": "强力妖术",
+      "priority": "high",
+      "description": "对敌人施加妖术、易伤或虚弱会永久降低其对你造成的伤害 25%，且其受到来自你的伤害提高 75%[x]。 术士",
+      "tags": [
+        "Search_Damage",
+        "Skill_Abyss",
+        "Keyword_Hex",
+        "Keyword_Weaken"
+      ],
+      "notes": "selected on board Paragon_Warlock_06"
+    },
+    {
+      "name": "仪祭",
+      "key": "Warlock_Legendary_007",
+      "board": "仪祭",
+      "priority": "high",
+      "description": "施放符印技能后，你造成的伤害提高 90%[x]，持续 15 秒。在符印范围内死亡的高阶恶魔现在计作 10 次击杀。 术士",
+      "tags": [],
+      "notes": "selected on board Paragon_Warlock_07"
+    },
+    {
+      "name": "统治",
+      "key": "Warlock_Legendary_010",
+      "board": "统治",
+      "priority": "high",
+      "description": "消耗支配力来召唤恶魔会使你恶魔学技能的愤怒消耗降低 50%，并使你造成的所有伤害提高 80%[x]，持续 12 秒。 术士",
+      "tags": [
+        "Search_ResourceDominance",
+        "Skill_Demonology",
+        "Search_Damage",
+        "Search_ResourceWrath"
+      ],
+      "notes": "selected on board Paragon_Warlock_10"
+    }
+  ],
+  "author_notes": [
+    "大家好，我是星落 这里是我通过近期大量赛季开荒实战给大家带来的攻略 希望能帮助到新赛季跳转职业的老玩家，和在新赛季加入的新玩家 希望大家有个好的开荒体验，S13玩得开心！ 企鹅#1: 66963790 企鹅#2: 941159958 企鹅#3: 671378770 企鹅#4:171217043 企鹅#5:66217110 企鹅#6: 365733599 企鹅#7: 1083862943 入群暗号：",
+    "正在测试中 决斗者必须匕首才可以生效",
+    "Converted from d2core raw build id=1STz variant_index=4."
+  ],
+  "ai_analysis_status": {
+    "status": "ready_for_analysis",
+    "missing_fields": [],
+    "last_analyzed_at": null,
+    "notes": "Auto-converted from d2core raw JSON. Review inferred roles and affix priorities before using as final analysis data."
+  },
+  "_conversion_quality": {
+    "variant_index": 4,
+    "variant_name": "暗爪新思路（一板一眼 同步测试中）",
+    "unresolved_references": [],
+    "warnings": [
+      "passive_skills are not separated from active skill data yet.",
+      "affix_priorities are collected from gear mods and are not true ranked priorities.",
+      "skill roles are inferred from tags/ranks and should be manually reviewed."
+    ]
+  }
+}

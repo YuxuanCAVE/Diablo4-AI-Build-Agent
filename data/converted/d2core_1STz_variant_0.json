@@ -1,0 +1,551 @@
+{
+  "source_url": "https://www.d2core.com/d4/planner/1STz",
+  "game_version": "",
+  "season": "Season 13",
+  "class": "Warlock",
+  "build_name": "【星落】S13 术士开荒阶梯级攻略（全新思路一板一眼） - 暗爪开荒 1-70",
+  "build_type": [
+    "leveling"
+  ],
+  "core_skills": [
+    {
+      "name": "幽冥行走",
+      "key": "warlock_nether_step",
+      "rank": 15,
+      "role": "defense",
+      "description": [
+        "冷却时间: 12 秒",
+        "穿行于地狱阴影间并在目标位置现身，获得 4 层暗影形态，同时获得 50%[x] 移动速度加成，该效果在 {val1} 秒内逐渐衰减。"
+      ],
+      "damage_type": "",
+      "tags": [
+        "防御",
+        "秘术",
+        "深渊",
+        "机动",
+        "暗影形态",
+        "幽冥行走",
+        "冷却时间",
+        "移动"
+      ],
+      "selected_mods": [
+        {
+          "name": "额外使用次数",
+          "eng_name": "Extra Charge",
+          "key": "2218211_2686060762",
+          "description": [
+            "幽冥行走获得一次额外的使用次数。"
+          ]
+        },
+        {
+          "name": "暗影召回",
+          "eng_name": "Shadow Recall",
+          "key": "2218211_2686060811",
+          "description": [
+            "幽冥行走会带着你所有的深渊召唤物一同穿行于暗影之中，并使其持续时间延长 3 秒。"
+          ]
+        }
+      ],
+      "notes": "rank=15; active_bar=true"
+    },
+    {
+      "name": "颠覆符印",
+      "key": "warlock_sigil_of_subversion",
+      "rank": 15,
+      "role": "main_damage_or_core",
+      "description": [
+        "冷却时间: 10 秒",
+        "幸运一击几率: 20%",
+        "创造一个持续 10 秒的亵渎仪式，对敌人施加妖术。",
+        "在仪式中消灭 8 名敌人或恶魔会为仪式充能，使其生成持续 {val1} 秒的暗影小径。当你身处小径中时，周期性获得 1 层暗影形态。",
+        "最多可同时存在 3 条暗影小径。"
+      ],
+      "damage_type": "",
+      "tags": [
+        "符印",
+        "秘术",
+        "深渊",
+        "妖术",
+        "暗影形态",
+        "颠覆符印",
+        "冷却时间"
+      ],
+      "selected_mods": [
+        {
+          "name": "施放范围",
+          "eng_name": "Cast Range",
+          "key": "2218209_2686060764",
+          "description": [
+            "颠覆符印现在可以在远距离放置。"
+          ]
+        }
+      ],
+      "notes": "rank=15; active_bar=true"
+    },
+    {
+      "name": "命令拉利什",
+      "key": "warlock_command_laalish",
+      "rank": 0,
+      "role": "summon_command",
+      "description": [
+        "冷却时间: 15 秒",
+        "幸运一击几率: 15 %",
+        "被动: 拉利什会寻找敌人并施加易伤、虚弱和 30% 减速，对近距敌人施加的减速效果会残留 4 秒。当你攻击敌人时，它会从深渊中现身并撕咬目标，造成 {val1}% 点伤害。",
+        "主动: 命令 拉利什创建一个持续 6 秒的恐怖领域，对其中的敌人施加易伤、虚弱和 60% 减速。 拉利什吞噬领域内的敌人，每 1 秒造成 {val2}% 点伤害。",
+        "处于恐怖领域时，每 0.25 秒获得 1 层暗影形态。"
+      ],
+      "damage_type": "暗影伤害",
+      "tags": [
+        "灵魂碎片",
+        "恶魔学",
+        "召唤",
+        "深渊",
+        "高阶恶魔",
+        "易伤",
+        "暗影形态",
+        "战术大师恶魔",
+        "灵魂碎片命令"
+      ],
+      "selected_mods": [],
+      "notes": "rank=0; active_bar=true"
+    },
+    {
+      "name": "变形",
+      "key": "warlock_metamorphosis",
+      "rank": 15,
+      "role": "ultimate",
+      "description": [
+        "冷却时间: 15 秒",
+        "化身恶魔并获得:",
+        "{icon:bullet} 恶魔形态",
+        "{icon:bullet}所有高等恶魔的恶魔形态技能变种",
+        "{icon:bullet}一个终极高等恶魔的基础攻击，造成 {val1}% 点伤害并产生 2 点支配力。",
+        "该技能激活期间再次施放可取消。"
+      ],
+      "damage_type": "火焰伤害",
+      "tags": [
+        "终极技能",
+        "恶魔学",
+        "恶魔形态",
+        "高等恶魔",
+        "地狱火",
+        "变形",
+        "冷却时间",
+        "伤害",
+        "火焰",
+        "支配力",
+        "终极技能"
+      ],
+      "selected_mods": [
+        {
+          "name": "踉跄条",
+          "eng_name": "Stagger Bar",
+          "key": "2215096_2686060764",
+          "description": [
+            "变形使你获得不可阻挡，但每当你被控制效果命中时，都会积累 10 点踉跄。当踉跄值达到 100 时，你会被击昏 5 秒。"
+          ]
+        },
+        {
+          "name": "恐惧恶魔",
+          "eng_name": "Terror Demon",
+          "key": "2215096_2686060811",
+          "description": [
+            "变形现在是深渊技能，不会替换任何技能，持续 15.00 秒。变形期间每秒获得 4 层暗影形态，且深渊技能不会打破其潜行状态。"
+          ]
+        }
+      ],
+      "notes": "rank=15; active_bar=true"
+    },
+    {
+      "name": "命令沉沦魔",
+      "key": "warlock_command_fallen",
+      "rank": 8,
+      "role": "generator_or_basic",
+      "description": [
+        "生成愤怒: 10",
+        "幸运一击几率: 30%",
+        "召唤一只沉沦魔癫狂者，向目标发起冲锋并自爆，造成 {val1}% 点伤害。"
+      ],
+      "damage_type": "物理伤害",
+      "tags": [
+        "基础",
+        "恶魔学",
+        "低阶恶魔",
+        "命令沉沦魔",
+        "伤害",
+        "物理",
+        "愤怒",
+        "召唤"
+      ],
+      "selected_mods": [
+        {
+          "name": "愤怒",
+          "eng_name": "Wrath",
+          "key": "2212801_2686060762",
+          "description": [
+            "你在过去 2 秒内每消灭一个恶魔或敌人，命令沉沦魔就会额外生成 1 点愤怒，最高可达 5 点额外愤怒。"
+          ]
+        },
+        {
+          "name": "支配力",
+          "eng_name": "Dominance",
+          "key": "2212801_2686060764",
+          "description": [
+            "你每 15 次命中敌人，命令沉沦魔就会为你提供 1 点支配力。"
+          ]
+        },
+        {
+          "name": "沉沦魔冲锋",
+          "eng_name": "Fallen Rush",
+          "key": "2212801_2686060811",
+          "description": [
+            "命令沉沦魔现在也是深渊技能，会召唤最多 3 名沉沦武士，持续 20 秒。武士每次命中造成 48% 点伤害并生成 10 点愤怒。当所有武士都激活时再次施放，可指挥它们移动或攻击你的目标。"
+          ]
+        }
+      ],
+      "notes": "rank=8; active_bar=true"
+    },
+    {
+      "name": "魔指利爪",
+      "key": "warlock_dread_claws",
+      "rank": 12,
+      "role": "main_damage_or_core",
+      "description": [
+        "愤怒消耗: 30",
+        "幸运一击几率: 15%",
+        "向前方释放 4 道暗影利爪，每道造成 {val1}% 伤害。"
+      ],
+      "damage_type": "暗影伤害",
+      "tags": [
+        "核心",
+        "深渊",
+        "恶魔学",
+        "魔指利爪",
+        "核心",
+        "伤害",
+        "暗影",
+        "愤怒"
+      ],
+      "selected_mods": [
+        {
+          "name": "伏击",
+          "eng_name": "Ambush",
+          "key": "2385787_2686060763",
+          "description": [
+            "魔指利爪对每个敌人的第一次爪击会造成 50%[x] 额外伤害。潜行状态下进行攻击会使所有爪击都获得此加成。"
+          ]
+        }
+      ],
+      "notes": "rank=12; active_bar=true"
+    }
+  ],
+  "passive_skills": [],
+  "gear": [
+    {
+      "slot": "Helm",
+      "item_type": "legendary",
+      "name": "要塞之威能",
+      "required": true,
+      "recommended_affixes": [],
+      "affix_details": [],
+      "sockets": []
+    },
+    {
+      "slot": "ChestArmor",
+      "item_type": "legendary",
+      "name": "剥削者的威能",
+      "required": true,
+      "recommended_affixes": [],
+      "affix_details": [],
+      "sockets": [
+        {
+          "type": "rune",
+          "key": "Rune_Condition_CastRepeatSkill",
+          "name": "策尔",
+          "description": [
+            "获得： 300 份供品",
+            "施放 5 个技能后会陷入 3 秒的疲惫状态。"
+          ],
+          "value": 300,
+          "quality": "Magic"
+        },
+        {
+          "type": "rune",
+          "key": "Rune_Effect_Barbarian_ChallengingShout",
+          "name": "拉克",
+          "description": [
+            "需要： 400 份供品",
+            "冷却时间： 1 秒",
+            "施放野蛮人的挑战怒吼技能，嘲讽敌人并降低你受到的伤害，持续 {s1} 秒。 （溢出：增加持续时间）"
+          ],
+          "value": 400,
+          "quality": "Rare"
+        }
+      ]
+    },
+    {
+      "slot": "Gloves",
+      "item_type": "legendary",
+      "name": "侵略性威能",
+      "required": true,
+      "recommended_affixes": [],
+      "affix_details": [],
+      "sockets": []
+    },
+    {
+      "slot": "Legs",
+      "item_type": "legendary",
+      "name": "勇力之威能",
+      "required": true,
+      "recommended_affixes": [],
+      "affix_details": [],
+      "sockets": [
+        {
+          "type": "rune",
+          "key": "Rune_Condition_CastRepeatSkill",
+          "name": "策尔",
+          "description": [
+            "获得： 300 份供品",
+            "施放 5 个技能后会陷入 3 秒的疲惫状态。"
+          ],
+          "value": 300,
+          "quality": "Magic"
+        },
+        {
+          "type": "rune",
+          "key": "Rune_Effect_Druid_EarthenBulwark",
+          "name": "奎",
+          "description": [
+            "需要： 300 份供品",
+            "冷却时间： 1 秒",
+            "施放德鲁伊的大地壁垒技能，持续 {s1} 秒，使你获得一层屏障。 （溢出：增加持续时间）"
+          ],
+          "value": 300,
+          "quality": "Rare"
+        }
+      ]
+    },
+    {
+      "slot": "Boots",
+      "item_type": "legendary",
+      "name": "怨毒之威能",
+      "required": true,
+      "recommended_affixes": [],
+      "affix_details": [],
+      "sockets": []
+    },
+    {
+      "slot": "Amulet",
+      "item_type": "legendary",
+      "name": "阴险威能",
+      "required": true,
+      "recommended_affixes": [],
+      "affix_details": [],
+      "sockets": []
+    },
+    {
+      "slot": "Ring",
+      "item_type": "legendary",
+      "name": "贪噬暴怒之威能",
+      "required": true,
+      "recommended_affixes": [],
+      "affix_details": [],
+      "sockets": []
+    },
+    {
+      "slot": "Ring",
+      "item_type": "legendary",
+      "name": "恶魔的威能",
+      "required": true,
+      "recommended_affixes": [],
+      "affix_details": [],
+      "sockets": []
+    },
+    {
+      "slot": "Focus",
+      "item_type": "legendary",
+      "name": "威势威能",
+      "required": true,
+      "recommended_affixes": [],
+      "affix_details": [],
+      "sockets": []
+    }
+  ],
+  "aspects": [
+    {
+      "name": "要塞之威能",
+      "key": "Affix_S05_BSK_Barbarian_004",
+      "slot": "Helm",
+      "priority": "high",
+      "description": "根据你的受伤程度，获得最多 [40 - 60]% 的伤害减免。",
+      "aspect_type": "Defensive",
+      "filters": [
+        "FILTER_Legendary_Defensive",
+        "FILTER_Build_Barb_Generic",
+        "BSK",
+        "Search_Life",
+        "Search_DamageReduction",
+        "Keyword_Injured"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "剥削者的威能",
+      "key": "Affix_Legendary_Generic_111",
+      "slot": "ChestArmor",
+      "priority": "high",
+      "description": "你的控制持续时间延长 50%[+]。对不可阻挡的敌人造成的伤害提高 [30 - 50]%[x]。",
+      "aspect_type": "Utility",
+      "filters": [
+        "FILTER_Legendary_Utility",
+        "HoradricCube_Legendary_Utility_Mobility",
+        "Keyword_Unstoppable",
+        "FILTER_Build_All_Generic",
+        "Search_CrowdControl"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "侵略性威能",
+      "key": "Affix_legendary_warlock_006_x2",
+      "slot": "Gloves",
+      "priority": "high",
+      "description": "移动时，获得 [8.0 - 12.0]%[x] 伤害加成，持续 2 秒，最多提高 [40 - 60]%[x]。命中近距敌人会刷新该效果的持续时间。",
+      "aspect_type": "Offensive",
+      "filters": [
+        "FILTER_Legendary_Offensive",
+        "Search_Damage",
+        "Archetype_Warlock_Vanguard_Signature"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "勇力之威能",
+      "key": "Affix_legendary_generic_009",
+      "slot": "Legs",
+      "priority": "high",
+      "description": "基础技能给予 [20 - 30]% 伤害减免，持续 4 秒。",
+      "aspect_type": "Defensive",
+      "filters": [
+        "FILTER_Legendary_Defensive",
+        "FILTER_Build_All_Generic",
+        "Skill_Primary_Basic",
+        "Search_DamageReduction"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "怨毒之威能",
+      "key": "Affix_legendary_warlock_025_x2",
+      "slot": "Boots",
+      "priority": "high",
+      "description": "愤怒达到上限时，每获得 [30 - 10] 点愤怒值，你获得一层压制。",
+      "aspect_type": "Utility",
+      "filters": [
+        "FILTER_Legendary_Utility",
+        "HoradricCube_Legendary_Utility_Mobility",
+        "Keyword_Overpower",
+        "Search_ResourceWrath"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "阴险威能",
+      "key": "Affix_legendary_warlock_003_x2",
+      "slot": "Amulet",
+      "priority": "high",
+      "description": "你的深渊技能对过去 2 秒内未命中你的敌人，造成的伤害提高 [60.0 - 80.0]%[x]。",
+      "aspect_type": "Offensive",
+      "filters": [
+        "FILTER_Legendary_Offensive",
+        "Skill_Abyss",
+        "Search_Damage",
+        "Archetype_Warlock_Mastermind_Signature"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "贪噬暴怒之威能",
+      "key": "Affix_legendary_barb_013",
+      "slot": "Ring",
+      "priority": "high",
+      "description": "使用核心技能消灭一名敌人可以返还其 [20.0 - 30.0]% 的基础消耗。每次施放技能只能触发一次。",
+      "aspect_type": "Resource",
+      "filters": [
+        "FILTER_Legendary_Resource",
+        "FILTER_Build_Barb_Generic",
+        "Skill_Primary_Core",
+        "Search_Copy_Core"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "恶魔的威能",
+      "key": "Affix_legendary_warlock_009_x2",
+      "slot": "Ring",
+      "priority": "high",
+      "description": "恶魔学技能每次命中都会使你用恶魔学技能造成的伤害提高 [2.3 - 3.3]%[x]，持续 10 秒，最多提高 [45 - 65]%[x]。",
+      "aspect_type": "Offensive",
+      "filters": [
+        "FILTER_Legendary_Offensive",
+        "Skill_Demonology",
+        "Search_Damage",
+        "Archetype_Warlock_Legion_Signature"
+      ],
+      "notes": "source=variant gear"
+    },
+    {
+      "name": "威势威能",
+      "key": "Affix_legendary_warlock_008_x2",
+      "slot": "Focus",
+      "priority": "high",
+      "description": "命中精英敌人会使造成的伤害提高 [80 - 120]%[x]，但需要消耗 4 层 压制。如果敌人中了妖术，则不会消耗任何层数。",
+      "aspect_type": "Offensive",
+      "filters": [
+        "FILTER_Legendary_Offensive",
+        "Keyword_Overpower",
+        "Keyword_Hex",
+        "Search_Damage",
+        "Archetype_Warlock_Ritualist_Signature"
+      ],
+      "notes": "source=variant gear"
+    }
+  ],
+  "uniques": [],
+  "affix_priorities": [],
+  "paragon_boards": [
+    {
+      "name": "开始",
+      "key": "Paragon_Warlock_00",
+      "purpose": "Auto-converted from board key Paragon_Warlock_00.",
+      "important_nodes": [],
+      "important_node_details": [],
+      "selected_node_count": 1
+    }
+  ],
+  "glyphs": [],
+  "legendary_nodes": [],
+  "author_notes": [
+    "大家好，我是星落 这里是我通过近期大量赛季开荒实战给大家带来的攻略 希望能帮助到新赛季跳转职业的老玩家，和在新赛季加入的新玩家 希望大家有个好的开荒体验，S13玩得开心！ 企鹅#1: 66963790 企鹅#2: 941159958 企鹅#3: 671378770 企鹅#4:171217043 企鹅#5:66217110 企鹅#6: 365733599 企鹅#7: 1083862943 入群暗号：",
+    "大家好，我是星落 这里是我通过近期大量赛季开荒实战给大家带来的攻略 希望能帮助到新赛季跳转职业的老玩家，和在新赛季加入的新玩家 希望大家有个好的开荒体验，S13玩得开心！ 企鹅#1: 66963790 企鹅#2: 941159958 企鹅#3: 671378770 企鹅#4:171217043 企鹅#5:66217110 企鹅#6: 365733599 企鹅#7: 1083862943 入群暗号：蛮王 特别注意 目前暗黑核技能翻译还不准确以技能效果为准 40级之前大招点虫群，之后可以换成恐惧变形 检查记忆碎片卡任务了小退下就好 头骨主线任务顺序：左右下 30级解锁专精后专精技能放技能栏三挂易伤 开荒攻略： https://b23.tv/sNtupCB 【开荒期注意事项】 【装备更新频率】 根据自身职业特性与压力，可在每10~15级进行一次更新 而更新的目的主要在于装等（面板防御及面板攻击，也就是常说的“白字”） 前期请不要着急专注词缀，有什么用什么，让自身快速渡过开荒期 【主武器尽量不要打威能】 开荒的过程中武器的更新程度=效率 在遵循上一条有什么用什么的原则下，不要在意自己武器的词缀 更不要在武器上投入过多的资源，这也是我们的BD为何武器威能都会空出的原因 【注重材料的积累】 建议将你的金装（稀有）优先用于分解获得材料 快速的材料积累有助于你可快速的在早期给装备同步上攻略中的低保威能 提升开荒期的效率及体验",
+    "Converted from d2core raw build id=1STz variant_index=0."
+  ],
+  "ai_analysis_status": {
+    "status": "ready_for_analysis",
+    "missing_fields": [
+      "affix_priorities"
+    ],
+    "last_analyzed_at": null,
+    "notes": "Auto-converted from d2core raw JSON. Review inferred roles and affix priorities before using as final analysis data."
+  },
+  "_conversion_quality": {
+    "variant_index": 0,
+    "variant_name": "暗爪开荒 1-70",
+    "unresolved_references": [],
+    "warnings": [
+      "passive_skills are not separated from active skill data yet.",
+      "affix_priorities are collected from gear mods and are not true ranked priorities.",
+      "skill roles are inferred from tags/ranks and should be manually reviewed."
+    ]
+  }
+}

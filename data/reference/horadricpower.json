@@ -1,0 +1,734 @@
+[
+    {
+        "id": 2271800,
+        "name": "鲜血神符",
+        "desc": [
+            "你的{c_important}顺水推舟{/c}获得特殊的{c_important}{u}斩杀{/u}{/c}效果，可以立即消灭生命值不高于 {c_random}20%{/c} 的非首领敌人：",
+            "",
+            "      {/c}"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_05_BloodyCharm",
+        "itemType": "HoradricPower",
+        "quality": "Legendary",
+        "icon": 3714820149,
+        "background": 3224942633,
+        "source": "从赫拉迪姆学识获得“传奇秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2278080,
+        "name": "碎裂核心",
+        "desc": [
+            "你的{c_important}催化{/c}会终止怪物的{c_important}伤害抗性光环{/c}效果，持续 {c_random}5{/c} 秒。但在此期间，你受到的可叠加伤害提高 {c_number}15%{/c}。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_07_FracturedCore",
+        "itemType": "HoradricPower",
+        "quality": "Rare",
+        "icon": 3337816460,
+        "background": 504731352,
+        "source": "从赫拉迪姆学识获得“稀有秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2290860,
+        "name": "虹吸小物件",
+        "desc": [
+            "{c_label}幸运一击：{/c}你的{c_important}顺水推舟{/c}伤害有至多 {c_number}50%{/c} 几率造成 {c_random}350%{/c} 物理伤害。此外，{c_important}顺水推舟{/c}的幸运一击几率翻倍。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_10_SiphoningGizmo",
+        "itemType": "HoradricPower",
+        "quality": "Rare",
+        "icon": 3185319378,
+        "background": 504731352,
+        "source": "从赫拉迪姆学识获得“稀有秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2294261,
+        "name": "静谧之石",
+        "desc": [
+            "使用{c_important}催化{/c}会使你获得{c_important}{u}不可阻挡{/u}{/c}，持续 {c_random}5{/c} 秒。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_12_TranquilStone",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 593735736,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2277669,
+        "name": "发光导体",
+        "desc": [
+            "你的{c_important}催化{/c}效果范围增加 {c_random}50%{/c}。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_06_GleamingConduit",
+        "itemType": "HoradricPower",
+        "quality": "Rare",
+        "icon": 2200899644,
+        "background": 504731352,
+        "source": "从赫拉迪姆学识获得“稀有秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2289163,
+        "name": "削弱之源",
+        "desc": [
+            "你的{c_important}催化{/c}会施加{c_important}{u}易伤{/u}{/c}，持续 {c_random}8{/c} 秒。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_08_SappingCrux",
+        "itemType": "HoradricPower",
+        "quality": "Rare",
+        "icon": 1152170296,
+        "background": 504731352,
+        "source": "从赫拉迪姆学识获得“稀有秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2298760,
+        "name": "晦暗精魂",
+        "desc": [
+            "使用{c_important}催化{/c}会使你获得{c_important}{u}潜行{/u}{/c}，持续 {c_random}4{/c} 秒。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_15_MurkyEssence",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 1650481408,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2261657,
+        "name": "梦魇球",
+        "desc": [
+            "你的{c_important}顺水推舟{/c}获得特殊的恐惧效果，持续 {c_random}6{/c} 秒：",
+            "",
+            "{c_important}星涌{/c_important}：涌星会对未受影响的敌人施加恐惧效果。恐惧结束后，有 {c_number}50%{/c} 几率再落下一颗涌星。 {c_important}崩解{/c_important}：对未受影响的敌人施加恐惧效果。敌人陷入恐惧后，崩解对其造成的伤害提高 {c_number}100%{/c}。 {c_important}爆发推进{/c_important}：移除敌人身上的{c_important}易伤{/c}状态，然后使其陷入恐惧之中。陷入恐惧的敌人身上会周期性形成{c_important}较轻的法力猛击{/c_important}效果。 {c_important}星界柱体{/c_important}：每第 {c_number}9{/c} 次冲击波都会造成恐惧效果。同时，靠近柱体的敌人将被嘲讽，但其恐惧效果将被移除。 {c_important}宇宙异象{/c_important}：对其接触到的未受影响的敌人施加恐惧和 {c_number}90%{/c} 的减速效果。 {c_red}你尚未激活{c_important}顺水推舟{/c}效果。 {/c}"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_02_NightmareOrb",
+        "itemType": "HoradricPower",
+        "quality": "Legendary",
+        "icon": 3016387904,
+        "background": 3224942633,
+        "source": "从赫拉迪姆学识获得“传奇秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2304172,
+        "name": "纷变水晶",
+        "desc": [
+            "使用{c_important}催化{/c}后，针对你的{c_important}灌魔{/c}元素，使你获得 {c_random}20%{/c} 抗性和抗性上限，持续 {c_number}10{/c} 秒。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_20_VolatileCrystal",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 1218743040,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2300067,
+        "name": "风障守护",
+        "desc": [
+            "使用{c_important}催化{/c}会使你获得等于 {c_random}50%{/c} 生命上限的{c_important}{u}屏障{/u}{/c}，持续 {c_number}4{/c} 秒。屏障消失后，精华重新封存。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_17_BottledWind",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 3803690692,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2264511,
+        "name": "僵冻之心",
+        "desc": [
+            "你的{c_important}顺水推舟{/c}获得特殊的{c_important}{u}冻结{/u}{/c}效果，持续 {c_random}5{/c} 秒：",
+            "",
+            "{c_important}星涌{/c_important}：生成的{c_important}神谕符文{/c_important}会发生爆炸并{c_important}{u}冻结{/u}{/c}敌人，且涌星打击结束后，还会再生成一个神谕符文。 {c_important}崩解{/c_important}：使用{c_important}闪避{/c}后，崩解射线会将所有受影响的敌人{c_important}{u}冻结{/u}{/c} {c_random}5{/c} 秒，同时会在双倍于冻结时长的时间内，使你获得 {c_number}15%{/c}的躲闪几率。 {c_important}爆发推进{/c_important}：任何与其他敌人发生两次碰撞的敌人都会被{c_important}{u}冻结{/u}{/c}。 {c_important}星界柱体{/c_important}：被移除时，{c_important}{u}冻结{/u}{/c}附近敌人。每成功{c_important}{u}冻结{/u}{/c}一个敌人，你的幸运一击几率就会在 {c_number}5{/c} 秒内提高 {c_number}5%{/c}，最高可达 {c_number}25%{/c}。 {c_important}宇宙异象{/c_important}：有 {c_number}30%{/c} 不会因内爆而消散，而是会{c_important}{u}冻结{/u}{/c}附近敌人。 {c_red}你尚未激活{c_important}顺水推舟{/c}效果。 {/c}"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_03_FrigidHeart",
+        "itemType": "HoradricPower",
+        "quality": "Legendary",
+        "icon": 2678469608,
+        "background": 3224942633,
+        "source": "从赫拉迪姆学识获得“传奇秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2253259,
+        "name": "漂浮球",
+        "desc": [
+            "你的{c_important}催化{/c}获得特殊的闪现效果，可以使你进入{c_important}{u}无束{/u}{/c}状态，持续 {c_random}4{/c} 秒：",
+            "",
+            "{c_important}星涌{/c_important}：出现时，令你闪现至其{c_important}神谕符文{/c_important}中央，同时使你进入{c_important}{u}无束{/u}{/c}状态。 {c_important}崩解{/c_important}：令你闪现至目标位置，但会在身后留下{c_important}奥术导体{/c_important}，朝你发出射线。在射线激活期间以及射线消失后的 {c_random}4{/c} 秒内，你将处于{c_important}{u}无束{/u}{/c}状态。 {c_important}爆发推进{/c_important}：令你闪现至其造成的{c_important}法力猛击{/c_important}效果中央，同时使你进入{c_important}{u}无束{/u}{/c}状态。若与{c_important}近战{/c_important}技能搭配使用，则会令你闪现至被击退敌人的位置。 {c_important}星界柱体{/c_important}：令你闪现至目标位置，同时在身后留下一根{c_important}无形之柱{/c_important}，随即使你进入{c_important}{u}无束{/u}{/c}状态。 {c_important}宇宙异象{/c_important}：令你闪现至其内爆位置，使你进入{c_important}{u}无束{/u}{/c}状态并清除你身上所有的负面效果。 {c_red}你尚未激活{c_important}催化{/c}效果。 {/c}"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_01_FloatyBobble",
+        "itemType": "HoradricPower",
+        "quality": "Legendary",
+        "icon": 3307612498,
+        "background": 3224942633,
+        "source": "从赫拉迪姆学识获得“传奇秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2299211,
+        "name": "振奋之旋",
+        "desc": [
+            "每 {c_number}5{/c} 秒，你的{c_important}催化{/c}伤害一个敌人时会{c_important}{u}强固{/u}{/c}并治疗你 {c_random}10%{/c} 的生命上限。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_16_InvigoratingHelix",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 3556528974,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2291010,
+        "name": "触须束",
+        "desc": [
+            "{c_label}幸运一击：{/c}你的{c_important}催化{/c} 造成伤害时有 {c_random}60%{/c} 的几率施加定身，持续 {c_number}5{/c} 秒。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_11_TendrilousBundle",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 2725993121,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2296960,
+        "name": "瞬移粉末",
+        "desc": [
+            "你的{c_important}催化{/c}会在生效期间以及结束后的 {c_number}5{/c} 秒内使你的移动速度增加 {c_random}70%{/c}。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_13_ShiftingPowder",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 1328032237,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2302496,
+        "name": "活源之涌",
+        "desc": [
+            "使用{c_important}催化{/c} 会使你在接下来{c_number}10{/c} 秒内获得 {c_random}you gain 20%{/c} 每秒最大资源生成量。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_19_ReactiveOoze",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 1100812182,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2271222,
+        "name": "加压蒸汽",
+        "desc": [
+            "你的{c_important}催化{/c}获得特殊的击昏效果，持续 {c_random}3{/c} 秒：",
+            "",
+            "{c_important}星涌{/c_important}：涌星有 {c_number}25%{/c} 几率击昏敌人，且在攻击被击昏敌人时必定暴击。 {c_important}崩解{/c_important}：施放后，会将受到其伤害的所有敌人击昏一次。此次击昏可对首领额外造成 {c_number}100%{/c} 的踉跄效果。 {c_important}爆发推进{/c_important}：被爆发推进撞到地形上的敌人将被击昏。同时，其接下来的 {c_number}2{/c} 次攻击有几率无法命中。 {c_important}星界柱体{/c_important}：柱体的冲击波有 {c_number}30%{/c} 几率击昏敌人，且在攻击被击昏敌人时必定造成{c_important}{u}压制{/u}{/c}。 {c_important}宇宙异象{/c_important}：异象的粒子会立即造成伤害，同时有 {c_number}25%{/c} 几率击昏敌人。 {c_red}你尚未激活{c_important}催化{/c}效果。 {/c}"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_04_PressurizedSteam",
+        "itemType": "HoradricPower",
+        "quality": "Legendary",
+        "icon": 3928277594,
+        "background": 3224942633,
+        "source": "从赫拉迪姆学识获得“传奇秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2301265,
+        "name": "锯齿荆棘",
+        "desc": [
+            "{c_label}幸运一击：{/c}你的{c_important}催化{/c}造成伤害时有最高 {c_number}50%{/c} 几率造成 {c_random}300%{/c} 荆棘伤害。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_18_JaggedBramble",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 3484910620,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2297660,
+        "name": "发光宝石",
+        "desc": [
+            "你的{c_important}催化{/c}会{c_important}{u}迷惑{/u}{/c}其伤害的敌人，持续{c_random}4{/c} 秒。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_14_LuminousGem",
+        "itemType": "HoradricPower",
+        "quality": "Magic",
+        "icon": 2663928342,
+        "background": 3765291375,
+        "source": "完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "id": 2289883,
+        "name": "强力合金",
+        "desc": [
+            "你的{c_important}催化{/c}会摧毁敌人的{c_important}{u}屏障{/u}{/c}，移除屏障后将敌人击倒，持续 {c_random}5{/c} 秒。"
+        ],
+        "ranks": 5,
+        "key": "S09_HoradricPower_Arcana_09_PotentAlloy",
+        "itemType": "HoradricPower",
+        "quality": "Rare",
+        "icon": 1945113280,
+        "background": 504731352,
+        "source": "从赫拉迪姆学识获得“稀有秘法精粹”后，完成赫拉迪姆密室获得。",
+        "type": "Arcana"
+    },
+    {
+        "name": "闷燃余烬",
+        "desc": [
+            "你的{c_important}催化{/c}现在会造成火焰或燃烧伤害，可以摧毁敌方构造体，同时有 {c_number}10%{/c} 几率点燃敌人脚下的地面，在 {c_number}5{/c} 秒内造成 {c_random}1215%{/c} 点燃烧伤害。",
+            "",
+            "装备此灌魔后，你将根据自己最高的伤害类型加成，获得同等数值的火焰伤害加成。",
+            "",
+            "使怪物的{c_important}冻风{/c}效果失效 {c_number}8{/c} 秒。"
+        ],
+        "key": "S09_HoradricPower_Infusion_01_Fire",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 1296916935,
+        "ranks": 10,
+        "source": "完成赛季任务“漫步众灵之地”获得。",
+        "type": "Infusion"
+    },
+    {
+        "name": "星云萃取",
+        "desc": [
+            "你的{c_important}催化{/c}现在会造成暗影或腐化伤害。被击中的敌人造成的伤害降低 {c_random}10%{/c}，持续 {c_number}7{/c} 秒。",
+            "",
+            "装备此灌魔后，你将根据自己最高的伤害类型加成，获得同等数值的暗影伤害加成。",
+            "",
+            "使怪物的{c_important}召唤{/c}效果失效 {c_number}8{/c} 秒。"
+        ],
+        "key": "S09_HoradricPower_Infusion_02_Shadow",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 352592968,
+        "ranks": 10,
+        "source": "完成赛季任务“无形需求注视”获得。",
+        "type": "Infusion"
+    },
+    {
+        "name": "冰川雨云",
+        "desc": [
+            "你的{c_important}催化{/c}现在会造成冰霜或霜噬伤害。受到伤害的敌人会 {c_important}{u}被冻伤{/u}{/c} {c_random}25%{/c}。此效果每个敌人每 {c_number}1{/c} 秒仅能触发一次。",
+            "",
+            "装备此灌魔后，你将根据自己最高的伤害类型加成，获得同等数值的冰霜伤害加成。",
+            "",
+            "使怪物的{c_important}爆炸{/c}效果失效 {c_number}8{/c} 秒。"
+        ],
+        "key": "S09_HoradricPower_Infusion_03_Cold",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 1297148016,
+        "ranks": 10,
+        "source": "完成赛季任务“索格伦守卫”获得。",
+        "type": "Infusion"
+    },
+    {
+        "name": "腐蚀蒸汽",
+        "desc": [
+            "你的{c_important}催化{/c}现在会造成毒素或中毒伤害。受到伤害的敌人将在 {c_number}4{/c} 秒内受到 {c_random}608%{/c} 点中毒伤害。此效果每 {c_number}3{/c} 秒只能对一个敌人生效一次。",
+            "",
+            "装备此灌魔后，你将根据自己最高的伤害类型加成，获得同等数值的毒素伤害加成。",
+            "",
+            "使怪物的{c_important}吸血{/c}效果失效 {c_number}8{/c} 秒。"
+        ],
+        "key": "S09_HoradricPower_Infusion_04_Poison",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 1313652564,
+        "ranks": 10,
+        "source": "完成赛季任务“承载幽灵之重”获得。",
+        "type": "Infusion"
+    },
+    {
+        "name": "雷鸣粒子",
+        "desc": [
+            "你的{c_important}催化{/c}现在会造成闪电或电花伤害。受到伤害的敌人会辐射出电弧，对周围的一名敌人造成 {c_random}689%{/c} 点闪电伤害。该效果每 {c_number}3{/c} 秒只能对一个敌人生效一次。",
+            "",
+            "装备此灌魔后，你将根据自己最高的伤害类型加成，获得同等数值的闪电伤害加成。",
+            "",
+            "使怪物的{c_important}压制{/c}效果失效 {c_number}8{/c} 秒。"
+        ],
+        "key": "S09_HoradricPower_Infusion_05_Lightning",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 4106939020,
+        "ranks": 10,
+        "source": "领取一级赫拉迪姆学识获得。",
+        "type": "Infusion"
+    },
+    {
+        "name": "星涌",
+        "desc": [
+            "{c_label}冷却时间：{/c_label} {c_random}11.2{/c} 秒",
+            "{c_label}幸运一击几率：{/c}{c_resource}18%{/c}",
+            "唤醒一个{c_important}神谕符文{/c_important}，拉近周围的敌人。然后，出现星潮随机攻击此区域 {c_number}20{/c} 次，每次 {c_random}1288%{/c} 点伤害。",
+            "",
+            "你身边会周期性地落下星辰，必定在附近一个敌人周围坠毁，造成同等伤害。"
+        ],
+        "key": "S09_HoradricPower_Catalyst_01_CelestialSurge",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 4191292792,
+        "ranks": 10,
+        "source": "领取一级赫拉迪姆学识获得。",
+        "type": "Catalyst"
+    },
+    {
+        "name": "崩解",
+        "desc": [
+            "{c_label}冷却时间：{/c_label} {c_random}5.3{/c} 秒",
+            "{c_label}幸运一击几率：{/c}{c_resource}8%{/c}",
+            "生成一个{c_important}奥术导体，{/c_important}在它和你之间持续发出射线，在 {c_number}8{/c} 秒内稳定形成霹雳，造成 {c_random}18130%{/c} 伤害。",
+            "",
+            " 射线中的敌人会被减速 {c_number}50%{/c}。"
+        ],
+        "key": "S09_HoradricPower_Catalyst_02_Disintegrate",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 2267812480,
+        "ranks": 10,
+        "source": "完成赛季任务“索格伦守卫”获得。",
+        "type": "Catalyst"
+    },
+    {
+        "name": "爆发推进",
+        "desc": [
+            "{c_label}冷却时间：{/c_label} {c_random}3{/c} 秒",
+            "{c_label}幸运一击几率：{/c}{c_resource}15%{/c}",
+            "生成一次{c_important}法力猛击{/c_important}，造成 {c_random}2240%{/c} 伤害并击退所有敌人。遭到碰撞的敌人受到 {c_random}747%{/c} 额外伤害。",
+            "",
+            "击退范围极大，敌人会被砸进地里，首次受击时形成一次{c_important}较轻的法力猛击{/c_important}。"
+        ],
+        "key": "S09_HoradricPower_Catalyst_03_Propulsion",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 564172025,
+        "ranks": 10,
+        "source": "完成赛季任务“漫步众灵之地”获得。",
+        "type": "Catalyst"
+    },
+    {
+        "name": "星界柱体",
+        "desc": [
+            "{c_label}冷却时间：{/c_label} {c_number}7{/c} 秒",
+            "{c_label}幸运一击几率：{/c}{c_resource}12%{/c}",
+            "形成一个{c_important}无形之柱{/c_important}，嘲讽 {c_random}4.9{/c} 秒。无形之柱会流淌出穿刺波，造成 {c_random}1127%{/c} 伤害，直到你制造出另一个无形之柱或距离太远。",
+            "",
+            "被嘲讽的敌人获得{c_important}{u}易伤{/u}{/c}，移动速度增加。"
+        ],
+        "key": "S09_HoradricPower_Catalyst_04_SolarFlare",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 2954637162,
+        "ranks": 10,
+        "source": "完成赛季任务“承载幽灵之重”获得。",
+        "type": "Catalyst"
+    },
+    {
+        "name": "宇宙异常",
+        "desc": [
+            "{c_label}生成速率：{/c_label}每 {c_number}5{/c} 秒",
+            "{c_label}幸运一击几率：{/c}{c_resource}20%{/c}",
+            "{c_label}被动：{/c}生成最多{c_number}5{/c}个{c_important}异常{/c_important}，发射粒子，在 {c_number}4{/c} 秒内造成 {c_random}866%{/c} 点伤害。",
+            "",
+            "{c_label}主动：{/c}控制你的{c_important}异常{/c_important}交汇并内爆，每次引爆造成 {c_random}3465%{/c} 点伤害。",
+            "",
+            "处于{c_number}5{/c} {c_important}异常{/c_important}时，你获得{c_important}{u}不可阻挡{/u}{/c}，之后的一系列爆炸造成双倍伤害。"
+        ],
+        "key": "S09_HoradricPower_Catalyst_05_CosmicAberration",
+        "itemType": "HoradricPower",
+        "quality": "Normal",
+        "icon": 3421028645,
+        "ranks": 10,
+        "source": "完成赛季任务“无形需求注视”获得。",
+        "type": "Catalyst"
+    },
+    {
+        "name": "控制符印",
+        "key": "S09_Socketable_01",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}装备两种或以上{/c}{c_important}控制流派{/c}{c_unique}的{/c}{c_important}秘法精粹{/c}{c_unique}时，控制时长提高 {/c}{c_number}+45%{/c}{c_gray}{/c} {c_unique}，幸运一击几率提高 {/c}{c_number}+30%{/c}{c_unique}。{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782703,
+        "itemType": "HoradricJewel",
+        "flavor": "蕴含支配之学识，可以掌控混沌。"
+    },
+    {
+        "name": "力量符印",
+        "key": "S09_Socketable_02",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}装备两种或以上{/c}{c_important}力量流派{/c}{c_unique}的{/c}{c_important}秘法精粹{/c}{c_unique}时，移动速度提高 {/c}{c_number}+25%{/c}{c_unique}，暴击几率提高 {c_number}+15%{/c}。{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782703,
+        "itemType": "HoradricJewel",
+        "flavor": "蕴含力量之学识，可以释放潜能。"
+    },
+    {
+        "name": "阻御符印",
+        "key": "S09_Socketable_03",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}装备两种或以上{/c}{c_important}阻御流派{/c}{c_unique}的{/c}{c_important}秘法精粹{/c}{c_unique}时，{c_important}{u}屏障{/u}{/c}{c_unique}、{/c}{c_important}{u}强固{/u}{/c}{c_unique}和{/c}{c_important}荆棘{/c}{c_unique}的效果提高 {/c}{c_number}x30%{/c}{c_unique}。{/c}{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782703,
+        "itemType": "HoradricJewel",
+        "flavor": "蕴含抗辩之学识，可以批驳恶语。"
+    },
+    {
+        "name": "赫拉迪姆徽记",
+        "key": "S09_Socketable_04",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}你每装备一种独特{/c}{c_important}流派{/c}{c_unique}的{/c}{c_important}秘法精粹{/c}{c_unique}，就会获得 {/c}{c_number}+5%{/c} {c_unique}的伤害减免和 {/c}{c_number}+1%{/c} {c_unique}的全元素抗性上限。{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782704,
+        "itemType": "HoradricJewel",
+        "flavor": "重视每一句咒文，法术才会不同凡响。"
+    },
+    {
+        "name": "幻梦之角",
+        "key": "S09_Socketable_05",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}伤害或消灭一名敌人后，你的{c_important}召唤物{/c}将得到强化：体型增大，且造成的伤害提高 {/c}{c_number}x50%{/c}{c_unique}。强化效果持续{/c} {c_number}4 秒。{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782706,
+        "itemType": "HoradricJewel",
+        "flavor": "肆意狂舞，必会掀起死亡阴风。"
+    },
+    {
+        "name": "轻蔑之光",
+        "key": "S09_Socketable_06",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}你造成的元素伤害提高 {c_number}x20%{/c}{c_unique}，受到的元素伤害提高 {/c} {c_number}x10%{/c} {c_unique}。{/c}{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782706,
+        "itemType": "HoradricJewel",
+        "flavor": "拂晓之光会让万物显露无遗，全然不顾那些本该隐匿于黑暗中的秘密。"
+    },
+    {
+        "name": "暴君之灾",
+        "key": "S09_Socketable_07",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}对敌人造成持续性伤害效果后，该敌人会{c_important}永久{/c}{c_unique}从你的持续性伤害效果中受到 {/c}{c_number}x0.33%{/c}{c_unique} 的额外伤害。{/c}{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782706,
+        "itemType": "HoradricJewel",
+        "flavor": "生来就荣光加身的人，常在受挫时摔得最惨。"
+    },
+    {
+        "name": "阈限回响",
+        "key": "S09_Socketable_08",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}受到致命伤害时，你会免疫该伤害，同时施放{c_important}爆发推进{/c}{c_unique}，使自身在 {/c}{c_number}3{/c}{c_unique} 秒内处于{c_important}无敌{/c}{c_unique}状态。",
+            "",
+            "此效果每 {/c}{c_number}75{/c}{c_unique} 秒仅能触发一次。{/c}{/c}{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782706,
+        "itemType": "HoradricJewel",
+        "flavor": "就让它为你指引前路吧，因为，它正在你的灵魂深处回响。"
+    },
+    {
+        "name": "地狱魔像",
+        "key": "S09_Socketable_09",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}你的主核心属性提高 {/c}{c_number}x6%{/c}{c_unique}，生命上限提高 {c_number}x6%{/c}{c_unique}，同时将处于{/c}{c_important}{u}无束{/u}{/c}{c_unique}状态。",
+            "",
+            "然而，在庇护之地最黑暗的角落，你将遭到{/c}{c_important}珠宝守护者{/c}{c_unique}的猎杀。这些守护者曾被长久封印于此，其唯一使命便是守护这件圣物。{/c}{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782706,
+        "itemType": "HoradricJewel",
+        "flavor": "它散发出的气场令人惊叹——当然，也让你毛骨悚然。"
+    },
+    {
+        "name": "无穷之石",
+        "key": "S09_Socketable_10",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}施放{/c}{c_important}催化技能{/c}{c_unique}后，若其为{c_important}终极技能{/c}{c_unique}，你的攻击速度将提高{/c} {c_number}+30%{/c}{c_unique}，持续{/c} {c_number}10{/c}{c_unique} 秒。{/c}{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782705,
+        "itemType": "HoradricJewel",
+        "flavor": "别一直盯着这小玩意儿看个没完。"
+    },
+    {
+        "name": "创生电花",
+        "key": "S09_Socketable_11",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}施放{/c}{c_important}催化技能{/c}{c_unique}后，获得{/c} {c_number}5{/c} {c_unique}点主要资源。{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782705,
+        "itemType": "HoradricJewel",
+        "flavor": "深渊幽邃处，万千世界生。"
+    },
+    {
+        "name": "辉光之眼",
+        "key": "S09_Socketable_12",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}你的{/c}{c_important}催化技能{/c}{c_unique}获得{/c} {c_number}+25%{/c} {c_unique}的冷却时间缩减。{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782705,
+        "itemType": "HoradricJewel",
+        "flavor": "宁耐守心，而后灵光自明。"
+    },
+    {
+        "name": "聪慧符印",
+        "key": "S09_Socketable_13",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}你的{/c}{c_important}注能{/c}{c_unique}效果强度提高 {/c}{c_number}x150%{/c}{c_unique} 。{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782707,
+        "itemType": "HoradricJewel",
+        "flavor": "这道印记，醒目又耀眼，让人难以直视。"
+    },
+    {
+        "name": "元素烙印",
+        "key": "S09_Socketable_14",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}基于你{/c}{c_important}注能{/c}{c_unique}的元素类型，你的{/c}{c_important}催化技能{/c}{c_unique}将在 {/c}{c_number}3{/c}{c_unique} 秒内造成{/c} {c_number}33%{/c} {c_unique}同类型武器伤害。",
+            "",
+            "幸运一击{/c}{c_unique}：造成与你{/c}{c_important}注能{/c}{c_unique}类型相同的伤害时，至多有 {/c}{c_number}33%{/c}{c_unique} 几率触发其次要效果。{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782709,
+        "itemType": "HoradricJewel",
+        "flavor": "它将某种力量深深地烙印在你的脑海——那是你本不该染指的力量。"
+    },
+    {
+        "name": "流移星漩",
+        "key": "S09_Socketable_15",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 点护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}你的{/c}{c_important}催化{/c}{c_unique}效果造成的伤害提高 {/c}{c_number}x100%{/c}{c_unique}。",
+            "",
+            "但作为代价，你将失去对{/c}{c_important}赫拉迪姆咒法{/c}{c_unique}的掌控，导致{/c}{c_important}催化{/c}{c_unique}会继承随机{/c}{c_important}注能{/c}{c_unique}。{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782708,
+        "itemType": "HoradricJewel",
+        "flavor": "世上没有比此更强的力量，也没有比此更重的负担——落在你肩头的，乃是苍穹之重。"
+    },
+    {
+        "name": "破心者",
+        "key": "S09_Socketable_16",
+        "quality": "Unique",
+        "socketable": true,
+        "affixesDesc": [
+            "+120 护甲值和 6% 全元素抗性",
+            "",
+            "{c_unique}玩家造成的物理伤害可击碎敌人的灵体，使其受到的物理伤害增加{c_number}x40%{/c}{c_unique}，持续{c_number}6{/c}{c_unique}秒。",
+            "",
+            "在第一次对首领或精英敌人造成伤害，或在他们受到控制时，此效果生效。{/c}{/c}{/c}"
+        ],
+        "extra": "可被镶嵌到有镶孔的{c_important}首饰{/c}上。",
+        "icon": 3849782706,
+        "itemType": "HoradricJewel",
+        "flavor": "没有什么能与你抗衡，万物皆非敌手。"
+    }
+]

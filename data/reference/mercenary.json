@@ -1,0 +1,3089 @@
+{
+    "skills": [
+        {
+            "id": 1391558,
+            "name": "骁勇",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}30{/c} 秒",
+                "当你即将受到的单次伤害达到你当前生命的 {c_number}15%{/c} 时，拉赫尔会来帮你消除该伤害，击倒近距敌人 {c_number}2{/c} 秒，并为你提供{c_important}不可阻挡{/c}，持续 {c_number}0.5{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_Valiance",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 3957406170,
+            "ranks": 1,
+            "tags": [
+                "佣兵特质",
+                "不可阻挡"
+            ],
+            "engTags": [
+                "Mercenary Perk",
+                "Unstoppable"
+            ]
+        },
+        {
+            "id": 1294159,
+            "name": "挑衅",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}25{/c} 秒",
+                "拉赫尔嘲讽你周围的敌人，持续 {c_number}5{/c} 秒。每有一个目标，你就会获得 {c_number}5%{/c} 伤害减免，最多可达 {c_number}20%{/c}。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_ShieldBearer_Provoke",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 1509569392,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1404603,
+            "name": "震地猛击",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}11{/c} 秒",
+                "拉赫尔猛击地面，造成 {c_number}160%{/c} 点物理伤害并减速敌人 {c_number}30%{/c}，持续 {c_number}6{/c} 秒。重击区域中心的目标则被减速 {c_number}60%{/c}。",
+                "",
+                "选择一个雇佣兵核心技能会转变其使用的武器和基础攻击。",
+                "{c_label}武器：{/c}{c_important}圆盾{/c}",
+                "{c_label}基础攻击：{/c} {c_important}盾牌强击{/c}",
+                "拉赫尔向敌人挥舞圆盾，造成 {c_number}85%{/c} 点物理伤害。每 {c_number}20{/c} 次挥击，拉赫尔为你恢复 {c_number}8%{/c} 生命上限。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_ShieldBearer_GroundSlam",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 3906436774,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵核心技能"
+            ],
+            "engTags": [
+                "Mercenary Core"
+            ]
+        },
+        {
+            "id": 1401573,
+            "name": "盾牌冲锋",
+            "desc": [
+                "{c_label}冷却时间: {/c}{c_resource}11{/c} 秒",
+                "拉赫尔向前猛冲，造成{c_number}110%{/c}物理伤害并嘲讽附近敌人 {c_number}4{/c} 秒。",
+                "",
+                "选择一个雇佣兵核心技能会转变其使用的武器和基础攻击。",
+                "{c_label}武器: {/c} {c_important}塔盾{/c}",
+                "{c_label}基础攻击: {/c} {c_important}盾牌猛击{/c}",
+                "拉赫尔用塔盾猛击敌人，造成{c_number}80%{/c}物理伤害并{c_important}强固{/c}你 {c_number}0.2%{/c} 的生命上限。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_ShieldBearer_ChargeSkill",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 4040417293,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵核心技能",
+                "强固"
+            ],
+            "engTags": [
+                "Mercenary Core",
+                "Fortify"
+            ]
+        },
+        {
+            "id": 1450903,
+            "name": "轰地",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}22{/c} 秒",
+                "拉赫尔重击大地 {c_number}3{/c} 次，每次爆发造成 {c_number}30%{/c} 点物理伤害并拉近敌人。最终爆发会额外造成 {c_number}40%{/c} 点物理伤害，并额外击昏敌人 {c_number}2{/c} 秒。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_ShieldBearer_Crater",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 4104337675,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1456571,
+            "name": "拉赫尔的近卫",
+            "desc": [
+                "拉赫尔使你获得 {c_number}15%[+]{/c} 护甲值。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA1",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 1905746734,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1458593,
+            "name": "先锋",
+            "desc": [
+                "拉赫尔使附近敌人减速 {c_number}40%{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA2",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 1726049864,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1458607,
+            "name": "嘲笑诱饵",
+            "desc": [
+                "你对被拉赫尔嘲讽的敌人造成的伤害提高 {c_number}15%[x]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA3",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 3660011213,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1458685,
+            "name": "铁狼结界",
+            "desc": [
+                "当拉赫尔的{c_important}骁勇{/c}触发时，他会击退近距离的敌人，并对远距敌人发动嘲讽，持续 {c_number}4{/c} 秒。",
+                "",
+                "拉赫尔的{c_important}骁勇{/c}的冷却时间减少 {c_number}35%{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA4",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 470193246,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1458775,
+            "name": "铁狼的召唤",
+            "desc": [
+                "当拉赫尔的{c_important}骁勇{/c}触发时，你在 {c_number}10{/c} 秒内的接下来 {c_number}4{/c} 个{c_important}核心{/c}技能造成的伤害提高 {c_number}25%[x]{/c} 并且不消耗资源。",
+                "",
+                "拉赫尔的{c_important}骁勇{/c}的冷却时间缩短 {c_number}25%{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA6",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 469474316,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1458750,
+            "name": "碎甲盾",
+            "desc": [
+                "拉赫尔的最终{c_important}轰地{/c}爆发会对敌人造成伤害提高 {c_number}200%[x]{/c}，并施加{c_important}易伤{/c}，持续 {c_number}4{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA5",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 3369905941,
+            "ranks": 1,
+            "tags": [
+                "易伤"
+            ],
+            "engTags": [
+                "Vulnerable"
+            ]
+        },
+        {
+            "id": 1452355,
+            "name": "盾牌飞掷",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}22{/c} 秒",
+                "拉赫尔掷出他的盾牌，造成 {c_number}450%{/c} 点物理伤害并嘲讽敌人 {c_number}5{/c} 秒。盾牌最多弹射 {c_number}9{/c} 次，且不能多次弹射到同一目标身上。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_ShieldBearer_ShieldThrow",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 229709687,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1460102,
+            "name": "铁狼上阵",
+            "desc": [
+                "当拉赫尔的{c_important}骁勇{/c}触发时，他还会施放{c_important}震地猛击{/c}和{c_important}盾牌飞掷{/c}。",
+                "",
+                "拉赫尔的{c_important}骁勇{/c}的冷却时间减少 {c_number}35%{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB6",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 3251427969,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1460071,
+            "name": "圣化护盾",
+            "desc": [
+                "拉赫尔的{c_important}盾牌飞掷{/c}将圣化敌人 {c_number}6{/c} 秒。对圣化敌人直接造成伤害将为你治疗 {c_number}6%{/c} 生命上限，每个目标一次。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB5",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 839821393,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1389926,
+            "name": "堡垒",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}30{/c} 秒",
+                "拉赫尔采取防护姿态 {c_number}5{/c} 秒，将周围盟友本应受到的伤害的 {c_number}90%{/c} 转移到自身，持续 {c_number}5{/c} 秒。",
+                "",
+                "{c_important}堡垒的{/c}初始施法还会为周围盟友提供{c_important}不可阻挡{/c}，持续 {c_number}1.0{/c} 秒。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_ShieldBearer_Bastion",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 1854143034,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能",
+                "不可阻挡"
+            ],
+            "engTags": [
+                "Mercenary Iconic",
+                "Unstoppable"
+            ]
+        },
+        {
+            "id": 1459513,
+            "name": "铁狼的美德",
+            "desc": [
+                "当拉赫尔的{c_important}骁勇{/c}触发时，他为你治疗 {c_number}25%{/c} 的生命上限。",
+                "",
+                "拉赫尔的{c_important}骁勇{/c}的冷却时间缩短 {c_number}35%{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB4",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 909710031,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1459276,
+            "name": "灵感",
+            "desc": [
+                "受到拉赫尔的{c_important}震地猛击{/c}影响的敌人受到的伤害提高 {c_number}15%[x]{/c}。",
+                "",
+                "受到拉赫尔的{c_important}堡垒{/c}影响的盟友造成的伤害提高 {c_number}25%[x]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB3",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 2931291229,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1458350,
+            "name": "拉赫尔的庇护",
+            "desc": [
+                "拉赫尔使你获得 {c_number}15%{/c} 全元素抗性。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB1",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 1898062468,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1459061,
+            "name": "吸引火力",
+            "desc": [
+                "当你使用治疗药水时，拉赫尔会嘲讽他周围的敌人 {c_number}4{/c} 秒。每 {c_number}20{/c} 秒只能生效一次。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB2",
+            "char": "Mercenary_ShieldBearer",
+            "icon": 3923376065,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1479154,
+            "name": "尽数屠灭",
+            "desc": [
+                "消灭敌人时，你和瓦尔亚纳将一同获得{c_important}尽数屠灭{/c}的层数。达到一定层数后即可获得对应的移动速度加成：",
+                "",
+                "  {c_number}10{/c} 层：{c_number}5%[+]{/c} 移动速度",
+                "  {c_number}25{/c} 层：{c_number}10%[+]{/c} 移动速度",
+                "  {c_number}50{/c} 层：{c_number}15%[+]{/c} 移动速度",
+                " {c_number}100{/c} 层：{c_number}20%[+]{/c} 移动速度",
+                "",
+                "如果在 {c_number}7{/c} 秒内未能消灭新的敌人，{c_important}尽数屠灭{/c}的层数将会重置。"
+            ],
+            "active": false,
+            "key": "Mercenary_BerserkerCrone_MassacrePassive2",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 2929304198,
+            "ranks": 1,
+            "tags": [
+                "佣兵特质"
+            ],
+            "engTags": [
+                "Mercenary Perk"
+            ]
+        },
+        {
+            "id": 1484928,
+            "name": "还击",
+            "desc": [
+                "如果你被控制，瓦尔亚纳会跃向施加该效果的敌人，造成{c_number}128%{/c}物理伤害并在命中时击倒周围敌人 {c_number}2.28{/c} 秒。该效果每 {c_number}12{/c} 秒只能生效一次。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB2",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 2364599669,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1484926,
+            "name": "粉碎之力",
+            "desc": [
+                "当瓦尔亚纳对一名敌人造成伤害时，她有 {c_number}30%{/c} 几率将其击倒 {c_number}1.5{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB1",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 1074706239,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1484930,
+            "name": "暴虐强袭",
+            "desc": [
+                "你对被施加了任何瓦尔亚纳的控制效果的敌人造成的伤害提高 {c_number}15%[x]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB3",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 3882343850,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1484932,
+            "name": "肢解",
+            "desc": [
+                "被瓦尔亚纳的{c_important}碎地者{/c}伤害的敌人会暴露，使你在 {c_number}3{/c} 秒内对其下次命中造成的伤害提高 {c_number}20%[x]{/c}。该效果每 {c_number}5{/c} 秒只能对同一目标生效一次。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB4",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 1745935331,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1475288,
+            "name": "碎地者",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}17{/c} 秒",
+                "瓦尔亚纳用她的钉头锤砸碎地面，留下一阵震颤，在 {c_number}3{/c} 秒内造成 {c_number}180%{/c} 点物理伤害并反复击倒敌人。"
+            ],
+            "active": true,
+            "key": "Mercenary_BerserkerCrone_RumblingEarth",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 1134855774,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1484934,
+            "name": "钢铁之握",
+            "desc": [
+                "瓦尔亚纳的{c_important}远古鱼叉{/c}移动距离提高 {c_number}33%{/c}，并使敌人的移动限制抗性降低 {c_number}50%{/c}，持续 {c_number}5{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB5",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 1805134421,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1484938,
+            "name": "歼灭者",
+            "desc": [
+                "瓦尔亚纳的{c_important}远古鱼叉{/c}会额外减速敌人 {c_number}40%{/c}，持续 {c_number}5{/c} 秒。在此期间，你对这些目标的幸运一击几率提高 {c_number}30%[x]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB6",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 1717266918,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1619677,
+            "name": "远古鱼叉",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}17{/c} 秒",
+                "瓦尔亚纳向前投出三支鱼叉，穿透敌人，造成 {c_number}200%{/c} 点物理伤害。之后她将鱼叉扯回，拉近敌人并将其击昏 {c_number}4{/c} 秒。"
+            ],
+            "active": true,
+            "key": "Mercenary_BerserkerCrone_Harpoons",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 355538115,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1483451,
+            "name": "血肉滋味",
+            "desc": [
+                "每当你或瓦尔亚纳对被施加了她流血效果的敌人造成直接伤害时，你恢复 {c_number}1%{/c} 生命上限。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA5",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 2106937493,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1483521,
+            "name": "无处可逃",
+            "desc": [
+                "瓦尔亚纳的{c_important}旋风斩{/c}每 {c_number}1.5{/c} 秒拉近敌人，且效果范围扩大 {c_number}60%{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA6",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 4227105627,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1482903,
+            "name": "嗜血",
+            "desc": [
+                "瓦尔亚纳的{c_important}嗜血{/c}会进一步使你的攻击速度提高 {c_number}5%[+]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA4",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 3619402085,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1482901,
+            "name": "威慑",
+            "desc": [
+                "瓦尔亚纳拥有{c_important}嗜血{/c}时，她附近的敌人造成的伤害降低 {c_number}15%{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA3",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 3430818905,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1482560,
+            "name": "鲁莽",
+            "desc": [
+                "瓦尔亚纳的{c_important}剁切{/c}会对敌人施加{c_important}易伤{/c}，持续 {c_number}3{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA2",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 216588834,
+            "ranks": 1,
+            "tags": [
+                "易伤"
+            ],
+            "engTags": [
+                "Vulnerable"
+            ]
+        },
+        {
+            "id": 1482187,
+            "name": "歇斯底里",
+            "desc": [
+                "每当瓦尔亚纳伤害一名敌人，你获得 {c_number}1.0%[+]{/c} 攻击速度，持续 {c_number}5{/c} 秒，最多可达 {c_number}10.0%[+]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA1",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 3750800182,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1408295,
+            "name": "旋风斩",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}11{/c} 秒",
+                "瓦尔亚纳沿直线猛烈旋转，反复造成 {c_number}85%{/c} 点物理伤害并在 {c_number}5{/c} 秒内造成 {c_number}30%{/c} 点流血伤害。"
+            ],
+            "active": true,
+            "key": "Mercenary_BerserkerCrone_Whirlwind",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 3649931010,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1475284,
+            "name": "剁切",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}11{/c} 秒",
+                "瓦尔亚纳将双斧在面前挥出一道弧线，造成 {c_number}60%{/c} 点物理伤害并在 {c_number}4{/c} 秒内造成 {c_number}400%{/c} 点流血伤害。",
+                "",
+                "选择一个雇佣兵核心技能会转变其使用的武器和基础攻击。",
+                "{c_label}武器：{/c} {c_important}双斧{/c}",
+                "{c_label}基础攻击：{/c} {c_important}双重打击{/c}",
+                "瓦尔亚纳用双斧劈砍敌人，造成 {c_number}58%{/c} 点物理伤害。她还有 {c_number}45%{/c} 几率在 {c_number}3{/c} 秒内额外造成 {c_number}400%{/c} 点流血伤害。"
+            ],
+            "active": true,
+            "key": "Mercenary_BerserkerCrone_Cleave",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 1943775866,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵核心技能"
+            ],
+            "engTags": [
+                "Mercenary Core"
+            ]
+        },
+        {
+            "id": 1475286,
+            "name": "震荡波",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}11{/c} 秒",
+                "瓦尔亚纳猛击地面，在面前制造一道残酷的冲击波，造成 {c_number}80%{/c} 点物理伤害并击倒敌人 {c_number}1.5{/c} 秒。",
+                "",
+                "选择一个雇佣兵核心技能会转变其使用的武器和基础攻击。",
+                "{c_label}武器：{/c} {c_important}双手钉锤{/c}",
+                "{c_label}基础攻击：{/c} {c_important}沉重打击{/c}",
+                "瓦尔亚纳用钉头锤猛击敌人，造成 {c_number}80%{/c} 点物理伤害，暴击几率提高 {c_number}0%[+]{/c}。"
+            ],
+            "active": true,
+            "key": "Mercenary_BerserkerCrone_Shockwave",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 1549471669,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵核心技能"
+            ],
+            "engTags": [
+                "Mercenary Core"
+            ]
+        },
+        {
+            "id": 1439338,
+            "name": "嗜血",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}22{/c} 秒",
+                "瓦尔亚纳进入{c_important}嗜血{/c}状态，获得 {c_number}30%[+]{/c} 攻击速度、{c_number}200%[+]{/c} 移动速度以及{c_important}不可阻挡{/c}，持续 {c_number}7{/c} 秒。",
+                "",
+                "瓦尔亚纳的{c_important}嗜血{/c}会在相同的持续时间内为你提供 {c_number}10%[+]{/c} 攻击速度。"
+            ],
+            "active": true,
+            "key": "Mercenary_BerserkerCrone_Bloodthirst",
+            "char": "Mercenary_BerserkerCrone",
+            "icon": 2702495960,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能",
+                "不可阻挡"
+            ],
+            "engTags": [
+                "Mercenary Iconic",
+                "Unstoppable"
+            ]
+        },
+        {
+            "id": 1555493,
+            "name": "亵渎命运",
+            "desc": [
+                "奥德金偶尔会失去对自己诅咒的控制，变成一个残暴的恶魔 {c_number}22{/c} 秒。这将为奥德金提供强大的新能力，但被释放的恶魔会在其持续时间内诅咒你。",
+                "",
+                "{c_label}黑暗诅咒: {/c}附近敌人陷入{c_important}易伤{/c}状态。",
+                "{c_label}烈焰诅咒: {/c}你的直接伤害会燃烧敌人，在 {c_number}3{/c} 秒内造成 {c_number}30%{/c} 点伤害。",
+                "",
+                "奥德金的诅咒和恶魔形态由他的{c_important}雇佣兵核心技能{/c}决定。"
+            ],
+            "active": false,
+            "key": "Mercenary_CursedChild_SummonDemonForm",
+            "char": "Mercenary_CursedChild",
+            "icon": 2098916322,
+            "ranks": 1,
+            "tags": [
+                "佣兵特质",
+                "易伤"
+            ],
+            "engTags": [
+                "Mercenary Perk",
+                "Vulnerable"
+            ]
+        },
+        {
+            "id": 1525668,
+            "name": "烈焰奔涌",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}11{/c} 秒",
+                "奥德金引导一道锥形火焰 {c_number}4{/c} 秒，反复造成 {c_number}80%{/c} 点火焰伤害。",
+                "",
+                "奥德金的雇佣兵核心技能会转变他的{c_important}命运{/c}和基础攻击。",
+                "{c_label}命运：{/c} {c_important}着火{/c}",
+                "{c_label}基础攻击：{/c} {c_important}火焰射击{/c}",
+                "奥德金向一名敌人用力投掷一支烈焰箭矢，造成 {c_number}90%{/c} 点火焰伤害，并在 {c_number}4{/c} 秒內造成 {c_number}55%{/c} 点燃烧伤害 。"
+            ],
+            "active": true,
+            "key": "Mercenary_CursedChild_FlameSurge",
+            "char": "Mercenary_CursedChild",
+            "icon": 2269244341,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵核心技能"
+            ],
+            "engTags": [
+                "Mercenary Core"
+            ]
+        },
+        {
+            "id": 1521907,
+            "name": "追魂",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}14{/c} 秒",
+                "奥德金向敌人发出 {c_number}3{/c} 个幽魂，每个幽魂都会{c_important}追魂{/c}其受害者并在 {c_number}10{/c} 秒内造成 {c_number}90%{/c} 点暗影伤害。如果目标在被{c_important}追魂{/c}时死亡，其幽魂会跳向另一个目标。",
+                "",
+                "奥德金的雇佣兵核心技能会转变其{c_important}命运{/c}和基础攻击。",
+                "{c_label}命运：{/c} {c_important}遗忘{/c}",
+                "{c_label}基础攻击：{/c} {c_important}暗影打击{/c}",
+                "奥德金向一名敌人射出一阵黑暗，造成 {c_number}30%{/c} 点暗影伤害。"
+            ],
+            "active": true,
+            "key": "Mercenary_CursedChild_Haunt",
+            "char": "Mercenary_CursedChild",
+            "icon": 326021642,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵核心技能"
+            ],
+            "engTags": [
+                "Mercenary Core"
+            ]
+        },
+        {
+            "id": 1494843,
+            "name": "火焰风暴",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}20{/c} 秒",
+                "奥德金从天上降下{c_important}烈焰风暴{/c}，命中时造成 {c_number}300%{/c} 点火焰伤害并在地面上留存 {c_number}10{/c} 秒。每秒，{c_important}烈焰风暴{/c}会灼烧其中的敌人，造成 {c_number}55%{/c} 点伤害，持续 {c_number}2.5{/c} 秒。被{c_important}烈焰风暴的{/c}冲击或余波命中的敌人有 {c_number}30%{/c} 几率被击昏 {c_number}1.0{/c} 秒。"
+            ],
+            "active": true,
+            "key": "Mercenary_CursedChild_FireStorm",
+            "char": "Mercenary_CursedChild",
+            "icon": 1841179365,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1525670,
+            "name": "火浪",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}25{/c} 秒",
+                "奥德金召唤一大团烈焰前进，反复造成 {c_number}550%{/c} 点火焰伤害，击退敌人，并摧毁小型飞行道具。"
+            ],
+            "active": true,
+            "key": "Mercenary_CursedChild_WaveOfFlame",
+            "char": "Mercenary_CursedChild",
+            "icon": 3753146071,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1522203,
+            "name": "萎靡领域",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}20{/c} 秒",
+                "奥德金使一片区域脱水 {c_number}6{/c} 秒，使其中的敌人减速 {c_number}40%{/c} 并使其造成的伤害降低 {c_number}20%{/c}。"
+            ],
+            "active": true,
+            "key": "Mercenary_CursedChild_Wither",
+            "char": "Mercenary_CursedChild",
+            "icon": 1520446461,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1493968,
+            "name": "灵魂锁链",
+            "desc": [
+                "{c_label}冷却时间：{/c}{c_resource}21{/c} 秒。",
+                "奥德金将至多 {c_number}10{/c} 名敌人束缚到自己身上，与其联结并在 {c_number}2.5{/c} 秒内造成 {c_number}84%{/c} 点暗影伤害。",
+                "",
+                "锁链在失效时会造成 {c_number}35%{/c} 点暗影伤害并击昏其受害者 {c_number}2.5{/c} 秒。"
+            ],
+            "active": true,
+            "key": "mercenary_cursedChild_soulChain",
+            "char": "Mercenary_CursedChild",
+            "icon": 3299492528,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1529334,
+            "name": "恐惧",
+            "desc": [
+                "奥德金的{c_important}追魂{/c}命中时有 {c_number}30%{/c} 几率对敌人施加{c_important}易伤{/c}，持续{c_number}4{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveA1",
+            "char": "Mercenary_CursedChild",
+            "icon": 903409689,
+            "ranks": 1,
+            "tags": [
+                "易伤"
+            ],
+            "engTags": [
+                "Vulnerable"
+            ]
+        },
+        {
+            "id": 1529357,
+            "name": "衰竭",
+            "desc": [
+                "奥德金的暗影伤害有 {c_number}10%{/c} 几率{c_important}迷惑{/c}敌人 {c_number}2{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveA2",
+            "char": "Mercenary_CursedChild",
+            "icon": 3452985301,
+            "ranks": 1,
+            "tags": [
+                "迷惑"
+            ],
+            "engTags": [
+                "Daze"
+            ]
+        },
+        {
+            "id": 1529359,
+            "name": "妄想",
+            "desc": [
+                "{c_important}萎靡{/c}敌人受到来自你的伤害提高 {c_number}15%[x]{/c}。",
+                "",
+                "{c_label}幸运一击：{/c}对{c_important}萎靡{/c}敌人的攻击有至多 {c_number}20%{/c} 几率使其{c_important}迷惑{/c} {c_number}1.0{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveA3",
+            "char": "Mercenary_CursedChild",
+            "icon": 109152408,
+            "ranks": 1,
+            "tags": [
+                "迷惑"
+            ],
+            "engTags": [
+                "Daze"
+            ]
+        },
+        {
+            "id": 1529372,
+            "name": "被诅咒者",
+            "desc": [
+                "你立即消灭生命低于 {c_number}40%{/c} 的{c_important}萎靡{/c}敌人。无法对精英生效。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveA4",
+            "char": "Mercenary_CursedChild",
+            "icon": 2946019903,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1529374,
+            "name": "共受苦难",
+            "desc": [
+                "当被锁链束缚的目标死亡时，奥德金的{c_important}灵魂锁链{/c}的冷却时间缩短 {c_number}1.5{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveA5",
+            "char": "Mercenary_CursedChild",
+            "icon": 1056480300,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1529376,
+            "name": "痛苦加剧",
+            "desc": [
+                "对一名{c_important}灵魂受缚{/c}的敌人造成伤害将提前引爆锁链，对其周围造成{c_number}50%{/c}暗影伤害。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveA6",
+            "char": "Mercenary_CursedChild",
+            "icon": 1008306433,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1529505,
+            "name": "灰烬掩埋",
+            "desc": [
+                "奥德金的{c_important}烈焰奔涌{/c}命中时会使敌人减速 {c_number}20%{/c} 并在 {c_number}3{/c} 秒内造成额外 {c_number}60%{/c} 点燃烧伤害。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveB1",
+            "char": "Mercenary_CursedChild",
+            "icon": 1505270504,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1529508,
+            "name": "怒火暴力",
+            "desc": [
+                "盟友对受{c_important}烈焰奔涌{/c}影响的敌人获得 {c_number}15%[+]{/c} 暴击几率。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveB2",
+            "char": "Mercenary_CursedChild",
+            "icon": 2497740186,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1529512,
+            "name": "余烬之赐",
+            "desc": [
+                "当你处于奥德金的{c_important}烈焰风暴{/c}中时，你每秒恢复 {c_number}33{/c} 资源。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveB4",
+            "char": "Mercenary_CursedChild",
+            "icon": 1094403936,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1529510,
+            "name": "根除",
+            "desc": [
+                "在奥德金的{c_important}烈焰风暴{/c}中死亡的敌人会爆炸，造成大量火焰伤害。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveB3",
+            "char": "Mercenary_CursedChild",
+            "icon": 1117525456,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1529514,
+            "name": "怒火浩劫",
+            "desc": [
+                "被奥德金的{c_important}火浪{/c}伤害的敌人受到的持续性伤害提高 {c_number}15%[x]{/c}，持续 {c_number}4{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveB5",
+            "char": "Mercenary_CursedChild",
+            "icon": 2755309334,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1529518,
+            "name": "燃烧混沌",
+            "desc": [
+                "当你施放一个{c_important}终极{/c}技能时，奥德金的{c_important}火浪{/c}冷却时间重置。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_CursedChild_passiveB6",
+            "char": "Mercenary_CursedChild",
+            "icon": 3191012528,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1684569,
+            "name": "探寻者",
+            "desc": [
+                "{c_label}冷却时间: {/c} {c_resource}20{/c} 秒",
+                "{c_label}被动技能: {/c}苏波使区域内的所有敌人和材料现身。",
+                "",
+                "{c_label}主动技能: {/c}苏波指认一个敌方目标，将其标记 {c_number}10{/c} 秒。消灭一名被标记的敌人恢复 {c_number}50{/c} 点主要资源，并将苏波的{c_important}探寻者{/c}冷却时间缩短 {c_number}10{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_Perk",
+            "char": "Mercenary_BountyHunter",
+            "icon": 1093628598,
+            "ranks": 1,
+            "tags": [
+                "佣兵特质"
+            ],
+            "engTags": [
+                "Mercenary Perk"
+            ]
+        },
+        {
+            "id": 1578277,
+            "name": "极限爆破手",
+            "desc": [
+                "当一枚{c_important}爆破炸药{/c}爆炸时，你的主动冷却时间缩短 {c_number}0.5{/c} 秒。",
+                "",
+                "{c_important}爆破炸药{/c}现在仅在 {c_number}1.5{/c} 秒后就将会被引爆。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveB6",
+            "char": "Mercenary_BountyHunter",
+            "icon": 3202322446,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578275,
+            "name": "谈判筹码",
+            "desc": [
+                "被{c_important}爆破炸药{/c}命中的目标，每被一个{c_important}爆破炸药{/c}命中，受到的伤害就会提高 {c_number}5%[x]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveB5",
+            "char": "Mercenary_BountyHunter",
+            "icon": 3072630825,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578271,
+            "name": "纵火箭矢",
+            "desc": [
+                "如果苏波的{c_important}狙击{/c}命中了他最初瞄准的目标，在其身上引爆一个{c_important}燃烧弹{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveB3",
+            "char": "Mercenary_BountyHunter",
+            "icon": 3551686327,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578273,
+            "name": "伏击者",
+            "desc": [
+                "你对过去 {c_number}3{/c} 秒内受到苏波{c_important}齐射{/c}伤害的敌人的幸运一击几率提高 {c_number}20%[x]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveB4",
+            "char": "Mercenary_BountyHunter",
+            "icon": 2793072676,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578267,
+            "name": "举杯同饮",
+            "desc": [
+                "苏波的{c_important}燃烧弹{/c}爆炸时有 {c_number}50%{/c} 几率为你掉落一瓶治疗药水。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveB2",
+            "char": "Mercenary_BountyHunter",
+            "icon": 1512077676,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578265,
+            "name": "茫茫焦土",
+            "desc": [
+                "苏波的初始{c_important}燃烧弹{/c}爆炸会使敌人在 {c_number}3{/c} 秒内承受来自你造成的持续性伤害增加 {c_number}30%[x]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveB1",
+            "char": "Mercenary_BountyHunter",
+            "icon": 1078773311,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578263,
+            "name": "心思缜密",
+            "desc": [
+                "苏波的{c_important}引线陷阱{/c}和{c_important}绊雷{/c}的爆炸范围扩大 {c_number}60%{/c}。",
+                "",
+                "你和苏波的控制持续时间延长 {c_number}25%[+]{/c}。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveA6",
+            "char": "Mercenary_BountyHunter",
+            "icon": 2263047508,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578261,
+            "name": "荷枪实弹",
+            "desc": [
+                "苏波的{c_important}引线陷阱{/c}和{c_important}绊雷{/c}会对敌人施加{c_important}易伤{/c}，持续 {c_number}5{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveA5",
+            "char": "Mercenary_BountyHunter",
+            "icon": 1043036719,
+            "ranks": 1,
+            "tags": [
+                "易伤"
+            ],
+            "engTags": [
+                "Vulnerable"
+            ]
+        },
+        {
+            "id": 1578259,
+            "name": "火力倾泻",
+            "desc": [
+                "你对被苏波的{c_important}火力掩护{/c}命中的敌人造成的暴击伤害提高 {c_number}25%[x]{/c}，持续 {c_number}4{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveA4",
+            "char": "Mercenary_BountyHunter",
+            "icon": 1184662454,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578257,
+            "name": "缚足箭雨",
+            "desc": [
+                "苏波的{c_important}火力掩护{/c}还会定身敌人 {c_number}3{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveA3",
+            "char": "Mercenary_BountyHunter",
+            "icon": 1392724544,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578255,
+            "name": "随手可得",
+            "desc": [
+                "对精英造成直接伤害将使你获得 {c_number}20%[+]{/c} 移动速度，持续 {c_number}2{/c} 秒。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveA2",
+            "char": "Mercenary_BountyHunter",
+            "icon": 1866407493,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1578225,
+            "name": "穿刺箭",
+            "desc": [
+                "苏波的{c_important}沉重劲射{/c}现在可以穿过敌人。"
+            ],
+            "active": false,
+            "key": "NPC_Mercenary_BountyHunter_passiveA1",
+            "char": "Mercenary_BountyHunter",
+            "icon": 3614186810,
+            "ranks": 1,
+            "tags": [],
+            "engTags": []
+        },
+        {
+            "id": 1580744,
+            "name": "绊雷",
+            "desc": [
+                "{c_label}冷却时间：{/c} {c_resource}18{/c} 秒",
+                "苏波散布 {c_number}3{/c} 颗爆炸陷阱，每个都会在 {c_number}1.0{/c} 秒后激活。它会在敌人进入射程时爆炸，造成 {c_number}300%{/c} 点物理伤害并击倒敌人 {c_number}1.5{/c} 秒。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_BountyHunter_ScatterTraps",
+            "char": "Mercenary_BountyHunter",
+            "icon": 570613437,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1580738,
+            "name": "火力掩护",
+            "desc": [
+                "{c_label}冷却时间：{/c} {c_resource}20{/c} 秒",
+                "苏波为无数箭矢的齐射蓄力，之后向你的位置释放，造成 {c_number}140%{/c} 点物理伤害并减速敌人 {c_number}50%{/c}，持续 {c_number}4{/c} 秒。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_BountyHunter_Volley",
+            "char": "Mercenary_BountyHunter",
+            "icon": 2901939234,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1580751,
+            "name": "爆破炸药",
+            "desc": [
+                "{c_label}冷却时间:{/c} {c_resource}22{/c} 秒",
+                "苏波发射 {c_number} 枚能粘在敌人身上的4{/c}{c_important}爆破炸药{/c}。每枚炸药会在 {c_number}6.5{/c} 秒后或是目标死亡时引爆，造成 {c_number}60%{/c} 点物理伤害。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_BountyHunter_ExplosiveCharge",
+            "char": "Mercenary_BountyHunter",
+            "icon": 2218573702,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1580748,
+            "name": "狙击",
+            "desc": [
+                "{c_label}冷却时间：{/c} {c_resource}20{/c} 秒",
+                "苏波为一根大型的穿刺弩矢蓄力，之后将其向前释放，造成 {c_number}450%{/c} 点物理伤害并击退敌人。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_BountyHunter_Snipe",
+            "char": "Mercenary_BountyHunter",
+            "icon": 1896914492,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵招牌技能"
+            ],
+            "engTags": [
+                "Mercenary Iconic"
+            ]
+        },
+        {
+            "id": 1580735,
+            "name": "引线陷阱",
+            "desc": [
+                "{c_label}冷却时间：{/c} {c_resource}10{/c} 秒",
+                "苏波放置一个会在 {c_number}0.8{/c} 秒后启动的震荡陷阱。当敌人进入射程时，陷阱会引爆，造成 {c_number}80%{/c} 点物理伤害并击昏敌人 {c_number}2.0{/c} 秒。",
+                "",
+                "选择一个雇佣兵核心技能会转变其使用的武器和基础攻击。",
+                "{c_label}武器：{/c} {c_important}弓{/c}",
+                "{c_label}基础攻击：{/c} {c_important}沉重劲射{/c}",
+                "苏波向一名敌人发射一支硬化箭矢，造成 {c_number}80%{/c} 点物理伤害且有 {c_number}30%{/c} 几率将其击昏 {c_number}1.0{/c} 秒。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_BountyHunter_ConcussiveTrap",
+            "char": "Mercenary_BountyHunter",
+            "icon": 2439438646,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵核心技能"
+            ],
+            "engTags": [
+                "Mercenary Core"
+            ]
+        },
+        {
+            "id": 1580746,
+            "name": "燃烧弹",
+            "desc": [
+                "{c_label}冷却时间：{/c} {c_resource}11{/c} 秒",
+                "苏波向一名敌人投掷一个燃烧弹，在爆炸成烈焰之前造成 {c_number}10%{/c} 点物理伤害并将其击昏 {c_number}1.0{/c} 秒。接下来 {c_number}5{/c} 秒中，在该区域内的敌人会在 {c_number}3{/c} 秒内反复受到 {c_number}36%{/c} 点燃烧伤害。",
+                "",
+                "选择一个雇佣兵核心技能会转变其使用的武器和基础攻击。",
+                "{c_label}武器：{/c} {c_important}弩{/c}",
+                "{c_label}基础攻击：{/c} {c_important}齐射{/c}",
+                "苏波向一名敌人发射 {c_number}5{/c} 支弩矢，每支造成 {c_number}30%{/c} 点物理伤害。最后一只弩矢会爆炸，使敌人减速 {c_number}50%{/c}，持续 {c_number}2{/c} 秒。"
+            ],
+            "active": true,
+            "key": "NPC_Mercenary_BountyHunter_Molotov",
+            "char": "Mercenary_BountyHunter",
+            "icon": 673609261,
+            "ranks": 1,
+            "tags": [
+                "雇佣兵核心技能"
+            ],
+            "engTags": [
+                "Mercenary Core"
+            ]
+        }
+    ],
+    "skillTree": [
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 0,
+            "section": 0,
+            "group": 1,
+            "active_rank": 1,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": true,
+            "global_req": 0,
+            "row": "r1",
+            "column": "c1",
+            "after": "Bottom",
+            "left": 1050,
+            "top": 230,
+            "key": "NPC_Mercenary_ShieldBearer_Valiance"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 1,
+            "section": 1,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 0,
+            "choice": [
+                2
+            ],
+            "row": "r1",
+            "column": "c1",
+            "after": "Bottom",
+            "left": 900,
+            "top": 350,
+            "key": "NPC_Mercenary_ShieldBearer_ChargeSkill"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 2,
+            "section": 1,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 0,
+            "choice": [
+                1
+            ],
+            "row": "r1",
+            "column": "c2",
+            "after": "Bottom",
+            "left": 1200,
+            "top": 350,
+            "key": "NPC_Mercenary_ShieldBearer_GroundSlam"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 3,
+            "section": 2,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                1
+            ],
+            "choice": [
+                4
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 830,
+            "top": 470,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA1"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 4,
+            "section": 2,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                1
+            ],
+            "choice": [
+                3
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1010,
+            "top": 470,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA2"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 5,
+            "section": 2,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                2
+            ],
+            "choice": [
+                6
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1130,
+            "top": 470,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB1"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 6,
+            "section": 2,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                2
+            ],
+            "choice": [
+                5
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1310,
+            "top": 470,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB2"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 7,
+            "section": 3,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                3,
+                4
+            ],
+            "choice": [
+                8
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Left",
+            "after": "Bottom",
+            "left": 810,
+            "top": 590,
+            "key": "NPC_Mercenary_ShieldBearer_Provoke"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 8,
+            "section": 3,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                3,
+                4
+            ],
+            "choice": [
+                7
+            ],
+            "row": "r2",
+            "column": "c1",
+            "before": "Right",
+            "after": "Bottom",
+            "left": 990,
+            "top": 590,
+            "key": "NPC_Mercenary_ShieldBearer_Crater"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 9,
+            "section": 3,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                5,
+                6
+            ],
+            "choice": [
+                10
+            ],
+            "row": "r3",
+            "column": "c0",
+            "before": "Left",
+            "after": "Bottom",
+            "left": 1110,
+            "top": 590,
+            "key": "NPC_Mercenary_ShieldBearer_Bastion"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 10,
+            "section": 3,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                5,
+                6
+            ],
+            "choice": [
+                9
+            ],
+            "row": "r3",
+            "column": "c2",
+            "before": "Right",
+            "after": "Bottom",
+            "left": 1290,
+            "top": 590,
+            "key": "NPC_Mercenary_ShieldBearer_ShieldThrow"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 11,
+            "section": 4,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                7
+            ],
+            "choice": [
+                12
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 740,
+            "top": 740,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA3"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 12,
+            "section": 4,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                7
+            ],
+            "choice": [
+                11
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 830,
+            "top": 740,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA4"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 13,
+            "section": 4,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                8
+            ],
+            "choice": [
+                14
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 920,
+            "top": 740,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA6"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 14,
+            "section": 4,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                8
+            ],
+            "choice": [
+                13
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1010,
+            "top": 740,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveA5"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 15,
+            "section": 4,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                9
+            ],
+            "choice": [
+                16
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1130,
+            "top": 740,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB3"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 16,
+            "section": 4,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                9
+            ],
+            "choice": [
+                15
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1220,
+            "top": 740,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB4"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 17,
+            "section": 4,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                10
+            ],
+            "choice": [
+                18
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1310,
+            "top": 740,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB6"
+        },
+        {
+            "mercenary": "Mercenary_ShieldBearer",
+            "id": 18,
+            "section": 4,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                10
+            ],
+            "choice": [
+                17
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1400,
+            "top": 740,
+            "key": "NPC_Mercenary_ShieldBearer_PassiveB5"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 0,
+            "section": 0,
+            "group": 1,
+            "active_rank": 1,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": true,
+            "global_req": 0,
+            "row": "r1",
+            "column": "c1",
+            "after": "Bottom",
+            "left": 1050,
+            "top": 230,
+            "key": "Mercenary_BerserkerCrone_MassacrePassive2"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 1,
+            "section": 1,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 0,
+            "choice": [
+                2
+            ],
+            "row": "r1",
+            "column": "c1",
+            "after": "Bottom",
+            "left": 900,
+            "top": 350,
+            "key": "Mercenary_BerserkerCrone_Cleave"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 2,
+            "section": 1,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 0,
+            "choice": [
+                1
+            ],
+            "row": "r1",
+            "column": "c2",
+            "after": "Bottom",
+            "left": 1200,
+            "top": 350,
+            "key": "Mercenary_BerserkerCrone_Shockwave"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 3,
+            "section": 2,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                1
+            ],
+            "choice": [
+                4
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 830,
+            "top": 470,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA1"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 4,
+            "section": 2,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                1
+            ],
+            "choice": [
+                3
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1010,
+            "top": 470,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA2"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 5,
+            "section": 2,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                2
+            ],
+            "choice": [
+                6
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1130,
+            "top": 470,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB1"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 6,
+            "section": 2,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                2
+            ],
+            "choice": [
+                5
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1310,
+            "top": 470,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB2"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 7,
+            "section": 3,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                3,
+                4
+            ],
+            "choice": [
+                8
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Left",
+            "after": "Bottom",
+            "left": 810,
+            "top": 590,
+            "key": "Mercenary_BerserkerCrone_Bloodthirst"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 8,
+            "section": 3,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                3,
+                4
+            ],
+            "choice": [
+                7
+            ],
+            "row": "r2",
+            "column": "c1",
+            "before": "Right",
+            "after": "Bottom",
+            "left": 990,
+            "top": 590,
+            "key": "Mercenary_BerserkerCrone_Whirlwind"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 9,
+            "section": 3,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                5,
+                6
+            ],
+            "choice": [
+                10
+            ],
+            "row": "r3",
+            "column": "c0",
+            "before": "Left",
+            "after": "Bottom",
+            "left": 1110,
+            "top": 590,
+            "key": "Mercenary_BerserkerCrone_RumblingEarth"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 10,
+            "section": 3,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                5,
+                6
+            ],
+            "choice": [
+                9
+            ],
+            "row": "r3",
+            "column": "c2",
+            "before": "Right",
+            "after": "Bottom",
+            "left": 1290,
+            "top": 590,
+            "key": "Mercenary_BerserkerCrone_Harpoons"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 11,
+            "section": 4,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                7
+            ],
+            "choice": [
+                12
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 740,
+            "top": 740,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA3"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 12,
+            "section": 4,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                7
+            ],
+            "choice": [
+                11
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 830,
+            "top": 740,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA4"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 13,
+            "section": 4,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                8
+            ],
+            "choice": [
+                14
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 920,
+            "top": 740,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA6"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 14,
+            "section": 4,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                8
+            ],
+            "choice": [
+                13
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1010,
+            "top": 740,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveA5"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 15,
+            "section": 4,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                9
+            ],
+            "choice": [
+                16
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1130,
+            "top": 740,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB3"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 16,
+            "section": 4,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                9
+            ],
+            "choice": [
+                15
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1220,
+            "top": 740,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB4"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 17,
+            "section": 4,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                10
+            ],
+            "choice": [
+                18
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1310,
+            "top": 740,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB6"
+        },
+        {
+            "mercenary": "Mercenary_BerserkerCrone",
+            "id": 18,
+            "section": 4,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                10
+            ],
+            "choice": [
+                17
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1400,
+            "top": 740,
+            "key": "NPC_Mercenary_BerserkerCrone_passiveB5"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 0,
+            "section": 0,
+            "group": 1,
+            "active_rank": 1,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": true,
+            "global_req": 0,
+            "row": "r1",
+            "column": "c1",
+            "after": "Bottom",
+            "left": 1050,
+            "top": 230,
+            "key": "Mercenary_CursedChild_SummonDemonForm"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 1,
+            "section": 1,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 0,
+            "choice": [
+                2
+            ],
+            "row": "r1",
+            "column": "c1",
+            "after": "Bottom",
+            "left": 900,
+            "top": 350,
+            "key": "Mercenary_CursedChild_Haunt"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 2,
+            "section": 1,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 0,
+            "choice": [
+                1
+            ],
+            "row": "r1",
+            "column": "c2",
+            "after": "Bottom",
+            "left": 1200,
+            "top": 350,
+            "key": "Mercenary_CursedChild_FlameSurge"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 3,
+            "section": 2,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                1
+            ],
+            "choice": [
+                4
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 830,
+            "top": 470,
+            "key": "NPC_Mercenary_CursedChild_passiveA1"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 4,
+            "section": 2,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                1
+            ],
+            "choice": [
+                3
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1010,
+            "top": 470,
+            "key": "NPC_Mercenary_CursedChild_passiveA2"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 5,
+            "section": 2,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                2
+            ],
+            "choice": [
+                6
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1130,
+            "top": 470,
+            "key": "NPC_Mercenary_CursedChild_passiveB1"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 6,
+            "section": 2,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                2
+            ],
+            "choice": [
+                5
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1310,
+            "top": 470,
+            "key": "NPC_Mercenary_CursedChild_passiveB2"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 7,
+            "section": 3,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                3,
+                4
+            ],
+            "choice": [
+                8
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Left",
+            "after": "Bottom",
+            "left": 810,
+            "top": 590,
+            "key": "Mercenary_CursedChild_Wither"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 8,
+            "section": 3,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                3,
+                4
+            ],
+            "choice": [
+                7
+            ],
+            "row": "r2",
+            "column": "c1",
+            "before": "Right",
+            "after": "Bottom",
+            "left": 990,
+            "top": 590,
+            "key": "mercenary_cursedChild_soulChain"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 9,
+            "section": 3,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                5,
+                6
+            ],
+            "choice": [
+                10
+            ],
+            "row": "r3",
+            "column": "c0",
+            "before": "Left",
+            "after": "Bottom",
+            "left": 1110,
+            "top": 590,
+            "key": "Mercenary_CursedChild_FireStorm"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 10,
+            "section": 3,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                5,
+                6
+            ],
+            "choice": [
+                9
+            ],
+            "row": "r3",
+            "column": "c2",
+            "before": "Right",
+            "after": "Bottom",
+            "left": 1290,
+            "top": 590,
+            "key": "Mercenary_CursedChild_WaveOfFlame"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 11,
+            "section": 4,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                7
+            ],
+            "choice": [
+                12
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 740,
+            "top": 740,
+            "key": "NPC_Mercenary_CursedChild_passiveA3"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 12,
+            "section": 4,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                7
+            ],
+            "choice": [
+                11
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 830,
+            "top": 740,
+            "key": "NPC_Mercenary_CursedChild_passiveA4"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 13,
+            "section": 4,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                8
+            ],
+            "choice": [
+                14
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 920,
+            "top": 740,
+            "key": "NPC_Mercenary_CursedChild_passiveA6"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 14,
+            "section": 4,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                8
+            ],
+            "choice": [
+                13
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1010,
+            "top": 740,
+            "key": "NPC_Mercenary_CursedChild_passiveA5"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 15,
+            "section": 4,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                9
+            ],
+            "choice": [
+                16
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1130,
+            "top": 740,
+            "key": "NPC_Mercenary_CursedChild_passiveB3"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 16,
+            "section": 4,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                9
+            ],
+            "choice": [
+                15
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1220,
+            "top": 740,
+            "key": "NPC_Mercenary_CursedChild_passiveB4"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 17,
+            "section": 4,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                10
+            ],
+            "choice": [
+                18
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1310,
+            "top": 740,
+            "key": "NPC_Mercenary_CursedChild_passiveB6"
+        },
+        {
+            "mercenary": "Mercenary_CursedChild",
+            "id": 18,
+            "section": 4,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                10
+            ],
+            "choice": [
+                17
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1400,
+            "top": 740,
+            "key": "NPC_Mercenary_CursedChild_passiveB5"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 0,
+            "section": 0,
+            "group": 1,
+            "active_rank": 1,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": true,
+            "global_req": 0,
+            "row": "r1",
+            "column": "c1",
+            "after": "Bottom",
+            "left": 1050,
+            "top": 230,
+            "key": "NPC_Mercenary_BountyHunter_Perk"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 1,
+            "section": 1,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 0,
+            "choice": [
+                2
+            ],
+            "row": "r1",
+            "column": "c1",
+            "after": "Bottom",
+            "left": 900,
+            "top": 350,
+            "key": "NPC_Mercenary_BountyHunter_ConcussiveTrap"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 2,
+            "section": 1,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 0,
+            "choice": [
+                1
+            ],
+            "row": "r1",
+            "column": "c2",
+            "after": "Bottom",
+            "left": 1200,
+            "top": 350,
+            "key": "NPC_Mercenary_BountyHunter_Molotov"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 3,
+            "section": 2,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                1
+            ],
+            "choice": [
+                4
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 830,
+            "top": 470,
+            "key": "NPC_Mercenary_BountyHunter_passiveA1"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 4,
+            "section": 2,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                1
+            ],
+            "choice": [
+                3
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1010,
+            "top": 470,
+            "key": "NPC_Mercenary_BountyHunter_passiveA2"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 5,
+            "section": 2,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                2
+            ],
+            "choice": [
+                6
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1130,
+            "top": 470,
+            "key": "NPC_Mercenary_BountyHunter_passiveB1"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 6,
+            "section": 2,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 1,
+            "pre_req": [
+                2
+            ],
+            "choice": [
+                5
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1310,
+            "top": 470,
+            "key": "NPC_Mercenary_BountyHunter_passiveB2"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 7,
+            "section": 3,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                3,
+                4
+            ],
+            "choice": [
+                8
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Left",
+            "after": "Bottom",
+            "left": 810,
+            "top": 590,
+            "key": "NPC_Mercenary_BountyHunter_Volley"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 8,
+            "section": 3,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                3,
+                4
+            ],
+            "choice": [
+                7
+            ],
+            "row": "r2",
+            "column": "c1",
+            "before": "Right",
+            "after": "Bottom",
+            "left": 990,
+            "top": 590,
+            "key": "NPC_Mercenary_BountyHunter_ScatterTraps"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 9,
+            "section": 3,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                5,
+                6
+            ],
+            "choice": [
+                10
+            ],
+            "row": "r3",
+            "column": "c0",
+            "before": "Left",
+            "after": "Bottom",
+            "left": 1110,
+            "top": 590,
+            "key": "NPC_Mercenary_BountyHunter_Snipe"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 10,
+            "section": 3,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": true,
+            "no_interact": false,
+            "global_req": 2,
+            "pre_req": [
+                5,
+                6
+            ],
+            "choice": [
+                9
+            ],
+            "row": "r3",
+            "column": "c2",
+            "before": "Right",
+            "after": "Bottom",
+            "left": 1290,
+            "top": 590,
+            "key": "NPC_Mercenary_BountyHunter_ExplosiveCharge"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 11,
+            "section": 4,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                7
+            ],
+            "choice": [
+                12
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 740,
+            "top": 740,
+            "key": "NPC_Mercenary_BountyHunter_passiveA3"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 12,
+            "section": 4,
+            "group": 1,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                7
+            ],
+            "choice": [
+                11
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 830,
+            "top": 740,
+            "key": "NPC_Mercenary_BountyHunter_passiveA4"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 13,
+            "section": 4,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                8
+            ],
+            "choice": [
+                14
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 920,
+            "top": 740,
+            "key": "NPC_Mercenary_BountyHunter_passiveA5"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 14,
+            "section": 4,
+            "group": 2,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                8
+            ],
+            "choice": [
+                13
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1010,
+            "top": 740,
+            "key": "NPC_Mercenary_BountyHunter_passiveA6"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 15,
+            "section": 4,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                9
+            ],
+            "choice": [
+                16
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1130,
+            "top": 740,
+            "key": "NPC_Mercenary_BountyHunter_passiveB3"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 16,
+            "section": 4,
+            "group": 3,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                9
+            ],
+            "choice": [
+                15
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1220,
+            "top": 740,
+            "key": "NPC_Mercenary_BountyHunter_passiveB4"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 17,
+            "section": 4,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                10
+            ],
+            "choice": [
+                18
+            ],
+            "row": "r1",
+            "column": "c1",
+            "before": "Right",
+            "left": 1310,
+            "top": 740,
+            "key": "NPC_Mercenary_BountyHunter_passiveB6"
+        },
+        {
+            "mercenary": "Mercenary_BountyHunter",
+            "id": 18,
+            "section": 4,
+            "group": 4,
+            "active_rank": 0,
+            "total_rank": 1,
+            "large": false,
+            "no_interact": false,
+            "global_req": 3,
+            "pre_req": [
+                10
+            ],
+            "choice": [
+                17
+            ],
+            "row": "r1",
+            "column": "c2",
+            "before": "Left",
+            "left": 1400,
+            "top": 740,
+            "key": "NPC_Mercenary_BountyHunter_passiveB5"
+        }
+    ],
+    "mecenaries": [
+        {
+            "key": "Mercenary_BerserkerCrone",
+            "name": "瓦尔亚纳",
+            "typeName": "狂暴悍妇"
+        },
+        {
+            "key": "Mercenary_BountyHunter",
+            "name": "苏波",
+            "typeName": "赏金猎人"
+        },
+        {
+            "key": "Mercenary_CursedChild",
+            "name": "奥德金",
+            "typeName": "神弃之子"
+        },
+        {
+            "key": "Mercenary_ShieldBearer",
+            "name": "拉赫尔",
+            "typeName": "负盾者"
+        }
+    ],
+    "opportunity": [
+        {
+            "key": "Opportunity_Cast_When_Available",
+            "icon": 3062347201,
+            "desc": "在玩家于战斗中施放任何技能时施放。"
+        },
+        {
+            "key": "Opportunity_Cast_When_Health_Low",
+            "icon": 3015758820,
+            "desc": "在玩家{c_important}受伤{/c}时施放。"
+        },
+        {
+            "key": "Opportunity_Cast_When_Player_Is_Crowd_Controlled",
+            "icon": 3760871682,
+            "desc": "在玩家受到控制类限制效果影响时施放。"
+        }
+    ]
+}

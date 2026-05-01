@@ -1,0 +1,2094 @@
+{
+  "source_build": {
+    "source_url": "https://www.d2core.com/d4/planner/1STz",
+    "build_name": "【星落】S13 术士开荒阶梯级攻略（全新思路一板一眼） - 暗爪新思路（一板一眼 同步测试中）"
+  },
+  "build_profile": {
+    "class": "Warlock",
+    "build_name": "【星落】S13 术士开荒阶梯级攻略（全新思路一板一眼） - 暗爪新思路（一板一眼 同步测试中）",
+    "build_type": [
+      "leveling"
+    ],
+    "damage_types": [
+      "暗影伤害",
+      "火焰伤害",
+      "物理伤害"
+    ],
+    "skill_tags": [
+      "伤害",
+      "冷却时间",
+      "剔骨",
+      "变形",
+      "召唤",
+      "地狱火",
+      "妖术",
+      "幽冥行走",
+      "恶魔学",
+      "恶魔形态",
+      "愤怒",
+      "战术大师恶魔",
+      "控制",
+      "支配力",
+      "易伤",
+      "暗影",
+      "暗影形态",
+      "暗黑监牢",
+      "机动",
+      "核心",
+      "横冲直撞",
+      "流血",
+      "深渊",
+      "火焰",
+      "灵魂碎片",
+      "灵魂碎片命令",
+      "物理",
+      "秘术",
+      "移动",
+      "符印",
+      "终极技能",
+      "防御",
+      "颠覆符印",
+      "高等恶魔",
+      "高阶恶魔",
+      "魔指利爪"
+    ],
+    "reference_filters": [
+      "Archetype_Warlock_Mastermind_Support",
+      "Archetype_Warlock_Ritualist_Signature",
+      "FILTER_Build_All_Generic",
+      "FILTER_Legendary_Offensive",
+      "FILTER_Legendary_Utility",
+      "Keyword_Hex",
+      "Keyword_Shadowform",
+      "Keyword_Unstoppable",
+      "Keyword_Weaken",
+      "Search_AttackSpeed",
+      "Search_Copy_Core",
+      "Search_Critical",
+      "Search_CrowdControl",
+      "Search_Damage",
+      "Search_ResourceDominance",
+      "Search_ResourceWrath",
+      "Search_Shadow",
+      "Skill_Abyss",
+      "Skill_Demonology",
+      "Skill_Primary_Core"
+    ],
+    "keywords": [
+      "Archetype_Warlock_Mastermind_Support",
+      "Archetype_Warlock_Ritualist_Signature",
+      "FILTER_Build_All_Generic",
+      "FILTER_Legendary_Offensive",
+      "FILTER_Legendary_Utility",
+      "Keyword_Hex",
+      "Keyword_Shadowform",
+      "Keyword_Unstoppable",
+      "Keyword_Weaken",
+      "Search_AttackSpeed",
+      "Search_Copy_Core",
+      "Search_Critical",
+      "Search_CrowdControl",
+      "Search_Damage",
+      "Search_ResourceDominance",
+      "Search_ResourceWrath",
+      "Search_Shadow",
+      "Skill_Abyss",
+      "Skill_Demonology",
+      "Skill_Primary_Core",
+      "不可阻挡",
+      "伤害",
+      "伤害减免",
+      "冷却",
+      "冷却时间",
+      "剔骨",
+      "变形",
+      "召唤",
+      "地狱火",
+      "妖术",
+      "幸运一击",
+      "幽冥行走",
+      "恶魔",
+      "恶魔学",
+      "恶魔形态",
+      "愤怒",
+      "战术大师恶魔",
+      "抗性",
+      "护甲",
+      "控制",
+      "支配力",
+      "攻击速度",
+      "易伤",
+      "暗影",
+      "暗影伤害",
+      "暗影形态",
+      "暗黑监牢",
+      "暴击",
+      "暴击伤害",
+      "暴击几率",
+      "机动",
+      "核心",
+      "横冲直撞",
+      "流血",
+      "深渊",
+      "火焰",
+      "火焰伤害",
+      "灵魂碎片",
+      "灵魂碎片命令",
+      "物理",
+      "物理伤害",
+      "生命",
+      "秘术",
+      "移动",
+      "移动速度",
+      "符印",
+      "精英",
+      "终极技能",
+      "虚弱",
+      "资源",
+      "防御",
+      "颠覆符印",
+      "高等恶魔",
+      "高阶恶魔",
+      "魔指利爪"
+    ],
+    "used_aspect_keys": [
+      "Affix_Legendary_Generic_110",
+      "Affix_Legendary_Generic_111",
+      "Affix_legendary_barb_005_x2",
+      "Affix_legendary_necro_105",
+      "Affix_legendary_warlock_001_x2",
+      "Affix_legendary_warlock_004_x2",
+      "Affix_legendary_warlock_019_x2"
+    ],
+    "used_unique_keys": [
+      "1HDagger_Unique_Warlock_001",
+      "Helm_Unique_Generic_004",
+      "Ring_Unique_Generic_101"
+    ],
+    "used_affix_keys": [
+      "S04_AttackSpeed",
+      "S04_CoreStat_Willpower",
+      "S04_CritDamage",
+      "S04_Life",
+      "S04_Movement_Speed",
+      "S04_Resistance_All",
+      "Tempered_CritDamage_Generic_All_Tier3",
+      "Tempered_Generic_AttackSpeed_Tier3",
+      "Tempered_Generic_LifeMax_Tier3",
+      "Tempered_Generic_LuckyHit_Resource_Tier3",
+      "Tempered_MovementSpeed_Generic_Tier3",
+      "UBERUNIQUE_AttackSpeed_RingofStarlessSkies",
+      "UBERUNIQUE_CritChance_HeirOfPerdition",
+      "UBERUNIQUE_CritChance_RingofStarlessSkies",
+      "UBERUNIQUE_Luck_HeirOfPerdition",
+      "UBERUNIQUE_Luck_RingofStarlessSkies",
+      "UBERUNIQUE_Movement_Speed_HeirOfPerdition",
+      "UBERUNIQUE_SkillRankBonus_Generic_Category_Core_HeirOfPerdition",
+      "UBERUNIQUE_SkillRankBonus_Generic_Category_Core_RingofStarlessSkies",
+      "X2_Armor_Greater",
+      "X2_CoreStat_Willpower_Greater",
+      "X2_CritDamage_Greater",
+      "X2_Fast_Weapon_Damage_1HAxe",
+      "X2_Life_Greater",
+      "X2_SkillRankBonus_Warlock_Core_DreadClaws",
+      "X2_Transfiguration_AttackSpeed",
+      "X2_Transfiguration_CoreStat_WillpowerPercent",
+      "X2_Transfiguration_CoreStat_Willpower_Lesser",
+      "X2_VeryFast_Weapon_Damage_1HDagger"
+    ],
+    "used_glyph_keys": [
+      "ParagonGlyph_117",
+      "ParagonGlyph_120",
+      "ParagonGlyph_123",
+      "ParagonGlyph_128",
+      "Rare_Will_Generic"
+    ],
+    "used_legendary_node_keys": [
+      "Warlock_Legendary_002",
+      "Warlock_Legendary_006",
+      "Warlock_Legendary_007",
+      "Warlock_Legendary_010"
+    ]
+  },
+  "candidate_pool": {
+    "aspects": [
+      {
+        "name": "元素命运之威能",
+        "key": "Affix_legendary_generic_114",
+        "already_used": false,
+        "score": 13,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Build_All_Generic",
+          "keyword:FILTER_Legendary_Offensive",
+          "keyword:Search_Damage",
+          "keyword:Search_Shadow",
+          "keyword:伤害",
+          "keyword:暗影",
+          "keyword:火焰",
+          "keyword:物理",
+          "filter:FILTER_Build_All_Generic",
+          "filter:FILTER_Legendary_Offensive",
+          "filter:Search_Damage",
+          "filter:Search_Shadow"
+        ],
+        "aspect_type": "Offensive",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "description": "其中一组伤害类型的伤害提高 [40 - 60]%[x]，持续 7 秒。该效果会在 2 组伤害类型之间随机交替: {icon:bullet}火焰、闪电、神圣和物理。 {icon:bullet}冰霜、毒素和暗影。 命运可能眷顾你，给予至少一次相同的加成，最多叠加 6 次。达到最大值时，今天就是你的幸运日！",
+        "filters": [
+          "FILTER_Build_All_Generic",
+          "Search_Damage",
+          "Search_Fire",
+          "Search_Lightning",
+          "Search_Physical",
+          "Search_Cold",
+          "Search_Poison",
+          "Search_Shadow",
+          "FILTER_Legendary_Offensive"
+        ]
+      },
+      {
+        "name": "逸脱威能",
+        "key": "Affix_legendary_generic_103",
+        "already_used": false,
+        "score": 13,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Build_All_Generic",
+          "keyword:FILTER_Legendary_Utility",
+          "keyword:Keyword_Unstoppable",
+          "keyword:Search_CrowdControl",
+          "keyword:不可阻挡",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:控制",
+          "filter:FILTER_Build_All_Generic",
+          "filter:FILTER_Legendary_Utility",
+          "filter:Keyword_Unstoppable",
+          "filter:Search_CrowdControl"
+        ],
+        "aspect_type": "Utility",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "description": "在受伤状态下受到控制效果影响时，会使你获得不可阻挡，持续 4 秒。此效果有 [6 - 4] 秒冷却时间。",
+        "filters": [
+          "HoradricCube_Legendary_Utility_Mobility",
+          "FILTER_Legendary_Utility",
+          "FILTER_Build_All_Generic",
+          "Keyword_Injured",
+          "Keyword_Unstoppable",
+          "Search_CrowdControl"
+        ]
+      },
+      {
+        "name": "凶魔压制之威能",
+        "key": "Affix_legendary_warlock_026_x2",
+        "already_used": false,
+        "score": 12,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Legendary_Utility",
+          "keyword:Search_CrowdControl",
+          "keyword:Search_Damage",
+          "keyword:伤害",
+          "keyword:召唤",
+          "keyword:恶魔",
+          "keyword:控制",
+          "keyword:高阶恶魔",
+          "filter:FILTER_Legendary_Utility",
+          "filter:Search_CrowdControl",
+          "filter:Search_Damage"
+        ],
+        "aspect_type": "Utility",
+        "char": [
+          "Warlock"
+        ],
+        "description": "召唤一个高阶恶魔会将其周围敌人击倒 5 秒。你的低阶恶魔技能对受到控制效果影响的敌人造成的伤害提高 [10 - 20]%[x]。",
+        "filters": [
+          "FILTER_Legendary_Utility",
+          "HoradricCube_Legendary_Utility_Mobility",
+          "Search_CrowdControl",
+          "Search_Damage",
+          "Skill_Greater_Demon",
+          "Skill_Lesser_Demon",
+          "Archetype_Warlock_Legion_Support"
+        ]
+      },
+      {
+        "name": "威势威能",
+        "key": "Affix_legendary_warlock_008_x2",
+        "already_used": false,
+        "score": 12,
+        "reasons": [
+          "class_compatible",
+          "keyword:Archetype_Warlock_Ritualist_Signature",
+          "keyword:FILTER_Legendary_Offensive",
+          "keyword:Keyword_Hex",
+          "keyword:Search_Damage",
+          "keyword:伤害",
+          "keyword:妖术",
+          "keyword:精英",
+          "filter:Archetype_Warlock_Ritualist_Signature",
+          "filter:FILTER_Legendary_Offensive",
+          "filter:Keyword_Hex",
+          "filter:Search_Damage"
+        ],
+        "aspect_type": "Offensive",
+        "char": [
+          "Warlock"
+        ],
+        "description": "命中精英敌人会使造成的伤害提高 [80 - 120]%[x]，但需要消耗 4 层 压制。如果敌人中了妖术，则不会消耗任何层数。",
+        "filters": [
+          "FILTER_Legendary_Offensive",
+          "Keyword_Overpower",
+          "Keyword_Hex",
+          "Search_Damage",
+          "Archetype_Warlock_Ritualist_Signature"
+        ]
+      },
+      {
+        "name": "无底暗渊之威能",
+        "key": "Affix_legendary_warlock_011_x2",
+        "already_used": false,
+        "score": 12,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Legendary_Offensive",
+          "keyword:Search_Damage",
+          "keyword:Skill_Abyss",
+          "keyword:伤害",
+          "keyword:伤害减免",
+          "keyword:抗性",
+          "keyword:暗影",
+          "keyword:深渊",
+          "filter:FILTER_Legendary_Offensive",
+          "filter:Search_Damage",
+          "filter:Skill_Abyss"
+        ],
+        "aspect_type": "Offensive",
+        "char": [
+          "Warlock"
+        ],
+        "description": "你的深渊技能造成的伤害提高，数值相当于你暗影抗性伤害减免的 [60 - 80]%。",
+        "filters": [
+          "FILTER_Legendary_Offensive",
+          "Skill_Abyss",
+          "Search_Resistance",
+          "Search_Damage",
+          "Archetype_Warlock_Mastermind_Signature"
+        ]
+      },
+      {
+        "name": "邪祟威能",
+        "key": "Affix_legendary_warlock_031_x2",
+        "already_used": false,
+        "score": 12,
+        "reasons": [
+          "class_compatible",
+          "keyword:Archetype_Warlock_Mastermind_Support",
+          "keyword:FILTER_Legendary_Utility",
+          "keyword:Keyword_Shadowform",
+          "keyword:Search_CrowdControl",
+          "keyword:控制",
+          "keyword:暗影",
+          "keyword:暗影形态",
+          "filter:Archetype_Warlock_Mastermind_Support",
+          "filter:FILTER_Legendary_Utility",
+          "filter:Keyword_Shadowform",
+          "filter:Search_CrowdControl"
+        ],
+        "aspect_type": "Utility",
+        "char": [
+          "Warlock"
+        ],
+        "description": "在暗影形态下被控制时，消耗一层暗影形态，将控制效果反弹给攻击者，并使暗影形态适应该效果类型，使你在接下来 [4.0 - 8.0] 秒内对控制免疫。",
+        "filters": [
+          "FILTER_Legendary_Utility",
+          "HoradricCube_Legendary_Utility_Mobility",
+          "Keyword_Shadowform",
+          "Search_CrowdControl",
+          "Archetype_Warlock_Mastermind_Support"
+        ]
+      },
+      {
+        "name": "恶魔的威能",
+        "key": "Affix_legendary_warlock_009_x2",
+        "already_used": false,
+        "score": 10,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Legendary_Offensive",
+          "keyword:Search_Damage",
+          "keyword:Skill_Demonology",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:恶魔学",
+          "filter:FILTER_Legendary_Offensive",
+          "filter:Search_Damage",
+          "filter:Skill_Demonology"
+        ],
+        "aspect_type": "Offensive",
+        "char": [
+          "Warlock"
+        ],
+        "description": "恶魔学技能每次命中都会使你用恶魔学技能造成的伤害提高 [2.3 - 3.3]%[x]，持续 10 秒，最多提高 [45 - 65]%[x]。",
+        "filters": [
+          "FILTER_Legendary_Offensive",
+          "Skill_Demonology",
+          "Search_Damage",
+          "Archetype_Warlock_Legion_Signature"
+        ]
+      },
+      {
+        "name": "焦灼之威能",
+        "key": "Affix_legendary_warlock_010_x2",
+        "already_used": false,
+        "score": 10,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Legendary_Offensive",
+          "keyword:Search_Damage",
+          "keyword:伤害",
+          "keyword:伤害减免",
+          "keyword:地狱火",
+          "keyword:抗性",
+          "keyword:火焰",
+          "filter:FILTER_Legendary_Offensive",
+          "filter:Search_Damage"
+        ],
+        "aspect_type": "Offensive",
+        "char": [
+          "Warlock"
+        ],
+        "description": "你的地狱火技能造成的伤害提高，数值相当于你火焰抗性伤害减免的 [60 - 80]%。",
+        "filters": [
+          "FILTER_Legendary_Offensive",
+          "Search_Damage",
+          "Search_Resistance",
+          "Skill_Hellfire",
+          "Archetype_Warlock_Vanguard_Signature"
+        ]
+      },
+      {
+        "name": "蓄势待击之威能",
+        "key": "Affix_legendary_generic_067",
+        "already_used": false,
+        "score": 10,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Build_All_Generic",
+          "keyword:FILTER_Legendary_Offensive",
+          "keyword:Search_Copy_Core",
+          "keyword:Skill_Primary_Core",
+          "keyword:伤害",
+          "filter:FILTER_Build_All_Generic",
+          "filter:FILTER_Legendary_Offensive",
+          "filter:Search_Copy_Core",
+          "filter:Skill_Primary_Core"
+        ],
+        "aspect_type": "Offensive",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "description": "基础技能使造成的伤害提高 [4.0 - 6.0]%[x]，持续 4 秒，最多叠加 10 次。",
+        "filters": [
+          "FILTER_Legendary_Offensive",
+          "FILTER_Build_All_Generic",
+          "Skill_Primary_Basic",
+          "Skill_Primary_Core",
+          "Search_Copy_Core"
+        ]
+      },
+      {
+        "name": "仪祭同调之威能",
+        "key": "Affix_legendary_warlock_036_x2",
+        "already_used": false,
+        "score": 9,
+        "reasons": [
+          "class_compatible",
+          "keyword:Skill_Abyss",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:地狱火",
+          "keyword:深渊",
+          "keyword:秘术",
+          "keyword:资源",
+          "filter:Skill_Abyss"
+        ],
+        "aspect_type": "Resource",
+        "char": [
+          "Warlock"
+        ],
+        "description": "施放地狱火技能会使秘术技能的冷却时间缩短 [30 - 50]%，持续 3 秒。施放深渊技能会使秘术技能的资源消耗降低 [30 - 50]%，持续 3 秒。",
+        "filters": [
+          "FILTER_Legendary_Resource",
+          "Search_Resource",
+          "Search_Cooldown",
+          "Skill_Hellfire",
+          "Skill_Abyss",
+          "Skill_Occult"
+        ]
+      },
+      {
+        "name": "异端之威能",
+        "key": "Affix_legendary_warlock_012_x2",
+        "already_used": false,
+        "score": 9,
+        "reasons": [
+          "class_compatible",
+          "keyword:Archetype_Warlock_Ritualist_Signature",
+          "keyword:FILTER_Legendary_Offensive",
+          "keyword:Search_Damage",
+          "keyword:伤害",
+          "keyword:秘术",
+          "filter:Archetype_Warlock_Ritualist_Signature",
+          "filter:FILTER_Legendary_Offensive",
+          "filter:Search_Damage"
+        ],
+        "aspect_type": "Offensive",
+        "char": [
+          "Warlock"
+        ],
+        "description": "每次施放与前一次不同的秘术技能，都会使你造成的所有伤害提高 [10.0 - 14.0]%[x]，持续 15 秒。",
+        "filters": [
+          "FILTER_Legendary_Offensive",
+          "Skill_Occult",
+          "Search_Damage",
+          "Archetype_Warlock_Ritualist_Signature"
+        ]
+      },
+      {
+        "name": "恶魔护甲之威能",
+        "key": "Affix_legendary_warlock_018_x2",
+        "already_used": false,
+        "score": 9,
+        "reasons": [
+          "class_compatible",
+          "keyword:Search_Damage",
+          "keyword:伤害",
+          "keyword:伤害减免",
+          "keyword:恶魔",
+          "keyword:恶魔形态",
+          "keyword:护甲",
+          "keyword:火焰",
+          "keyword:火焰伤害"
+        ],
+        "aspect_type": "Defensive",
+        "char": [
+          "Warlock"
+        ],
+        "description": "恶魔形态提供 20% 伤害减免，并且每当你受到火焰伤害时，额外获得 [0.5 - 1.0]% 伤害减免，持续 5 秒，最多提高 [5 - 10]%。",
+        "filters": [
+          "FILTER_Legendary_Defensive",
+          "Keyword_Demonform",
+          "Search_DamageReduction",
+          "Search_Fire",
+          "Archetype_Warlock_Vanguard_Support"
+        ]
+      },
+      {
+        "name": "无光威能",
+        "key": "Affix_legendary_necro_126",
+        "already_used": false,
+        "score": 9,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Legendary_Utility",
+          "keyword:Search_Shadow",
+          "keyword:伤害",
+          "keyword:幸运一击",
+          "keyword:暗影",
+          "keyword:暗影伤害",
+          "filter:FILTER_Legendary_Utility",
+          "filter:Search_Shadow"
+        ],
+        "aspect_type": "Utility",
+        "char": [
+          "Rogue",
+          "Necromancer",
+          "Warlock"
+        ],
+        "description": "暗影伤害的幸运一击几率提高 [20 - 30]%[x]。",
+        "filters": [
+          "HoradricCube_Legendary_Utility_Mobility",
+          "FILTER_Legendary_Utility",
+          "Search_Shadow",
+          "Search_LuckyHit"
+        ]
+      },
+      {
+        "name": "月升之威能",
+        "key": "Affix_legendary_generic_120",
+        "already_used": false,
+        "score": 9,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Legendary_Offensive",
+          "keyword:Search_AttackSpeed",
+          "keyword:伤害",
+          "keyword:攻击速度",
+          "keyword:移动",
+          "keyword:移动速度",
+          "filter:FILTER_Legendary_Offensive",
+          "filter:Search_AttackSpeed"
+        ],
+        "aspect_type": "Offensive",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "description": "使用基础技能对敌人造成伤害会使你的攻击速度提高 4%，持续 10 秒，该效果至多可叠加 5 次。在达到最大层数时进入吸血鬼血怒状态，获得 [40 - 60]%[x] 基础技能伤害和 15% 移动速度，持续 10 秒。",
+        "filters": [
+          "FILTER_Legendary_Offensive",
+          "Search_AttackSpeed",
+          "Skill_Primary_Basic",
+          "Search_MovementSpeed"
+        ]
+      },
+      {
+        "name": "极点狂暴之威能",
+        "key": "Affix_legendary_generic_126",
+        "already_used": false,
+        "score": 9,
+        "reasons": [
+          "class_compatible",
+          "keyword:FILTER_Legendary_Offensive",
+          "keyword:Search_Damage",
+          "keyword:伤害",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:终极技能",
+          "filter:FILTER_Legendary_Offensive",
+          "filter:Search_Damage"
+        ],
+        "aspect_type": "Offensive",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "description": "施放终极技能使你的终极技能伤害提高 [6.0 - 10.0]%[x]，最多提高 [60 - 100]%[x]。叠加至 10 层时，此加成和你的冷却时间重置。",
+        "filters": [
+          "Search_Copy_Ultimate",
+          "Search_Damage",
+          "Search_Cooldown",
+          "FILTER_Legendary_Offensive"
+        ]
+      }
+    ],
+    "uniques": [
+      {
+        "name": "谐角之冠",
+        "key": "Helm_Unique_Generic_002",
+        "already_used": false,
+        "score": 8,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:伤害减免",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:护甲",
+          "keyword:生命",
+          "keyword:资源"
+        ],
+        "equip_type": "Helm",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "is_mythic": true,
+        "description": [
+          "10.0% 冷却时间缩减",
+          "+2,000 生命上限",
+          "+18 资源上限",
+          "+1,500 护甲值",
+          "获得 20% 伤害减免。此外, 所有技能级别 +4。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "塞利格的溶解之心",
+        "key": "Amulet_Unique_Generic_100",
+        "already_used": false,
+        "score": 7,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:幸运一击",
+          "keyword:生命",
+          "keyword:移动",
+          "keyword:移动速度",
+          "keyword:资源"
+        ],
+        "equip_type": "Amulet",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "is_mythic": true,
+        "description": [
+          "+12.0% 全属性",
+          "+15.0% 幸运一击几率",
+          "+25% 移动速度",
+          "20.0% 资源生成",
+          "你受到的伤害会先扣除你的主要资源而不是生命，并且以这种方式承受的伤害将被大幅降低。 你的主要资源翻倍，但生命上限降低 75%。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "损耗殆尽之缚",
+        "key": "Pants_Unique_Warlock_003",
+        "already_used": false,
+        "score": 7,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:伤害减免",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:暗黑监牢",
+          "keyword:生命"
+        ],
+        "equip_type": "Legs",
+        "char": [
+          "Warlock"
+        ],
+        "is_mythic": false,
+        "description": [
+          "施放暗黑监牢会消耗你生命上限的 48% 以重置其冷却时间。当暗黑监牢处于激活状态时，你获得 [20 - 30]% 伤害减免。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "末日使者",
+        "key": "1HSword_Unique_Generic_001",
+        "already_used": false,
+        "score": 7,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:伤害减免",
+          "keyword:幸运一击",
+          "keyword:暗影",
+          "keyword:暗影伤害",
+          "keyword:生命"
+        ],
+        "equip_type": "Sword",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "is_mythic": true,
+        "description": [
+          "+160 点全属性",
+          "10.0% 伤害减免",
+          "+338 击中回复生命",
+          "15.0% 生命上限",
+          "幸运一击：最多有 40% 几率对周围敌人造成 1,500 点暗影伤害，并使其造成的伤害降低 25%，持续 5 秒。"
+        ],
+        "damage_details": [
+          "每次命中伤害[1,024 - 1,534]",
+          "每秒攻击次数(快):1.10"
+        ]
+      },
+      {
+        "name": "泰瑞尔之力",
+        "key": "Chest_Unique_Generic_127",
+        "already_used": false,
+        "score": 7,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:伤害减免",
+          "keyword:抗性",
+          "keyword:生命",
+          "keyword:移动",
+          "keyword:移动速度"
+        ],
+        "equip_type": "ChestArmor",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "is_mythic": true,
+        "description": [
+          "20.0% 伤害减免",
+          "+17% 移动速度",
+          "+400 点全元素抗性",
+          "+25.0% 全元素抗性",
+          "生命值全满时，你的技能会释放一个神圣乱射，造成 450 点伤害。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "魔神绝罚",
+        "key": "2HSword_Unique_Warlock_001",
+        "already_used": false,
+        "score": 7,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:恶魔形态",
+          "keyword:愤怒",
+          "keyword:核心",
+          "keyword:高等恶魔"
+        ],
+        "equip_type": "Sword2H",
+        "char": [
+          "Warlock"
+        ],
+        "is_mythic": false,
+        "description": [
+          "每用一个核心技能击中敌人就会使其受到来自你的伤害提高 [15 - 20]%[x]，最多提高 [45 - 60]%[x]。高等恶魔的恶魔形态技能变种属于核心技能，并且消耗愤怒值。"
+        ],
+        "damage_details": [
+          "每次命中伤害[1,739 - 2,607]",
+          "每秒攻击次数(慢):1.00"
+        ]
+      },
+      {
+        "name": "凋萎潜能",
+        "key": "Gloves_Unique_Rogue_101",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:暴击",
+          "keyword:暴击几率",
+          "keyword:物理",
+          "keyword:物理伤害"
+        ],
+        "equip_type": "Gloves",
+        "char": [],
+        "is_mythic": false,
+        "description": [
+          "+[57.0 - 75.0]% 非物理伤害",
+          "+[9.0 - 11.0]% 暴击几率",
+          "+[5 - 7] 至快刀乱刺",
+          "+[80 - 94] 点敏捷",
+          "该物品的力量消散殆尽，现在已经毫无价值了。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "加速头盔",
+        "key": "Helm_Unique_Generic_Boost_NoPowers",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:伤害减免",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:抗性"
+        ],
+        "equip_type": "Helm",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "is_mythic": false,
+        "description": [
+          "[35.3 - 38.3]% 来自近距敌人的伤害减免",
+          "+[0.35 - 0.38] 点全元素抗性",
+          "[9.5 - 16.5]% 来自远距敌人的伤害减免",
+          "[4.2 - 7.0]% 冷却时间缩减",
+          "用于最大等级提升的测试物品。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "安达莉尔的仪容",
+        "key": "Helm_Unique_Generic_001",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:幸运一击",
+          "keyword:抗性",
+          "keyword:攻击速度",
+          "keyword:生命"
+        ],
+        "equip_type": "Helm",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "is_mythic": true,
+        "description": [
+          "+15.0% 攻击速度",
+          "+110 点全属性",
+          "+338 击中回复生命",
+          "+666 点毒素抗性",
+          "幸运一击: 最多有 20% 几率触发一阵剧毒新星，在 5 秒内对区域内的敌人造成相当于初始伤害 40% 的毒素伤害。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "拉卡诺斯的尾迹",
+        "key": "S05_BSK_Boots_Unique_Generic_001",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:火焰",
+          "keyword:火焰伤害"
+        ],
+        "equip_type": "Boots",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "is_mythic": false,
+        "description": [
+          "施放有冷却时间的技能时，你会爆炸，造成 [450 - 525] 点火焰伤害。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "祖父",
+        "key": "2HSword_Unique_Generic_001",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:暴击",
+          "keyword:暴击伤害",
+          "keyword:生命",
+          "keyword:资源"
+        ],
+        "equip_type": "Sword2H",
+        "char": [
+          "Barbarian",
+          "Necromancer",
+          "Paladin",
+          "Warlock"
+        ],
+        "is_mythic": true,
+        "description": [
+          "+220 点全属性",
+          "+300% 伤害",
+          "+6,565 生命上限",
+          "+20 资源上限",
+          "你的暴击伤害提高 150%[x]。"
+        ],
+        "damage_details": [
+          "每次命中伤害[2,252 - 3,378]",
+          "每秒攻击次数(慢):1.00"
+        ]
+      },
+      {
+        "name": "艾尔度因，正义之剑",
+        "key": "1HSword_Unique_Generic_002",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:生命",
+          "keyword:精英"
+        ],
+        "equip_type": "Sword",
+        "char": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Paladin",
+          "Warlock",
+          "Generic"
+        ],
+        "is_mythic": true,
+        "description": [
+          "+160 点全属性",
+          "+2,600 生命上限",
+          "x30% 全伤害增倍",
+          "+2 至所有技能",
+          "击败一群精英怪物会使你的技能冷却时间缩短 10 秒，持续 12 秒。"
+        ],
+        "damage_details": [
+          "每次命中伤害[1,024 - 1,534]",
+          "每秒攻击次数(快):1.10"
+        ]
+      },
+      {
+        "name": "衰亡世界的足音",
+        "key": "Boots_Unique_Warlock_001",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:幽冥行走",
+          "keyword:暗影",
+          "keyword:暗影形态"
+        ],
+        "equip_type": "Boots",
+        "char": [
+          "Warlock"
+        ],
+        "is_mythic": false,
+        "description": [
+          "你的闪避变为幽冥行走，且随着你失去或消耗暗影形态层数，你的闪避冷却时间缩短 [0.60 - 1.00] 秒。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "霍拉松之种",
+        "key": "Amulet_Unique_Warlock_001",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:恶魔学",
+          "keyword:愤怒",
+          "keyword:支配力"
+        ],
+        "equip_type": "Amulet",
+        "char": [
+          "Warlock"
+        ],
+        "is_mythic": false,
+        "description": [
+          "每拥有 1 点愤怒值，你的恶魔学技能造成的伤害提高 [0.40 - 0.50]%[x]；每拥有 1 层支配力，你受到的伤害降低 [0.13 - 0.17]%[+]。"
+        ],
+        "damage_details": []
+      },
+      {
+        "name": "丰饶符印",
+        "key": "Ring_Unique_Warlock_005",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:召唤",
+          "keyword:恶魔",
+          "keyword:符印"
+        ],
+        "equip_type": "Ring",
+        "char": [
+          "Warlock"
+        ],
+        "is_mythic": false,
+        "description": [
+          "召唤符印造成的伤害提高 [100 - 140]%[x]，并且在仪祭之外凭借 10 击杀数，可额外召唤最多 2 个低阶恶魔。"
+        ],
+        "damage_details": []
+      }
+    ],
+    "affixes": [
+      {
+        "key": "Tempered_Generic_LuckyHit_FlatDamage_ElementalSurge_Fire_Tier3",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:幸运一击",
+          "keyword:火焰",
+          "keyword:火焰伤害"
+        ],
+        "description": "幸运一击：最多有 40% 几率造成 +[1,500 - 2,400] 点火焰伤害",
+        "template": "幸运一击：最多有 40% 几率造成 +[{VALUE2}|0|] 点火焰伤害",
+        "item_type": [
+          "Mace",
+          "Mace2H",
+          "Mace2HDruid",
+          "Sword",
+          "Sword2H",
+          "Axe",
+          "Axe2H",
+          "Staff",
+          "Scythe",
+          "Scythe2H",
+          "Dagger",
+          "DaggerOffHand",
+          "Polearm",
+          "Wand",
+          "Bow",
+          "Crossbow",
+          "Crossbow2H",
+          "Focus",
+          "DruidOffhand",
+          "FocusBookOffHand",
+          "Glaive",
+          "Quarterstaff",
+          "StaffDruid",
+          "StaffSorcerer",
+          "Amazon_Spear",
+          "Flail",
+          "Shield",
+          "Amazon_Shield",
+          "ShieldHTH"
+        ],
+        "char_type": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock"
+        ],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_Generic_LuckyHit_FlatDamage_ElementalSurge_Physical_Tier3",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:幸运一击",
+          "keyword:物理",
+          "keyword:物理伤害"
+        ],
+        "description": "幸运一击：最多有 40% 几率造成 +[1,500 - 2,400] 点物理伤害",
+        "template": "幸运一击：最多有 40% 几率造成 +[{VALUE2}|0|] 点物理伤害",
+        "item_type": [
+          "Mace",
+          "Mace2H",
+          "Mace2HDruid",
+          "Sword",
+          "Sword2H",
+          "Axe",
+          "Axe2H",
+          "Staff",
+          "Scythe",
+          "Scythe2H",
+          "Dagger",
+          "DaggerOffHand",
+          "Polearm",
+          "Wand",
+          "Bow",
+          "Crossbow",
+          "Crossbow2H",
+          "Focus",
+          "DruidOffhand",
+          "FocusBookOffHand",
+          "Glaive",
+          "Quarterstaff",
+          "StaffDruid",
+          "StaffSorcerer",
+          "Amazon_Spear",
+          "Flail",
+          "Shield",
+          "Amazon_Shield",
+          "ShieldHTH"
+        ],
+        "char_type": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock"
+        ],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_Generic_LuckyHit_FlatDamage_ElementalSurge_Shadow_Tier3",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:幸运一击",
+          "keyword:暗影",
+          "keyword:暗影伤害"
+        ],
+        "description": "幸运一击：最多有 40% 几率造成 +[1,500 - 2,400] 点暗影伤害",
+        "template": "幸运一击：最多有 40% 几率造成 +[{VALUE2}|0|] 点暗影伤害",
+        "item_type": [
+          "Mace",
+          "Mace2H",
+          "Mace2HDruid",
+          "Sword",
+          "Sword2H",
+          "Axe",
+          "Axe2H",
+          "Staff",
+          "Scythe",
+          "Scythe2H",
+          "Dagger",
+          "DaggerOffHand",
+          "Polearm",
+          "Wand",
+          "Bow",
+          "Crossbow",
+          "Crossbow2H",
+          "Focus",
+          "DruidOffhand",
+          "FocusBookOffHand",
+          "Glaive",
+          "Quarterstaff",
+          "StaffDruid",
+          "StaffSorcerer",
+          "Amazon_Spear",
+          "Flail",
+          "Shield",
+          "Amazon_Shield",
+          "ShieldHTH"
+        ],
+        "char_type": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock"
+        ],
+        "is_tempered": true
+      },
+      {
+        "key": "CritDamage",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:暴击",
+          "keyword:暴击伤害"
+        ],
+        "description": "+[14 - 21]% 暴击伤害",
+        "template": "+[{VALUE}*100|%|] 暴击伤害",
+        "item_type": [
+          "Boots"
+        ],
+        "char_type": [],
+        "is_tempered": false
+      },
+      {
+        "key": "Elite_Kill_Movement_Speed",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:移动",
+          "keyword:移动速度",
+          "keyword:精英"
+        ],
+        "description": "+[14 - 28]% 消灭一个精英怪后 4 秒内的移动速度",
+        "template": "+[{VALUE1}*100|%|] 消灭一个精英怪后 4 秒内的移动速度",
+        "item_type": [
+          "Boots"
+        ],
+        "char_type": [],
+        "is_tempered": false
+      },
+      {
+        "key": "Elite_Kill_Movement_Speed",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:移动",
+          "keyword:移动速度",
+          "keyword:精英"
+        ],
+        "description": "+[28 - 56]% 消灭一个精英怪后 4 秒内的移动速度",
+        "template": "+[{VALUE1}*100|%|] 消灭一个精英怪后 4 秒内的移动速度",
+        "item_type": [
+          "Scythe2H"
+        ],
+        "char_type": [],
+        "is_tempered": false
+      },
+      {
+        "key": "Tempered_CDR_Skill_Barb_CalloftheAncients_Tier3",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:召唤"
+        ],
+        "description": "[20.0 - 22.5]% 先祖召唤冷却时间缩减",
+        "template": "[{VALUE2} * 100|1%|] 先祖召唤冷却时间缩减",
+        "item_type": [
+          "Ring",
+          "Amulet"
+        ],
+        "char_type": [],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_CDR_Skill_Rogue_DarkShroud_Tier3",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:暗影"
+        ],
+        "description": "[17.0 - 20.0]% 暗影帷幕冷却时间缩减",
+        "template": "[{VALUE2} * 100|1%|] 暗影帷幕冷却时间缩减",
+        "item_type": [
+          "Ring",
+          "Amulet"
+        ],
+        "char_type": [],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_CDR_Skill_Rogue_ShadowClone_Tier3",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:暗影"
+        ],
+        "description": "[20.0 - 22.5]% 暗影分身冷却时间缩减",
+        "template": "[{VALUE2} * 100|1%|] 暗影分身冷却时间缩减",
+        "item_type": [
+          "Ring",
+          "Amulet"
+        ],
+        "char_type": [],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_CDR_Skill_Rogue_ShadowStep_Tier3",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:暗影"
+        ],
+        "description": "[7.0 - 10.0]% 暗影步冷却时间缩减",
+        "template": "[{VALUE2} * 100|1%|] 暗影步冷却时间缩减",
+        "item_type": [
+          "Ring",
+          "Amulet"
+        ],
+        "char_type": [],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_CDR_Tag_Generic_Mobility_Tier3",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:机动"
+        ],
+        "description": "[5.0 - 8.0]% 机动冷却时间缩减",
+        "template": "[{VALUE2} * 100|1%|] 机动冷却时间缩减",
+        "item_type": [
+          "Boots",
+          "Amulet"
+        ],
+        "char_type": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock"
+        ],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_CDR_Tag_Generic_Ultimate_Tier3",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:终极技能"
+        ],
+        "description": "[7.0 - 10.0]% 终极技能冷却时间缩减",
+        "template": "[{VALUE2} * 100|1%|] 终极技能冷却时间缩减",
+        "item_type": [
+          "Ring",
+          "Amulet"
+        ],
+        "char_type": [],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_CDR_Tag_Spiritborn_Defensive_Tier3",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:冷却",
+          "keyword:冷却时间",
+          "keyword:防御"
+        ],
+        "description": "[5.0 - 8.0]% 防御冷却时间缩减",
+        "template": "[{VALUE2} * 100|1%|] 防御冷却时间缩减",
+        "item_type": [
+          "Ring",
+          "Amulet"
+        ],
+        "char_type": [],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_CritDamage_Necro_Tag_Bone_Tier3",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:暴击",
+          "keyword:暴击伤害"
+        ],
+        "description": "+[25.0 - 45.0]% 白骨暴击伤害",
+        "template": "+[{VALUE2}*100|1%|] 白骨暴击伤害",
+        "item_type": [
+          "Mace",
+          "Mace2H",
+          "Mace2HDruid",
+          "Sword",
+          "Sword2H",
+          "Axe",
+          "Axe2H",
+          "Staff",
+          "Scythe",
+          "Scythe2H",
+          "Dagger",
+          "DaggerOffHand",
+          "Polearm",
+          "Wand",
+          "Bow",
+          "Crossbow",
+          "Crossbow2H",
+          "Focus",
+          "DruidOffhand",
+          "FocusBookOffHand",
+          "Glaive",
+          "Quarterstaff",
+          "StaffDruid",
+          "StaffSorcerer",
+          "Amazon_Spear",
+          "Flail",
+          "Gloves",
+          "Amulet",
+          "Ring",
+          "Shield",
+          "Amazon_Shield",
+          "ShieldHTH"
+        ],
+        "char_type": [],
+        "is_tempered": true
+      },
+      {
+        "key": "Tempered_Damage_Generic_Type_Fire_Tier3",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:火焰",
+          "keyword:火焰伤害"
+        ],
+        "description": "+[20 - 40]% 火焰伤害",
+        "template": "+[{VALUE2}*100|%|] 火焰伤害",
+        "item_type": [
+          "Mace",
+          "Mace2H",
+          "Mace2HDruid",
+          "Sword",
+          "Sword2H",
+          "Axe",
+          "Axe2H",
+          "Staff",
+          "Scythe",
+          "Scythe2H",
+          "Dagger",
+          "DaggerOffHand",
+          "Polearm",
+          "Wand",
+          "Bow",
+          "Crossbow",
+          "Crossbow2H",
+          "Focus",
+          "DruidOffhand",
+          "FocusBookOffHand",
+          "Glaive",
+          "Quarterstaff",
+          "StaffDruid",
+          "StaffSorcerer",
+          "Amazon_Spear",
+          "Flail",
+          "Gloves",
+          "Amulet",
+          "Ring",
+          "Shield",
+          "Amazon_Shield",
+          "ShieldHTH"
+        ],
+        "char_type": [
+          "Sorcerer",
+          "Druid",
+          "Barbarian",
+          "Rogue",
+          "Necromancer",
+          "Spiritborn",
+          "Paladin",
+          "Warlock"
+        ],
+        "is_tempered": true
+      }
+    ],
+    "glyphs": [
+      {
+        "name": "高等恶魔",
+        "key": "ParagonGlyph_124",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:恶魔学",
+          "keyword:恶魔形态",
+          "keyword:高等恶魔"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你的高等恶魔技能造成的伤害提高 +{val1}%。",
+        "bonus": "恶魔形态使你的恶魔学技能伤害提高 x14%。",
+        "legendary_bonus": "高等恶魔技能造成的伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "先锋",
+        "key": "ParagonGlyph_122",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:恶魔学",
+          "keyword:恶魔形态"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你的恶魔形态伤害加成提高 +{val1}%。",
+        "bonus": "你对近距敌人造成的伤害提高 x18%。",
+        "legendary_bonus": "恶魔形态使你的恶魔学技能伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "愤怒",
+        "key": "ParagonGlyph_119",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:愤怒",
+          "keyword:暴击",
+          "keyword:暴击伤害"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你造成的暴击伤害提高 +{val1}%。",
+        "bonus": "造成暴击的技能会生成 1 点愤怒。",
+        "legendary_bonus": "暴击伤害提高 20%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "破坏",
+        "key": "ParagonGlyph_126",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:妖术",
+          "keyword:暴击",
+          "keyword:暴击伤害"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你的妖术伤害加成提高 +[{GlyphAffixScalar}|1%|]。",
+        "bonus": "",
+        "legendary_bonus": "暴击伤害提高 20%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "脓腐甲壳",
+        "key": "ParagonGlyph_118",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:恶魔学",
+          "keyword:护甲"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你的恶魔学技能造成的伤害提高 +{val1}%。",
+        "bonus": "护甲值提高 +35%。",
+        "legendary_bonus": "恶魔学技能造成的伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "损耗",
+        "key": "ParagonGlyph_127",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:高等恶魔"
+        ],
+        "description": "给予辐射范围内所有稀有节点 +{val1}% 加成。",
+        "bonus": "来自高等恶魔技能的命中会使敌人受到的伤害提高 x4%，持续 20 秒，最高可叠加至 x20%。",
+        "legendary_bonus": "伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 25,
+            "name": "Intelligence"
+          }
+        ]
+      },
+      {
+        "name": "死亡光环",
+        "key": "ParagonGlyph_113",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:抗性"
+        ],
+        "description": "给予辐射范围内所有稀有节点 +{val1}% 加成。",
+        "bonus": "当你的恶魔之一死亡时，你的全抗性提高 +40%，持续 10 秒。",
+        "legendary_bonus": "伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "灭除者",
+        "key": "ParagonGlyph_112",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:恶魔学"
+        ],
+        "description": "给予辐射范围内所有普通节点 +{val1}% 加成。",
+        "bonus": "恶魔学技能造成的伤害提高 x15%。",
+        "legendary_bonus": "恶魔学技能造成的伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "血性狂乱",
+        "key": "ParagonGlyph_111",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:剔骨",
+          "keyword:流血"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你对流血目标造成的伤害提高 +{val1}%。",
+        "bonus": "你对被剔骨的敌人造成的伤害提高 x18%。",
+        "legendary_bonus": "伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "地狱熔炉",
+        "key": "ParagonGlyph_116",
+        "already_used": false,
+        "score": 3,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:地狱火"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你的地狱火技能造成的伤害提高 +{val1}%。",
+        "bonus": "被易爆强化的技能额外造成 x15% 伤害。",
+        "legendary_bonus": "地狱火技能造成的伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 25,
+            "name": "Intelligence"
+          }
+        ]
+      },
+      {
+        "name": "强能",
+        "key": "ParagonGlyph_129",
+        "already_used": false,
+        "score": 3,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:秘术"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你每层造成的压制伤害提高 +{val1}%。",
+        "bonus": "当你拥有压制时，你的秘术技能造成的伤害提高 [SF_0 * 100 |%x|]。",
+        "legendary_bonus": "伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "控制",
+        "key": "ParagonGlyph_125",
+        "already_used": false,
+        "score": 3,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:控制"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你对被控制目标造成的伤害提高 +{val1}%。",
+        "bonus": "你对被控制的敌人造成的伤害提高 x10%。对被恐惧的敌人，此加成翻倍。",
+        "legendary_bonus": "对被控制目标造成的伤害提高 14.2%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 40,
+            "name": "Willpower"
+          }
+        ]
+      },
+      {
+        "name": "秘术师",
+        "key": "ParagonGlyph_114",
+        "already_used": false,
+        "score": 3,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:秘术"
+        ],
+        "description": "每购买辐射范围内 5 点意力，你的秘术技能造成的伤害提高 +{val1}%。",
+        "bonus": "对敌人的压制打击会使其受到来自你的伤害提高 x12%，持续 10 秒。",
+        "legendary_bonus": "秘术技能造成的伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 25,
+            "name": "Intelligence"
+          }
+        ]
+      },
+      {
+        "name": "解禁",
+        "key": "ParagonGlyph_115",
+        "already_used": false,
+        "score": 3,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:愤怒"
+        ],
+        "description": "给予辐射范围内所有魔法节点 +{val1}% 加成。",
+        "bonus": "消耗 50 点愤怒后，你造成的伤害提高 x10%，且愤怒回复速度提高 25%，持续 3 秒。",
+        "legendary_bonus": "伤害提高 15.4%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 25,
+            "name": "Intelligence"
+          }
+        ]
+      },
+      {
+        "name": "暴食者",
+        "key": "ParagonGlyph_011",
+        "already_used": false,
+        "score": 2,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害"
+        ],
+        "description": "每购买辐射范围内 5 点智力，你在健康状态下造成的伤害提高 +{val1}%。",
+        "bonus": "每缺少一瓶治疗药水，你造成的伤害提高 x5%，药水治疗效果提高 +5%，每项加成最高可达 x20%。",
+        "legendary_bonus": "在健康状态下造成的伤害提高 18%。",
+        "tags": [],
+        "threshold_requirements": [
+          {
+            "value": 25,
+            "name": "Intelligence"
+          }
+        ]
+      }
+    ],
+    "legendary_nodes": [
+      {
+        "name": "动力",
+        "key": "Warlock_Legendary_003",
+        "already_used": false,
+        "score": 6,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:恶魔",
+          "keyword:恶魔学",
+          "keyword:恶魔形态",
+          "keyword:支配力"
+        ],
+        "description": "在恶魔形态下，你当前每拥有一点支配力，你的恶魔学技能伤害就提高 3%[x]。 在不处于恶魔形态时，你每 2 秒获得 1 点支配力。 术士",
+        "bonus": "",
+        "legendary_bonus": "",
+        "tags": [
+          "Keyword_Demonform"
+        ],
+        "threshold_requirements": []
+      },
+      {
+        "name": "主脑",
+        "key": "Warlock_Legendary_005",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:控制",
+          "keyword:深渊",
+          "keyword:精英"
+        ],
+        "description": "深渊技能对被控制的敌人造成的伤害提高 45%[x]，对精英敌人造成的伤害提高 65%[x]。 术士",
+        "bonus": "",
+        "legendary_bonus": "",
+        "tags": [],
+        "threshold_requirements": []
+      },
+      {
+        "name": "混沌",
+        "key": "Warlock_Legendary_008",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:Search_Damage",
+          "keyword:伤害",
+          "keyword:秘术",
+          "filter:Search_Damage"
+        ],
+        "description": "当你拥有压制时，你的秘术技能造成的伤害提高 100%[x]，但当你失去一层时，你要么获得 2 层要么额外失去 1 层。 术士",
+        "bonus": "",
+        "legendary_bonus": "",
+        "tags": [
+          "Search_Damage",
+          "Skill_Occult",
+          "Keyword_Overpower"
+        ],
+        "threshold_requirements": []
+      },
+      {
+        "name": "炎灼",
+        "key": "Warlock_Legendary_004",
+        "already_used": false,
+        "score": 5,
+        "reasons": [
+          "class_compatible",
+          "keyword:Search_Damage",
+          "keyword:伤害",
+          "keyword:地狱火",
+          "filter:Search_Damage"
+        ],
+        "description": "地狱火技能对450%[x]健康敌人造成的伤害提高 。 术士",
+        "bonus": "",
+        "legendary_bonus": "",
+        "tags": [
+          "Search_Damage",
+          "Keyword_Healthy"
+        ],
+        "threshold_requirements": []
+      },
+      {
+        "name": "无底深潜",
+        "key": "Warlock_Legendary_001",
+        "already_used": false,
+        "score": 4,
+        "reasons": [
+          "class_compatible",
+          "keyword:伤害",
+          "keyword:召唤",
+          "keyword:恶魔"
+        ],
+        "description": "你在过去 6 秒内每召唤一个恶魔，你造成的伤害就提高 15%[x]，最高可达 105%[x]。 术士",
+        "bonus": "",
+        "legendary_bonus": "",
+        "tags": [],
+        "threshold_requirements": []
+      }
+    ]
+  },
+  "_notes": [
+    "Candidates are relevance matches, not optimization conclusions.",
+    "score is a simple count of class/filter/keyword reasons.",
+    "Use this file as LLM context for possible tests, downgrade options, or replacement exploration."
+  ]
+}

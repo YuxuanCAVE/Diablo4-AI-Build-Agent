@@ -1,0 +1,1111 @@
+[
+    {
+        "char": "Barbarian",
+        "key": "Barbarian_WeaponExpertise_1HAxe",
+        "name": "单手斧专精",
+        "desc": "对{c_important}受伤{/c}的敌人造成暴击的几率提高 {c_number}+ [10%]{/c}。使用两把斧时该数值翻倍。",
+        "bonus": "{c_label}幸运一击: {/c} 造成暴击时最多有 {c_number}55%{/c} 几率使攻击速度提高 {c_number}x6%{/c}, 持续 {c_number}2{/c} 秒。使用两把斧时攻击速度加成翻倍。",
+        "ranks": 10
+    },
+    {
+        "char": "Barbarian",
+        "key": "Barbarian_WeaponExpertise_1HMace",
+        "name": "单手锤专精",
+        "desc": "对被击昏的敌人造成的伤害提高 {c_number}x [10%]{/c}。使用两把钉锤时该数值翻倍。",
+        "bonus": "{c_label}幸运一击: {/c}命中被击昏的敌人最多有 {c_number}10%{/c} 几率获得{c_important}狂暴{/c}, 持续 {c_number}3{/c} 秒。使用两把钉锤时该几率翻倍。",
+        "ranks": 10
+    },
+    {
+        "char": "Barbarian",
+        "key": "Barbarian_WeaponExpertise_1HSword",
+        "name": "单手剑专精",
+        "desc": "{c_label}幸运一击: {/c} 命中一名被控制的敌人最多有 {c_number}[10%]{/c} 几率获得 {c_number}5{/c} 点怒气。使用两把剑时该几率翻倍。",
+        "bonus": "消灭一名被控制的敌人可以使攻击速度提高 {c_number}+15%{/c}, 持续 {c_number}3{/c} 秒。使用两把剑消灭敌人时该数值翻倍。",
+        "ranks": 10
+    },
+    {
+        "char": "Barbarian",
+        "key": "Barbarian_WeaponExpertise_2HAxe",
+        "name": "双手斧专精",
+        "desc": "对处于{c_important}易伤{/c}状态的敌人造成的伤害提高 {c_number}x [10%]{/c}。",
+        "bonus": "对处于{c_important}易伤{/c}状态的敌人造成暴击的几率提高 {c_number}+10%{/c}。",
+        "ranks": 10
+    },
+    {
+        "char": "Barbarian",
+        "key": "Barbarian_WeaponExpertise_2HMace",
+        "name": "双手锤专精",
+        "desc": "{c_label}幸运一击: {/c}命中敌人最多有 {c_number}a [10%]{/c} 几率获得 {c_number}5{/c} 点怒气。{c_important}狂暴{/c}状态下该数值翻倍。",
+        "bonus": "你在{c_important}狂暴{/c}状态下造成的暴击伤害提高 {c_number}x15%{/c}。",
+        "ranks": 10
+    },
+    {
+        "char": "Barbarian",
+        "key": "Barbarian_WeaponExpertise_2HSword",
+        "name": "双手剑专精",
+        "desc": "你造成的直接伤害的 {c_number}+ [20%]{/c} 会在 {c_number}5{/c} 秒内持续造成流血伤害。",
+        "bonus": "你造成 {c_number}x30%{/c} 的额外流血伤害。",
+        "ranks": 10
+    },
+    {
+        "char": "Barbarian",
+        "key": "Barbarian_WeaponExpertise_2HPolearm",
+        "name": "长柄武器专精",
+        "desc": "出现幸运一击的几率提高 {c_number}x [15%]{/c}。",
+        "bonus": "你在{c_important}{u}健康{/u}{/c}状态下造成的伤害提高 {c_number}x15%{/c}。",
+        "ranks": 10
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Deer_01",
+        "name": "皮刺",
+        "desc": "在敌人攻击你后 {c_number}5{/c} 秒，对其造成的伤害提高 {c_number}x5%{/c}。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Deer_02",
+        "name": "鹿灵",
+        "desc": "获得 {c_number}30{/c} 点灵力上限。你每秒获得 {c_number}10{/c} 点灵力。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Deer_03",
+        "name": "机警",
+        "desc": "受到精英怪的伤害降低 {c_number}15%{/c}。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Deer_04",
+        "name": "狡兽",
+        "desc": "移动速度提高 {c_number}+15%{/c}, 同时获得 {c_number}15%{/c} 移动限制减免。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Eagle_01",
+        "name": "镰爪",
+        "desc": "暴击几率提高 {c_number}15%{/c}，且幸运一击几率提高 {c_number}15%{/c}。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Eagle_02",
+        "name": "铁羽",
+        "desc": "生命上限提高 {c_number}x30%{/c}。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Eagle_03",
+        "name": "飞扑",
+        "desc": "攻击速度提高 {c_number}+20%{/c}。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Eagle_04",
+        "name": "怒禽",
+        "desc": "暴击伤害提高 {c_number}x40%{/c}。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Snake_01",
+        "name": "黑曜石猛击",
+        "desc": "施放{c_important}大地{/c}技能提供 {c_number}0{/c} 层{c_important}{u}决断{/u}{/c}。获得或失去{c_important}{u}决断{/u}{/c}会使{c_important}大地{/c}技能造成的伤害提高 {c_number}0{/c}，持续 {c_number}0{/c} 秒。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Snake_02",
+        "name": "电荷过载",
+        "desc": "{c_label}幸运一击:{/c} {c_important}风暴{/c}技能最多有 {c_number}20%{/c} 几率获得 {c_number}1{/c} 层{c_important}{u}残暴{/u}{/c}。\r\n\r\n当你拥有{c_important}{u}残暴{/u}{/c}时，{c_important}风暴{/c}技能的施法速度提高 {c_number}15%{/c}。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Snake_03",
+        "name": "施虐",
+        "desc": "{c_label}幸运一击: {/c}使用{c_important}变形{/c}技能造成暴击最多有 {c_number}75%{/c} 几率使你{c_important}{u}狂暴{/u}{/c}，持续 {c_number}10%{/c} 秒。\r\n\r\n{c_important}{u}狂暴{/u}{/c}会使{c_important}变形{/c}技能造成的伤害提高 {c_number}[{SF_2}*100|x%|]{/c}。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Snake_04",
+        "name": "风暴前的平静",
+        "desc": "{c_label}幸运一击:{/c} {c_important}自然魔法{/c}最多有 {c_number}10%{/c} 几率使你的{c_important}终极技能{/c}冷却时间缩短 {c_number}2{/c} 秒。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Wolf_01",
+        "name": "兽群领袖",
+        "desc": "{c_label}幸运一击: {/c}暴击最多有 {c_number}30%{/c} 几率重置你的{c_important}同伴{/c}技能的冷却时间。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Wolf_02",
+        "name": "狼性焕发",
+        "desc": "{c_label}幸运一击: {/c} 造成伤害最多有 {c_number}15%{/c} 几率恢复 {c_number}100{/c} 点灵力。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Wolf_03",
+        "name": "增强",
+        "desc": "当你处于{c_important}{u}被强固{/u}{/c}状态时，{c_important}防御{/c}技能的冷却时间缩减率提高 {c_number}5%{/c}。该比率在每个已装备的{c_important}防御{/c}技能之间平分。"
+    },
+    {
+        "char": "Druid",
+        "key": "Druid_Passive_Wolf_04",
+        "name": "灾祸持久",
+        "desc": "{c_important}终极技能{/c}的持续时间延长 {c_number}35%{/c}。"
+    },
+    {
+        "char": "Rogue",
+        "key": "Power_Rogue_Talent_Mechanic_T1_N1",
+        "name": "心眼",
+        "desc": "攻击敌人可以为你的心眼能量槽蓄能。攻击被标记的敌人能更快蓄满能量槽。能量槽满时，将恢复 {c_number}[SF_5]{/c} 能量，获得 {c_number}[SF_15 * 100|%|]{/c} 能量消耗减免、{c_number}[SF_11 * 100|%+|]{/c} 暴击几率和 {c_number}[SF_14 * 100|%x|]{/c} 暴击伤害，持续 {c_number}4{/c} 秒。"
+    },
+    {
+        "char": "Rogue",
+        "key": "Power_Rogue_Talent_Mechanic_T1_N2",
+        "name": "预备",
+        "desc": "花费 {c_number}100{/c} 点能量，使你的{c_important}终极{/c}技能的冷却时间减少 {c_number}4{/c} 秒。{c_important}终极{/c}技能会给予 {c_number}[{SF_2}*100|%|]{/c} 伤害减免，持续 {c_number}{SF_3}{/c} 秒。"
+    },
+    {
+        "char": "Rogue",
+        "key": "Power_Rogue_Talent_Mechanic_T1_N3",
+        "name": "连击点数",
+        "desc": "你的{c_important}基础{/c}技能现在可以生成连击点数。{c_important}核心{/c}技能会消耗连击点数，获得额外效果。"
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_Golem_Blood_Passive_Sacrifice",
+        "name": "牺牲",
+        "desc": [
+            "你的生命上限提高 {c_number}0{/c}，但你的傀儡造成的伤害降低 {c_number}0{/c}。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_Golem_Blood_Passive_UpgradeA",
+        "name": "升级A",
+        "desc": [
+            "命令你的鲜血傀儡时，它还会使其从你的其他{c_important}仆从{/c}身上吸取生命，每吸取一名{c_important}仆从{/c}使其生命上限提高 {c_number}0{/c}，造成的伤害提高 {c_number}0{/c}，持续 {c_number}20{/c} 秒，最多使生命上限提高 {c_number}0{/c} 且伤害提高 {c_number}0{/c}。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_Golem_Blood_Passive_UpgradeB",
+        "name": "升级B",
+        "desc": [
+            "当你命令鲜血傀儡时，它每吸取一名敌人，就会为你{c_important}{u}强固{/u}{/c}相当于你生命上限 {c_number}0{/c} 的数值 。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_Golem_Bone_Passive_Sacrifice",
+        "name": "牺牲",
+        "desc": [
+            "你的攻击速度提高 {c_number}0{/c}，但你的傀儡造成的伤害降低 {c_number}0{/c}。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_Golem_Bone_Passive_UpgradeA",
+        "name": "升级A",
+        "desc": [
+            "命令你的白骨傀儡会使其生成 {c_number}{SF_2}{/c} 具亡骸。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_Golem_Bone_Passive_UpgradeB",
+        "name": "升级B",
+        "desc": [
+            "当你的白骨傀儡受到伤害时，它会释放白骨尖刺，造成 {c_number}{payload:DAMAGE}{/c} 点伤害。该效果每 {c_number}0{/c} 秒只能触发一次。\r",
+            "\r",
+            "受到白骨傀儡伤害的敌人会陷入{c_important}{u}易伤{/u}{/c}状态，持续 {c_number}{SF_7}{/c} 秒。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_Golem_Iron_Passive_Sacrifice",
+        "name": "牺牲",
+        "desc": [
+            "你造成的暴击伤害提高 {c_number}0{/c}，但你的傀儡造成的伤害降低 {c_number}0{/c}。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_Golem_Iron_Passive_UpgradeA",
+        "name": "升级A",
+        "desc": [
+            "钢铁傀儡每次攻击会产生一道震荡波，对主要敌人和其身后的敌人造成 {c_number}{payload:TOOLTIP_CONE_PAYLOAD}{/c} 点伤害。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_Golem_Iron_Passive_UpgradeB",
+        "name": "升级B",
+        "desc": [
+            "你的钢铁傀儡的猛击攻击会将敌人拉近，且范围扩大 {c_number}0{/c}。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonMage_Cold_Passive_Sacrifice",
+        "name": "牺牲",
+        "desc": [
+            "你对处于易伤状态的敌人造成的伤害提高 {c_number}0{/c}，但你能召唤的冰霜法师数量减少 {c_number}0{/c} 个。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonMage_Cold_Passive_UpgradeA",
+        "name": "升级A",
+        "desc": [
+            "冰霜法师的初始投射物在命中时分裂成 {c_number}2{/c} 个投射物。\r",
+            "\r",
+            "受到冰霜法师伤害的敌人会陷入{c_important}{u}虚弱{/u}{/c}状态，持续 {c_number}{SF_0}{/c} 秒。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonMage_Cold_Passive_UpgradeB",
+        "name": "升级B",
+        "desc": [
+            "冰霜法师偶尔会施放暴风雪，在 {c_number}{SF_7}{/c} 秒内造成 {c_number}{payload:BLIZZARD}{/c} 点冰霜伤害，并每秒使敌人{c_important}{u}冻伤{/u}{/c} {c_number}{SF_9}%{/c}。\r",
+            "\r",
+            "受到冰霜法师伤害的敌人会变得{c_important}{u}易伤{/u}{/c}，持续 {c_number}{SF_0}{/c} 秒。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonMage_Sacrifice_Passive_Sacrifice",
+        "name": "牺牲",
+        "desc": [
+            "当你拥有一层{c_important}{u}压制{/u}{/c}时，你造成的伤害提高 {c_number}0{/c}，但你能召唤的白骨法师数量减少 {c_number}0{/c} 个。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeA",
+        "name": "升级A",
+        "desc": [
+            "白骨法师额外发射 {c_number}2{/c} 个投射物，造成 {c_number}0{/c} 的普通伤害。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonMage_Sacrifice_Passive_UpgradeB",
+        "name": "升级B",
+        "desc": [
+            "白骨法师的攻击会{c_important}{u}强固{/u}{/c}你 {c_number}0{/c} 生命上限。\r",
+            "\r",
+            "白骨法师死亡时会生成一具亡骸。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonMage_Shadow_Passive_Sacrifice",
+        "name": "牺牲",
+        "desc": [
+            "你的精魂回复速度提高 {c_number}0{/c}，精魂上限提高 {c_number}{SF_0}{/c} 点，但你能召唤的暗影法师数量减少 {c_number}0{/c} 个。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonMage_Shadow_Passive_UpgradeA",
+        "name": "升级A",
+        "desc": [
+            "暗影法师在 {c_number}{SF_1}{/c} 秒内造成的腐化伤害提高 {c_number}{payload:TOOLTIP_CORRUPTING_DAMAGE}{/c}。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonMage_Shadow_Passive_UpgradeB",
+        "name": "升级B",
+        "desc": [
+            "暗影法师的箭会给予你和暗影法师一道相当于你 {c_number}0{/c} 生命上限 {c_number}(0){/c} 的{c_important}{u}屏障{/u}{/c}，持续 {c_number}{SF_1}{/c} 秒，最多达 {c_number}0{/c}。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonWarrior_Defender_Passive_Sacrifice",
+        "name": "牺牲",
+        "desc": [
+            "你获得 {c_number}0{/c} 全元素抗性，但你能召唤的守卫者数量减少 {c_number}0{/c} 个。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonWarrior_Defender_Passive_UpgradeA",
+        "name": "升级A",
+        "desc": [
+            "守卫者获得 {c_number}{SF_3}{/c} 荆棘。每当其受到伤害时，骨头会迸裂并对附近敌人造成 {c_number}0%{/c} 的荆棘伤害。\r",
+            "\r",
+            "命令你的守卫者会使其嘲讽附近敌人，持续 {c_number}{SF_6}{/c} 秒。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonWarrior_Defender_Passive_UpgradeB",
+        "name": "升级B",
+        "desc": [
+            "守卫者造成伤害时有 {c_number}0{/c} 几率生成一个{c_important}{u}生命球{/u}{/c}。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonWarrior_Reaper_Passive_Sacrifice",
+        "name": "牺牲",
+        "desc": [
+            "你造成的伤害提高 {c_number}0{/c}，但你能召唤的夺魂者数量减少 {c_number}0{/c} 个。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeA",
+        "name": "升级A",
+        "desc": [
+            "夺魂者的回旋攻击现在会使你的一个主动技能的冷却时间缩短 {c_number}{SF_0}{/c} 秒，并生成一具亡骸。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonWarrior_Reaper_Passive_UpgradeB",
+        "name": "升级B",
+        "desc": [
+            "夺魂者造成的伤害提高 {c_number}0{/c}，并且有 {c_number}0{/c} 几率将敌人击昏 {c_number}{SF_2}{/c} 秒。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonWarrior_Skirmisher_Passive_Sacrifice",
+        "name": "牺牲",
+        "desc": [
+            "你的暴击几率提高 {c_number}0{/c}，但你能召唤的突击者数量减少 {c_number}0{/c} 个。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeA",
+        "name": "升级A",
+        "desc": [
+            "你可以额外召唤 {c_number}2{/c} 个突击者。\r",
+            "\r",
+            "每当召唤突击者时，你会自动命令其跃向一名附近敌人并发动攻击。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_SkeletonWarrior_Skirmisher_Passive_UpgradeB",
+        "name": "升级B",
+        "desc": [
+            "突击者会切割敌人，使其变得{c_important}{u}易伤{/u}{/c}并被减速 {c_number}0{/c}，持续 {c_number}{SF_1}{/c} 秒。"
+        ]
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_WarriorSpec1",
+        "name": "突击者",
+        "desc": "突击者会切割敌人，对单体目标造成高额伤害。\r\n\r\n{c_important}骷髅战士{/c}也被视为{c_important}白骨{/c}技能。"
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_WarriorSpec2",
+        "name": "守卫者",
+        "desc": "守卫者是坚韧的保护者，虽然造成的伤害较低，但拥有强大的生存能力。\r\n\r\n{c_important}骷髅战士{/c}也被视为{c_important}鲜血{/c}技能。"
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_WarriorSpec3",
+        "name": "夺魂者",
+        "desc": "夺魂者挥舞着能造成顺劈的强力镰刀，并且拥有蓄力攻击，每 {c_number}10{/c} 秒造成大量伤害。\r\n\r\n{c_important}骷髅战士{/c}也被视为{c_important}黑暗{/c}技能。"
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_MageSpec1",
+        "name": "暗影",
+        "desc": "暗影法师能够驾驭彼界的力量，发射会爆炸的暗影箭。\r\n\r\n{c_important}骷髅法师{/c}也被视为{c_important}黑暗{/c}技能。"
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_MageSpec2",
+        "name": "冰霜",
+        "desc": "冰霜法师的攻击会使敌人冻伤，并最终将其当场冻结。\r\n\r\n{c_important}骷髅法师{/c}也被视为{c_important}黑暗{/c}技能。"
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_MageSpec3",
+        "name": "白骨",
+        "desc": "白骨法师会以自己的躯体作为穿透性投射物，以消耗自身生命为代价造成大量伤害。\r\n\r\n{c_important}骷髅法师{/c}也被视为{c_important}白骨{/c}技能。"
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_GolemSpec1",
+        "name": "白骨",
+        "desc": "白骨傀儡会嘲讽敌人，迫使他们攻击自己，并利用致命的荆棘进行反击。\r\n\r\n{c_important}傀儡{/c}也被视为{c_important}白骨{/c}技能。"
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_GolemSpec2",
+        "name": "鲜血",
+        "desc": "鲜血傀儡会吸取附近敌人的生命，以此来治疗并强化自身。\r\n\r\n{c_important}傀儡{/c}也被视为{c_important}鲜血{/c}技能。"
+    },
+    {
+        "char": "Necromancer",
+        "key": "Necromancer_GolemSpec3",
+        "name": "钢铁",
+        "desc": "钢铁傀儡拥有巨大的重量与力量，能够击昏并控制敌人。\r\n\r\n{c_important}傀儡{/c}也被视为{c_important}黑暗{/c}技能。"
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_firewall",
+        "name": "火墙",
+        "category": "Mastery",
+        "desc": "{c_label}附魔{/c}: {c_label}幸运一击:{/c} 造成燃烧伤害时最多有 {c_number}{val2}%{/c} 几率生成 {c_number}{val3}{/c} 道{c_important}火墙{/c}, 持续 {c_number}{val4}{/c} 秒。",
+        "val2": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+        ],
+        "val3": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+        ],
+        "val4": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_spark",
+        "name": "电花",
+        "category": "Basic",
+        "desc": "{c_label}附魔{/c}: 消灭敌人时有 {c_number}{val2}%{/c} 几率生成一个{c_important}爆裂电花{/c}。",
+        "val2": [
+            "20",
+            "20",
+            "22",
+            "24",
+            "26",
+            "29"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_hydra",
+        "name": "多头蛇",
+        "category": "Conjuration",
+        "desc": "{c_label}附魔{/c}: 消耗 {c_number}{val2}{/c} 点法力后, 召唤一只拥有 {c_number}{val3}{/c} 个头的{c_important}多头蛇{/c}, 持续 {c_number}{val4}{/c} 秒。",
+        "val2": [
+            "200",
+            "200",
+            "200",
+            "200",
+            "200",
+            "200"
+        ],
+        "val3": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+        ],
+        "val4": [
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_fire_bolt",
+        "name": "火焰弹",
+        "category": "Basic",
+        "desc": "{c_label}附魔{/c}: 造成燃烧伤害时，有 {c_number}{val3}%{/c} 几率恢复 {c_number}{val4}%{/c} 的生命上限，并对一名附近的敌人释放{c_important}火焰弹{/c}。",
+        "val3": [
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10"
+        ],
+        "val4": [
+            "4",
+            "4",
+            "4",
+            "4",
+            "4",
+            "4"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_fireball",
+        "name": "火球",
+        "category": "Core",
+        "desc": "{c_label}附魔{/c}: 你的持续性伤害会使被消灭的敌人爆炸成 {c_important}火球{/c}，造成相当于其伤害 {c_number}{val2}%{/c} 的伤害。",
+        "val2": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_flame_shield",
+        "name": "火盾",
+        "category": "Defensive",
+        "desc": "{c_label}附魔{/c}: 若你在 {c_number}{val2}{/c} 秒内损失 {c_number}{val3}%{/c} 生命上限，则自动激活{c_important}火盾{/c}。每 {c_number}{val4}{/c} 秒只能触发一次。",
+        "val2": [
+            "2",
+            "2",
+            "2",
+            "2",
+            "2",
+            "2"
+        ],
+        "val3": [
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30"
+        ],
+        "val4": [
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_charged_bolts",
+        "name": "电荷弹",
+        "category": "Core",
+        "desc": "{c_label}附魔{/c}: 当你击昏敌人时, 有 {c_number}{val2}%{/c} 几率从其身上放出 {c_number}{val3}{/c} 枚{c_important}电荷弹{/c}。",
+        "val2": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+        ],
+        "val3": [
+            "3",
+            "3",
+            "3",
+            "3",
+            "3",
+            "3"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_frost_bolt",
+        "name": "寒霜弹",
+        "category": "Basic",
+        "desc": "{c_label}附魔{/c}: 来自技能的直接伤害会施加最多 {c_number}{val2}%{/c} 的{c_important}冻伤{/c}效果。",
+        "val2": [
+            "18",
+            "18",
+            "18",
+            "18",
+            "18",
+            "18"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_teleport",
+        "name": "传送术",
+        "category": "Defensive",
+        "desc": "{c_label}附魔{/c}: {c_important}闪避{/c}变为{c_important}传送术{/c}，冷却时间 {c_resource}5{/c} 秒且无法减少。"
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_frost_nova",
+        "name": "寒霜新星",
+        "category": "Defensive",
+        "desc": "{c_label}附魔{/c}: {c_label}幸运一击: {/c}击中敌人后最多有 {c_number}{val2}%{/c} 几率释放{c_important}寒霜新星{/c}。",
+        "val2": [
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_frozen_orb",
+        "name": "冰霜球",
+        "category": "Core",
+        "desc": "{c_label}附魔{/c}: 施放技能时有 {c_number}{val3}%{/c} 几率向一名附近的敌人发射一颗{c_important}冰霜球{/c}。",
+        "val3": [
+            "30",
+            "30",
+            "30",
+            "30",
+            "30",
+            "30"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_blizzard",
+        "name": "暴风雪",
+        "category": "Mastery",
+        "desc": "{c_label}附魔{/c}: 你头顶上方每 15 秒会形成一阵{c_important}暴风雪{/c}，并根据你生命上限一定百分比的{u}{c_important}屏障{/c}</u>效果缩短该间隔，最多缩短至 {c_number}{val2}{/c} 秒。",
+        "val2": [
+            "1.5",
+            "1.5",
+            "1.5",
+            "1.5",
+            "1.5",
+            "1.5"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_ice_blades",
+        "name": "冰刃",
+        "category": "Conjuration",
+        "desc": "{c_label}附魔{/c}: 每度过 {c_number}{val2}{/c} 秒的冷却时间, 你就会对随机敌人召唤一把{c_important}冰刃{/c}。",
+        "val2": [
+            "40",
+            "40",
+            "40",
+            "40",
+            "40",
+            "40"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_lightning_spear",
+        "name": "闪电矛",
+        "category": "Conjuration",
+        "desc": "{c_label}附魔{/c}: 吸收{c_important}爆裂电花{/c}有 {c_number}{val2}%{/c} 的几率召唤一柄{c_important}闪电矛{/c}。",
+        "val2": [
+            "10",
+            "10",
+            "10",
+            "10",
+            "10",
+            "10"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_incinerate",
+        "name": "焚烧",
+        "category": "Core",
+        "desc": "{c_label}附魔{/c}: 站立不动的时长达到 {c_number}{val3}{/c} 秒后，召唤一条蛇并{c_important}焚烧{/c}敌人，持续 {c_number}{val4}{/c} 秒。",
+        "val3": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+        ],
+        "val4": [
+            "5",
+            "5",
+            "5",
+            "5",
+            "5",
+            "5"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_chain_lightning",
+        "name": "连锁闪电",
+        "category": "Core",
+        "desc": "{c_label}附魔{/c}: 消耗 {c_number}{val2}{/c} 点法力后自动施放{c_important}连锁闪电{/c}。",
+        "val2": [
+            "100",
+            "100",
+            "100",
+            "100",
+            "100",
+            "100"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_ice_shards",
+        "name": "寒冰碎片",
+        "category": "Core",
+        "desc": "{c_label}附魔{/c}: 自动召唤{c_important}寒冰碎片{/c}, 并使其飞向{c_important}被冻结{/c}的敌人。"
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_meteor",
+        "name": "陨石术",
+        "category": "Mastery",
+        "desc": "{c_label}附魔{/c}: {c_label}幸运一击: {/c}施法技能伤害最多有 {c_number}{val3}%{/c} 几率在敌人身上降下{c_important}陨石术{/c}。",
+        "val3": [
+            "20",
+            "20",
+            "20",
+            "20",
+            "20",
+            "20"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_ice_armor",
+        "name": "寒冰甲",
+        "category": "Defensive",
+        "desc": "{c_label}附魔{/c}: 治疗药水施加{c_important}寒冰甲{/c}，并有 {c_number}{val3}%{/c} 几率返还自身。",
+        "val3": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_arc_lash",
+        "name": "电弧鞭笞",
+        "category": "Basic",
+        "desc": "{c_label}附魔{/c}: 当你使用有冷却时间的技能时, 你周围的敌人会被击昏 {c_number}{val2}{/c} 秒。",
+        "val2": [
+            "1.0",
+            "1.0",
+            "1.1",
+            "1.2",
+            "1.3",
+            "1.5"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_ball_lightning",
+        "name": "球状闪电",
+        "category": "Mastery",
+        "desc": "{c_label}附魔{/c}: {c_label}幸运一击: {/c}施法技能暴击最多有 {c_number}{val2}%{/c} 几率形成一团静止的{c_important}球状闪电{/c}。",
+        "val2": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+        ]
+    },
+    {
+        "char": "Sorcerer",
+        "key": "sorcerer_familiar",
+        "name": "魔宠",
+        "category": "Conjuration",
+        "desc": "{c_label}附魔{/c}: 施放与{c_important}魔宠{/c}不相关的{c_important}召唤魔法{/c}时，每次都有 {c_number}{val2}%{/c} 几率召唤出一只相同元素类型的{c_important}魔宠{/c}。",
+        "val2": [
+            "25",
+            "25",
+            "25",
+            "25",
+            "25",
+            "25"
+        ]
+    },
+    {
+        "char": "Spiritborn",
+        "key": "jaguar_sun",
+        "name": "猎豹",
+        "category": "sun",
+        "desc": "使用{c_important}猎豹{/c}技能每对敌人造成第 {c_number}15 次{/c}直接伤害时，都会触发一次强力打击。强力打击的伤害造成 {c_random}100%{/c} 点伤害，使你造成的伤害提高 {c_number}x3%{/c}，每次后续强力打击伤害翻倍，最多叠加 {c_number}5{/c} 次。停止攻击 {c_number}1{/c} 秒后失去所有层数。\r\n\r\n现在所有技能也视作{c_important}猎豹{/c}技能。"
+    },
+    {
+        "char": "Spiritborn",
+        "key": "eagle_sun",
+        "name": "天鹰",
+        "category": "sun",
+        "desc": "施放一个{c_important}天鹰{/c}技能或{c_important}闪避{/c}会射出 {c_number}6{/c} 片{c_important}{u}风暴之羽{/u}{/c}，每片造成 {c_random}140%{/c} 点闪电伤害，并使目标陷入{c_important}{u}易伤{/u}{/c}状态，持续 {c_number}5{/c} 秒。此效果每 {c_number}[SF_14|1|]{/c} 秒只能生效一次。{c_important}{u}风暴之羽{/u}{/c}的移动速度加成翻倍且始终激活。\r\n\r\n现在所有技能也会被视作{c_important}天鹰{/c}技能。"
+    },
+    {
+        "char": "Spiritborn",
+        "key": "gorilla_sun",
+        "name": "狂猿",
+        "category": "sun",
+        "desc": "使用{c_important}狂猿{/c}技能攻击时会对你命中的敌人造成 {c_random}150%{/c} 荆棘伤害，并赋予你一道相当于 {c_number}2.5%{/c} 生命上限 的{c_important}{u}屏障{/u}{/c}，持续 {c_number}[SF_1]{/c} 秒。\r\n\r\n现在所有技能也视作{c_important}狂猿{/c}技能。"
+    },
+    {
+        "char": "Spiritborn",
+        "key": "centipede_sun",
+        "name": "巨虫",
+        "category": "sun",
+        "desc": "使用{c_important}巨虫{/c}技能命中敌人后，该敌人造成的伤害降低 {c_number}4%{/c}，移动速度降低 {c_number}10%{/c}，并在 {c_number}8{/c} 秒内对其造成 {c_random}160%{/c} 点毒素伤害，最多叠加 {c_number}a maximum of 8{/c} 次。\r\n\r\n现在所有技能也视作{c_important}巨虫{/c}技能。"
+    },
+    {
+        "char": "Spiritborn",
+        "key": "jaguar_moon",
+        "name": "猎豹",
+        "category": "moon",
+        "desc": "{c_important}{u}残暴{/u}{/c}的层数上限提高 {c_number}1{/c} 层。\r\n\r\n每当你消灭敌人或对首领造成伤害时，获得 {c_number}1{/c} 层{c_important}{u}残暴{/u}{/c}。"
+    },
+    {
+        "char": "Spiritborn",
+        "key": "eagle_moon",
+        "name": "天鹰",
+        "category": "moon"
+    },
+    {
+        "char": "Spiritborn",
+        "key": "gorilla_moon",
+        "name": "狂猿",
+        "category": "moon",
+        "desc": "{c_important}{u}决断{/u}{/c}层数上限提高 {c_number}2{/c} 层。\r\n\r\n当你有至少 {c_number}5{/c} 层{c_important}{u}决断{/u}{/c}时，你获得{c_important}{u}不可阻挡{/u}{/c}且护甲值提高 {c_number}[SF_3*100|%+|]{/c}。"
+    },
+    {
+        "char": "Spiritborn",
+        "key": "centipede_moon",
+        "name": "巨虫",
+        "category": "moon",
+        "desc": "附近每有一名被你在过去 {c_number}3{/c} 秒内施毒的敌人，就会为你回复生命上限的{c_number}1%{/c}，每秒{c_number}（[PlayerHealthMax() * SF_1]）{/c} ，最多回复 {c_number}5%{/c}。"
+    },
+    {
+        "key": "Paladin_Oath_Zealot",
+        "char": "Paladin",
+        "name": "狂热者",
+        "flavor": "昭昭天命",
+        "desc": "施放{c_important}狂热者{/c}技能会获得{c_important}{u}热忱{/u}{/c}，持续 {c_number}2{/c} 秒。使用这些技能造成暴击时会回响该次攻击，造成额外 {c_number}17%{/c} 的伤害，{c_important}热忱{/c}的每一层都会重复此效果。\r\n\r\n当{c_important}{u}热忱{/u}{/c}达到上限时，额外{c_important}{u}强固{/u}{/c}你 {c_number}1%{/c} 的生命上限。"
+    },
+    {
+        "key": "Paladin_Oath_Juggernaut",
+        "char": "Paladin",
+        "name": "主宰者",
+        "flavor": "宁折不弯",
+        "desc": "施放{c_important}主宰者{/c}技能会消耗 {c_number}8{/c} 层{c_important}{u}决断{/u}{/c}，使你的{c_important}主宰者{/c}技能造成的伤害提高 {c_number}60%{/c}，范围扩大 {c_number}20%{/c}，持续 {c_number}5{/c} 秒。\r\n\r\n你的{c_important}{u}决断{/u}{/c}下限提高 {c_number}1{/c} 层，且在被击中时不再消耗。"
+    },
+    {
+        "key": "Paladin_Oath_Judgement",
+        "char": "Paladin",
+        "name": "审判者",
+        "flavor": "天罚涤世",
+        "desc": "你的{c_important}基础{/c}技能现在会施加{c_important}{u}审判{/u}{/c}。\r\n\r\n{c_important}{u}审判{/u}{/c}现在可被你的{c_important}核心{/c}{c_important}审判者{/c}技能提前引爆，在小范围内造成 {c_number}80%{/c} 点武器伤害并获得{c_important}审判者{/c}技能增益。\r\n\r\n每次你{c_important}{u}审判{/u}{/c}一名敌人，其受到的来自你的伤害提高 {c_number}8%{/c}，最多 {c_number}80%{/c}，直到其死亡。"
+    },
+    {
+        "key": "Paladin_Oath_Angel",
+        "char": "Paladin",
+        "name": "虔信者",
+        "flavor": "因果执衡",
+        "desc": "施放一个带有冷却时间的{c_important}虔信者{/c}技能会获得{c_important}{u}仲裁官{/u}{/c}状态，持续 {c_number}4.5{/c} 秒。\r\n\r\n飞翼打击获得{c_important}虔信者{/c}技能增益。\r\n\r\n在{c_important}{u}仲裁官{/u}{/c}形态下，你的{c_important}虔信者{/c}技能造成的伤害提高 {c_number}50%{/c}。"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Legion",
+        "name": "军团碎片",
+        "desc": [
+            "施放{c_important}高阶恶魔{/c}技能会使{c_important}低阶恶魔{/c}技能的施法速度加快 {c_number}25%{/c}，冷却速度加快 {c_number}20%{/c}，持续 {c_number}10{/c} 秒。",
+            "",
+            "当有 {c_number}200{/c} 个{c_important}低阶恶魔{/c}死亡时，你下一次施放的{c_important}高阶恶魔{/c}技能不消耗支配力。"
+        ],
+        "category": "shard",
+        "group": "legion"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Legion_A",
+        "name": "生成碎片",
+        "desc": [
+            "{c_important}艾格罗姆{/c}现在每 {c_number}1{/c} 秒被动生成一个邪恶之子{c_important}低阶恶魔{/c}，且造成的伤害提高 {c_number}50%{/c}。",
+            "",
+            "{c_important}命令艾格罗姆{/c}不再喷吐邪恶之子，而是引爆你所有的{c_important}低阶恶魔{/c}，造成 {c_number}113%{/c} 点伤害。"
+        ],
+        "category": "fragment",
+        "group": "legion"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Legion_B",
+        "name": "牺牲碎片",
+        "desc": [
+            "只要你拥有激活的{c_important}低阶恶魔召唤物{/c}，你便处于{c_important}{u}不可阻挡{/u}{/c}状态，且你的{c_important}恶魔学{/c}技能造成的伤害提高 {c_number}[{SF_5}*100|x%|]{/c}。当你受到{c_important}控制{/c}时，会牺牲 {c_number}1{/c} 只{c_important}低阶恶魔召唤物{/c}。"
+        ],
+        "category": "fragment",
+        "group": "legion"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Legion_C",
+        "name": "剔骨碎片",
+        "desc": [
+            "当敌人被{c_Important}{u}剔骨{/u}{/c}时，你的{c_important}已召唤恶魔{/c}会优先攻击该目标，且移动速度提高 {c_number}50%{/c}。{c_important}低阶恶魔{/c}技能有 {c_number}2%{/c} 几率{c_important}{u}剔骨{/u}{/c}已经处于{c_important}{u}剔骨{/u}{/c}状态的敌人。"
+        ],
+        "category": "fragment",
+        "group": "legion"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Vanguard",
+        "name": "先锋碎片",
+        "desc": [
+            "在处于{c_important}{u}恶魔形态{/u}{/c}期间，施放{c_important}高等恶魔{/c}技能会额外召唤对应的{c_important}高等恶魔{/c}: ",
+            "{icon:bullet,1.2}{c_important}横冲直撞{/c}召唤一名蛮魔，持续 {c_number}10{/c} 秒，跟随并挥击敌人，造成 {c_number}26%{/c} 点伤害。",
+            "{icon:bullet,1.2}{c_important}冥狱魔息{/c}召唤一个恶魔头颅，持续 {c_number}10{/c} 秒，围绕你旋转并喷吐火焰，造成 {c_number}17%{/c} 点伤害。",
+            "{icon:bullet,1.2}{c_important}暴君魔掌{/c}额外召唤 {c_number}2{/c} 只恶魔之手，每只造成 {c_number}100%{/c} 点伤害。",
+            "{icon:bullet,1.2}{c_important}渎神守望{/c}额外召唤一只恶魔之眼，持续 {c_number}10{/c} 秒，跟随并轰击敌人，造成 {c_number}60%{/c} 点伤害。"
+        ],
+        "category": "shard",
+        "group": "vanguard"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Vanguard_A",
+        "name": "地狱卫士碎片",
+        "desc": [
+            "{c_important}阿博迪安{/c}的施法速度提高 {c_number}35%{/c}，移动速度提高 {c_number}[{SF_3}*100|x%|]{/c}，且攻击时附带劈砍。",
+            "",
+            "{c_important}阿博迪安{/c}在{c_important}命令阿博迪安{/c}期间会喷发{c_important}{u}硫磺石{/u}{/c}，移动时周期性喷发，且在下坐骑时喷发 {c_number}6{/c} 枚。每枚{c_important}{u}硫磺石{/u}{/c}造成 {c_number}53%{/c} 点伤害。"
+        ],
+        "category": "fragment",
+        "group": "vanguard"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Vanguard_B",
+        "name": "典狱官碎片",
+        "desc": [
+            "{c_important}{u}恶魔形态{/u}{/c}使{c_important}地狱火恶魔学{/c}技能造成的伤害提高 {c_number}30%[x]{/c}，且附近每有一个{c_important}地狱火恶魔学召唤物{/c}，每秒消耗 {c_number}0.4{/c} 点支配力以延长其持续时间。"
+        ],
+        "category": "fragment",
+        "group": "vanguard"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Vanguard_C",
+        "name": "炼狱碎片",
+        "desc": [
+            "当你处于{c_important}{u}恶魔形态{/u}{/c}且处于{c_important}{u}易爆{/u}{/c}状态时，{c_important}地狱火{/c}技能造成的伤害会使你向外散发烈焰，持续 {c_number}2{/c} 秒，每隔 {c_number}2{/c} 秒对附近敌人造成该伤害的 {c_number}30%{/c}。"
+        ],
+        "category": "fragment",
+        "group": "vanguard"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Mastermind",
+        "name": "战术大师碎片",
+        "desc": [
+            "{c_important}重施{/c}技能不再打破{c_important}{u}暗影形态{/u}{/c}{c_important}{u}潜行{/u}{/c}，代价是每次施放消耗 {c_number}2{/c} 层{c_important}{u}暗影形态{/u}{/c}。",
+            "",
+            "当你拥有{c_important}{u}暗影形态{/u}{/c}时，{c_important}深渊{/c}技能造成的伤害提高 {c_number}x30%{/c}，且每层使你获得 {c_number}5%{/c} 移动速度加成。"
+        ],
+        "category": "shard",
+        "group": "mastermind"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Mastermind_A",
+        "name": "深不可测碎片",
+        "desc": [
+            "{c_important}拉利什{/c}也会{c_important}{u}虚弱{/u}{/c}敌人。{c_important}拉利什{/c}造成的伤害提高 {c_number}x100%{/c} 并能{c_important}{u}斩杀{/u}{/c}敌人。",
+            "",
+            "当{c_important}拉利什{/c}消灭敌人或敌人被{c_important}{u}斩杀{/u}{/c}时，{c_important}命令拉利什{/c}的冷却时间缩短 {c_number}0.2{/c} 秒。"
+        ],
+        "category": "fragment",
+        "group": "mastermind"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Mastermind_B",
+        "name": "亵渎碎片",
+        "desc": [
+            "{c_important}重施{/c}技能在命中时会{c_important}{u}妖术{/u}{/c}敌人，且受{c_important}深渊恶魔学{/c}技能伤害提高 {c_number}x20%{/c}。"
+        ],
+        "category": "fragment",
+        "group": "mastermind"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Mastermind_C",
+        "name": "支配碎片",
+        "desc": [
+            "召唤非{c_important}灵魂碎片{/c}的{c_important}深渊高阶恶魔{/c}时会消耗所有支配力，每消耗一点支配力使其伤害提高 {c_number}x0.65%{/c}。",
+            "",
+            "维持{c_important}{u}暗影形态{/u}{/c}每 {c_number}2{/c} 秒为你提供 {c_number}1{/c} 点支配力。"
+        ],
+        "category": "fragment",
+        "group": "mastermind"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Ritualist",
+        "name": "仪祭者碎片",
+        "desc": [
+            "{c_important}秘术{/c}技能每拥有 {c_number}1{/c} 层{c_important}{u}压制{/u}{/c}，造成的伤害提高 {c_number}x4%{/c}；每拥有 {c_number}2{/c} 层{c_important}{u}压制{/u}{/c}，范围扩大 {c_number}10%{/c}。",
+            "",
+            "当你至少拥有 {c_number}4{/c} 层{c_important}{u}压制{/u}{/c}时，{c_important}秘术深渊{/c}技能命中敌人会额外施加 {c_number}1{/c} 层{c_important}{u}妖术{/u}{/c}，且{c_important}秘术地狱火{/c}技能施放时有 {c_number}30%{/c} 几率获得{c_important}{u}易爆{/u}{/c}状态，持续 {c_number}4{/c} 秒。"
+        ],
+        "category": "shard",
+        "group": "ritualist"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Ritualist_A",
+        "name": "深渊碎片",
+        "desc": [
+            "{c_important}{u}妖术{/u}{/c}最高可叠加至 {c_number}4{/c} 层。当目标达到 {c_number}4{/c} 层叠加时，你在 {c_number}4{/c} 秒后对该目标造成的{c_important}秘术深渊{/c}技能伤害会回响 {c_number}100%{/c}，并移除所有{c_important}{u}妖术{/u}{/c}层数。",
+            "",
+            "施放{c_important}命令瓦洛克{/c}后，{c_important}秘术深渊{/c}技能会向敌人额外施加 {c_number}1{/c} 层{c_important}{u}妖术{/u}{/c}。"
+        ],
+        "category": "fragment",
+        "group": "ritualist"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Ritualist_B",
+        "name": "焦灼碎片",
+        "desc": [
+            "{c_important}秘术地狱火{/c}技能始终获得强化且消耗 {c_number}4%{/c} 生命上限。",
+            "",
+            "{c_important}{u}易爆{/u}{/c}现在最高叠加至 {c_number}3{/c} 层，每层使被强化技能造成的伤害提高 {c_number}x10%{/c}，消耗的生命值提高 {c_number}1%{/c}。",
+            "",
+            "在你虹吸了{c_important}瓦洛克{/c}的力量期间，{c_important}命令瓦洛克{/c}会虹吸其生命以{c_important}{u}强固{/u}{/c}你 {c_number}8%{/c} 生命上限，且瓦洛克代你支付 {c_number}100%{/c} 的生命消耗。"
+        ],
+        "category": "fragment",
+        "group": "ritualist"
+    },
+    {
+        "char": "Warlock",
+        "key": "Warlock_ClassMechanic_Ritualist_C",
+        "name": "扭曲碎片",
+        "desc": [
+            "{c_important}秘术地狱火{/c}技能会消耗命中目标身上的 {c_number}1{/c} 层{c_important}{u}妖术{/u}{/c}，使其受到的伤害提高 {c_number}x25%{/c}。",
+            "",
+            "{c_important}秘术深渊{/c}技能可获得{c_important}{u}易爆{/u}{/c}强化，在首次命中敌人时引发爆炸，造成 {c_number}50%{/c} 点伤害，此伤害随该技能等级提高。",
+            "",
+            "每消耗 {c_number}50{/c} 点愤怒，获得 {c_number}1{/c} 层{c_important}{u}压制{/u}{/c}。"
+        ],
+        "category": "fragment",
+        "group": "ritualist"
+    }
+]
